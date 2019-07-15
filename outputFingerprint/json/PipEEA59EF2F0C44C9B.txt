@@ -1,0 +1,115 @@
+[PipEEA59EF2F0C44C9B, {
+  "WeakFingerprint": "36DA3A635FB5C7641883D765B0AAF98358B3B0B5",
+  "StrongFingerprint": "AB942FF8AA1BE0F188A9E718B435B8D92A82F92C",
+  "PathSet": "27202CBDBA"
+}]
+[36DA3A635FB5C7641883D765B0AAF98358B3B0B5, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\lib.exe": "6A12156D13"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\link",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\lib.exe": "6A12156D13"
+    },
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\cl\\detours.obj": "164FF24075"
+    },
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\cl_1\\creatwth.obj": "11C61BE05A"
+    },
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\cl_2\\disasm.obj": "6423763FA5"
+    },
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\cl_3\\image.obj": "329C85A4B7"
+    },
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\cl_4\\modules.obj": "3302DBCCA5"
+    },
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\cl_5\\tracing.obj": "7F52000CB8"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64"
+  ],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\link\\detours.lib": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\t_6",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%localappdata%",
+    "%internethistory%",
+    "%internetcache%",
+    "%appdata%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/NOLOGO /OUT:B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\LINK\\DETOURS.LIB /WX B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\CL\\DETOURS.OBJ B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\CL_1\\CREATWTH.OBJ B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\CL_2\\DISASM.OBJ B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\CL_3\\IMAGE.OBJ B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\CL_4\\MODULES.OBJ B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\CL_5\\TRACING.OBJ",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\T_6"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\T_6"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[AB942FF8AA1BE0F188A9E718B435B8D92A82F92C, {
+  "Namespace": "1",
+  "WeakFingerprint": "36DA3A635FB5C7641883D765B0AAF98358B3B0B5",
+  "PathSet": "27202CBDBA",
+  "ObservedInputs": [
+    {
+      "R": "9FDCD6D26D"
+    },
+    {
+      "R": "F6089F5DBF"
+    },
+    {
+      "P": ""
+    },
+    {
+      "F": ""
+    }
+  ]
+}]
+[27202CBDBA, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\link.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\mspdbcore.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.config",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.exe",
+    "Flags": "FileProbe"
+  },
+  "ObservedAccessedFileNames": []
+}]

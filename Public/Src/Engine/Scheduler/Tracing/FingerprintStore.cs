@@ -1332,31 +1332,7 @@ namespace BuildXL.Scheduler.Tracing
                 // Each column is independent of the others, so they can be garbage collected in parallel
                 Parallel.ForEach(ColumnNames.ListAll, column =>
                 {
-                    var maxEntryCounterLock = new object();
-                    var maxEntryCollectTime = TimeSpan.Zero;
-
-                    // No-op case, garbage collect has been cancelled and there are no LRU entries to refresh
-                    if (GarbageCollectCancellationToken.IsCancellationRequested && m_lruEntryTracker[column].Count == 0)
-                    {
-                        return;
-                    }
-
                     var gcResult = GarbageCollectColumn(garbageCollectionTimestamp, column);
-
-                    lock (maxEntryCounterLock)
-                    {
-                        if (gcResult.MaxBatchEvictionTime > maxEntryCollectTime)
-                        {
-                            maxEntryCollectTime = gcResult.MaxBatchEvictionTime;
-                        }
-                    }
-
-                    if (gcResult.Canceled && m_loggingContext != null)
-                    {
-                        Logger.Log.FingerprintStoreGarbageCollectCanceled(m_loggingContext, column, m_garbageCollectionTimeLimit.ToString());
-                    }
-
-                    Counters.AddToCounter(FingerprintStoreCounters.GarbageCollectionMaxEntryTime, maxEntryCollectTime);
                 });
             }
         }
@@ -1379,33 +1355,15 @@ namespace BuildXL.Scheduler.Tracing
             var previousEntriesExist = TryGetLruEntriesMap(out var mapFromStore, columnFamilyName);
             var lruEntriesMap = previousEntriesExist ? mapFromStore : new LruEntriesMap();
 
-            UpdateLruEntriesMap(lruEntriesMap, currentTime, columnFamilyName);
-
             if (previousEntriesExist && !GarbageCollectCancellationToken.IsCancellationRequested)
             {
                 using (Counters.StartStopwatch(FingerprintStoreCounters.GarbageCollectionTime))
                 {
-                    // Garbage collect the column based on updated LRU map
-                    double avgEntryAgeMinutes = 0;
                     Analysis.IgnoreResult(
                         Accessor.Use(store =>
                         {
                             gcResult = store.GarbageCollect(key =>
                             {
-                                if (lruEntriesMap.TryGetValue(key, out var entryAgeTicks))
-                                {
-                                    var entryAge = currentTime.Subtract(new DateTime(entryAgeTicks));
-
-                                    // Calculate a running average one element at a time instead of using (sum / n) to avoid overflowing the sum
-                                    avgEntryAgeMinutes = (gcResult.TotalCount / (gcResult.TotalCount + 1)) * avgEntryAgeMinutes + entryAge.TotalMinutes / (gcResult.TotalCount + 1);
-
-                                    if (entryAge > m_maxEntryAge)
-                                    {
-                                        lruEntriesMap.Remove(key);
-                                        return true;
-                                    }
-                                }
-
                                 // Metadata entries will not have LRU entries, but should not be garbage collected
                                 return false;
                             },
@@ -1414,15 +1372,9 @@ namespace BuildXL.Scheduler.Tracing
                             cancellationToken: GarbageCollectCancellationToken.Token);
                         })
                     );
-                    UpdateGarbageCollectCounters(gcResult, (long)avgEntryAgeMinutes, columnFamilyName);
                 }
             }
 
-            if (m_lruEntryTracker[columnFamilyName].Count + gcResult.RemovedCount > 0)
-            {
-                // Changes have been made to the LRU map that need to be persisted
-                PutLruEntriesMap(lruEntriesMap, columnFamilyName);
-            }
             return gcResult;
         }
 

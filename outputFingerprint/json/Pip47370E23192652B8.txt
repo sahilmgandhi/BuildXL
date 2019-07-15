@@ -1,0 +1,249 @@
+[Pip47370E23192652B8, {
+  "WeakFingerprint": "4574EA3FAF9BE0DC071A9D7AE9021002B5661B1D",
+  "StrongFingerprint": "8A88CF37D557EEE29AB04CB93BDEF2CEA17D2A87",
+  "PathSet": "83A5E234EC"
+}]
+[4574EA3FAF9BE0DC071A9D7AE9021002B5661B1D, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\link.exe": "9FDCD6D26D"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\buildxl.devicemap.0.0.1\\debug64\\devicemap.lib": "1F6FAD4835"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\link.exe": "9FDCD6D26D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\advapi32.lib": "E28B83F304"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\kernel32.lib": "4DF2C2A45E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\ntdll.lib": "E7C44B4639"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\uuid.lib": "632303DE10"
+    },
+    {
+      "b:\\out\\objects\\9\\0\\07r1ey60o56zhqpa2rgc12bb2dvk1q\\link\\detours.lib": "2F45B94B9D"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl\\assertions.obj": "575FE1FB16"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_1\\debugginghelpers.obj": "27117E5D64"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_10\\detouredprocessinjector.obj": "E9061730E9"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_11\\substituteprocessexecution.obj": "B4A18656AE"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_2\\detoursservices.obj": "19687C973F"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_3\\detouredscope.obj": "D809972DD8"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_4\\stringoperations.obj": "FB22A2E6F7"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_5\\stdafx.obj": "ED03E614EE"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_6\\metadataoverrides.obj": "B979463B52"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_7\\policysearch.obj": "5E07492DBB"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_8\\devicemap.obj": "4CA378ECF1"
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_9\\sendreport.obj": "8673AB971A"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64",
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64",
+    "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\ucrt\\x64"
+  ],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\buildxlnatives.dll": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\buildxlnatives.exp": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\buildxlnatives.lib": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\buildxlnatives.pdb": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\t_13",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%localappdata%",
+    "%internethistory%",
+    "%internetcache%",
+    "%appdata%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/NOLOGO /INCREMENTAL:NO /DLL /PDBALTPATH:%_PDB% /LTCG /DEBUG /OUT:B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\LINK\\BUILDXLNATIVES.DLL /PDB:B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\LINK\\BUILDXLNATIVES.PDB /IMPLIB:B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\LINK\\BUILDXLNATIVES.LIB /EXPORT:DllMain /EXPORT:IsDetoursDebug /EXPORT:CreateDetachedProcess /EXPORT:FindFileAccessPolicyInTree /EXPORT:NormalizeAndHashPath /EXPORT:AreBuffersEqual /EXPORT:RemapDevices /EXPORT:CreateDetouredProcess /EXPORT:DetouredProcessInjector_Create /EXPORT:DetouredProcessInjector_Destroy /EXPORT:DetouredProcessInjector_Inject B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL\\ASSERTIONS.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_1\\DEBUGGINGHELPERS.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_2\\DETOURSSERVICES.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_3\\DETOUREDSCOPE.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_4\\STRINGOPERATIONS.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_5\\STDAFX.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_6\\METADATAOVERRIDES.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_7\\POLICYSEARCH.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_8\\DEVICEMAP.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_9\\SENDREPORT.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_10\\DETOUREDPROCESSINJECTOR.OBJ B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_11\\SUBSTITUTEPROCESSEXECUTION.OBJ B:\\OUT\\OBJECTS\\9\\0\\07R1EY60O56ZHQPA2RGC12BB2DVK1Q\\LINK\\DETOURS.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\KERNEL32.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\ADVAPI32.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\UUID.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\NTDLL.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\BUILDXL.DEVICEMAP.0.0.1\\DEBUG64\\DEVICEMAP.LIB",
+  "EnvironmentVariables": [
+    {
+      "LIB": "B:\\OUT\\FRONTEND\\NUGET\\PKGS\\VISUALCPPTOOLS.COMMUNITY.VS2017LAYOUT.14.11.25506\\LIB\\NATIVE\\LIB\\X64;B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UCRT\\X64"
+    },
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\T_13"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\T_13"
+    },
+    {
+      "_MSPDBSRV_ENDPOINT_": "r|c|vqwnvbe18y6b9cg6tj83cj3o5elm0y|link"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[8A88CF37D557EEE29AB04CB93BDEF2CEA17D2A87, {
+  "Namespace": "1",
+  "WeakFingerprint": "4574EA3FAF9BE0DC071A9D7AE9021002B5661B1D",
+  "PathSet": "83A5E234EC",
+  "ObservedInputs": [
+    {
+      "R": "B74EB1C8BC"
+    },
+    {
+      "R": "61D1D61BB4"
+    },
+    {
+      "R": "02AA10EC94"
+    },
+    {
+      "R": "F6089F5DBF"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "765ECF2584"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "3C5CAC6212"
+    },
+    {
+      "R": "FC21EF5D1C"
+    },
+    {
+      "R": "11175D1B20"
+    },
+    {
+      "R": "225349F7E1"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "353D78C8F4"
+    },
+    {
+      "R": "CA38DACECD"
+    },
+    {
+      "R": "24386FAB0E"
+    },
+    {
+      "R": "993A6B25AE"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[83A5E234EC, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\1033\\linkui.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\c2.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\msobj140.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\mspdbcore.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.config",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.exe.config",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcmtd.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcmtd.pdb",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcpmtd.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcpmtd.pdb",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libucrtd.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libvcruntimed.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libvcruntimed.pdb",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\oldnames.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\ucrt\\x64\\libucrtd.lib",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\buildxlnatives.ilk",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\libcmtd.lib",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\libcpmtd.lib",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\libucrtd.lib",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\libvcruntimed.lib",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\link\\oldnames.lib"
+  },
+  "ObservedAccessedFileNames": []
+}]

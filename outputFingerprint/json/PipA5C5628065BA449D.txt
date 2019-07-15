@@ -1,0 +1,339 @@
+[PipA5C5628065BA449D, {
+  "WeakFingerprint": "B9E49A6278B6F9B740A5D71E068AE752A2231CA7",
+  "StrongFingerprint": "5A14A37ABFCEC015DA5C11C9DCEAF9D1AD158F24",
+  "PathSet": "E3EB7BEE00"
+}]
+[B9E49A6278B6F9B740A5D71E068AE752A2231CA7, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe": "8B8DE1B6CC"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\j\\9\\8q5lc547lztd6n95zt214pckk02grw\\loggen",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.diagnostics.tracing.eventsource.redist.1.1.28\\lib\\net46\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.collections.dll": "737E2755FF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.runtime.dll": "3F590040CC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\mscorlib.dll": "9138B1D4D5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\system.core.dll": "BCD6E8DC2D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\system.dll": "CEB8045269"
+    },
+    {
+      "b:\\out\\objects\\4\\h\\437q076vxlkdtn7pokz1chlevdwak0\\buildxl.utilities.instrumentation.common.dll-csc\\ref\\buildxl.utilities.instrumentation.common.dll": "4C1DFA0384"
+    },
+    {
+      "b:\\out\\objects\\8\\t\\ezbzz41c2gotvoz2jao2gbkq2bvaje\\buildxl.tracing.dll-csc\\ref\\buildxl.tracing.dll": "6DF128B68C"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.dll": "6295EC4403"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.pdb": "DD6FDFD65D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.xml": "38A9DDE3CB"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe": "8B8DE1B6CC"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe.config": {
+        "PathNormalizedWriteFileContent": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<configuration>\r\n  <startup>\r\n    <supportedRuntime version=\"v4.0\" sku=\".NETFramework,Version=v4.7.2\" />\r\n  </startup>\r\n  <runtime>\r\n    <assemblyBinding xmlns=\"urn:schemas-microsoft-com:asm.v1\">\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Newtonsoft.Json\" publicKeyToken=\"30ad4fe6b2a6aeed\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-11.0.0.0\" newVersion=\"11.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.VstsContentStore\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.3.0.0\" newVersion=\"1.3.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"System.Collections.Immutable\" publicKeyToken=\"b03f5f7f11d50a3a\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.5.0.0\" newVersion=\"1.2.3.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.ContentStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.MemoizationStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n    </assemblyBinding>\r\n  </runtime>\r\n</configuration>"
+      }
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.pdb": "CA881A5758"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.xml": "7F9D1A759A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.dll": "FF040B21E9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.pdb": "3655B8D038"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.xml": "34F4963F2E"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.dll": "758E851A5C"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.pdb": "B470090FA5"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.xml": "8C731EF71F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.dll": "BCF9DD6CB9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.pdb": "3D71F4CCB0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.xml": "A75C443232"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.dll": "5E9CC3E4ED"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.dll": "05F97CCFF6"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.pdb": "A92DFBEE3A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.xml": "7D0CD0A2FF"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.pdb": "9E69E7EB42"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.xml": "A7B7D1A9C8"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.dll": "0D8C34D5B0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.pdb": "4B730A7481"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.xml": "946C30761F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.dll": "30529BB352"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.pdb": "9C3762A454"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.xml": "8F098CD1B0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.dll": "050FF9EE55"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.pdb": "8160D00024"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.xml": "CD48B8F00B"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.dll": "77EC19B800"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.pdb": "F0C308186D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.xml": "E4F30E1B6D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\newtonsoft.json.dll": "DBD0222EC5"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\newtonsoft.json.xml": "D4A784188A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.dll": "273FFA5B8F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.xml": "D9B9AA68EB"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.dll": "F4051D6506"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.xml": "047C366869"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.dataflow.dll": "122A86CF32"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.dataflow.xml": "62314D47AD"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.extensions.dll": "5EE61A3208"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.extensions.xml": "1EBB5473EA"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\buildxlaria.dll": "B4C15DA631"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\buildxlaria.pdb": "2647FF413F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.dll": "413B3456A9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.lib": "09C27C944D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.pdb": "F639E60704"
+    },
+    {
+      "b:\\public\\src\\tools\\sandboxedprocessexecutor\\tracing\\log.cs": "ED22179BAB"
+    },
+    {
+      "b:\\public\\src\\tools\\sandboxedprocessexecutor\\tracing\\logeventid.cs": "BE491C09F1"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\j\\9\\8q5lc547lztd6n95zt214pckk02grw\\loggen\\log.g.cs": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\j\\9\\8q5lc547lztd6n95zt214pckk02grw\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/s:B:\\PUBLIC\\SRC\\TOOLS\\SANDBOXEDPROCESSEXECUTOR\\TRACING\\LOG.CS /s:B:\\PUBLIC\\SRC\\TOOLS\\SANDBOXEDPROCESSEXECUTOR\\TRACING\\LOGEVENTID.CS /r:B:\\OUT\\OBJECTS\\8\\T\\EZBZZ41C2GOTVOZ2JAO2GBKQ2BVAJE\\BUILDXL.TRACING.DLL-CSC\\REF\\BUILDXL.TRACING.DLL /r:B:\\OUT\\OBJECTS\\4\\H\\437Q076VXLKDTN7POKZ1CHLEVDWAK0\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL-CSC\\REF\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL /r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.DIAGNOSTICS.TRACING.EVENTSOURCE.REDIST.1.1.28\\LIB\\NET46\\MICROSOFT.DIAGNOSTICS.TRACING.EVENTSOURCE.DLL /r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\MSCORLIB.DLL /r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\SYSTEM.DLL /r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\SYSTEM.CORE.DLL /r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.RUNTIME.DLL /r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.COLLECTIONS.DLL /namespace:BuildXL.SandboxedProcessExecutor /targetFramework:net472 /targetRuntime:win-x64 /output:B:\\OUT\\OBJECTS\\J\\9\\8Q5LC547LZTD6N95ZT214PCKK02GRW\\LOGGEN\\LOG.G.CS /d:DEFTEMP;FEATURE_MICROSOFT_DIAGNOSTICS_TRACING;FEATURE_ARIA_TELEMETRY;CONTRACTS_LIGHT_PRECONDITIONS;CONTRACTS_LIGHT_INVARIANTS;CONTRACTS_LIGHT_ASSERTS;CONTRACTS_LIGHT_QUANTIFIERS /a:ShortProductName=BuildXL /a:\"LongProductName=Microsoft (R) Build Accelerator\" /a:ShortScriptName=DScript /a:MainExecutableName=bxl.exe",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\J\\9\\8Q5LC547LZTD6N95ZT214PCKK02GRW\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\J\\9\\8Q5LC547LZTD6N95ZT214PCKK02GRW\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[5A14A37ABFCEC015DA5C11C9DCEAF9D1AD158F24, {
+  "Namespace": "1",
+  "WeakFingerprint": "B9E49A6278B6F9B740A5D71E068AE752A2231CA7",
+  "PathSet": "E3EB7BEE00",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[E3EB7BEE00, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\runtimecontracts.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.ini",
+    "Path": "%appdata%"
+  },
+  "ObservedAccessedFileNames": []
+}]

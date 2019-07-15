@@ -1,0 +1,1533 @@
+[Pip47370E23192652B1, {
+  "WeakFingerprint": "FD066A4E6587D4E3E06739EB24DDBEA91AD0D176",
+  "StrongFingerprint": "EB2F440FFC6B4EBC9486621936F5BC7F7C969F0A",
+  "PathSet": "019CD74CC4"
+}]
+[FD066A4E6587D4E3E06739EB24DDBEA91AD0D176, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\cl.exe": "D081BD2FE1"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_5",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\cl.exe": "D081BD2FE1"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\assertions.h": "AFC6927BA0"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\buildxl_mem.h": "B52E5EA241"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\canonicalizedpath.h": "713D524AD2"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\datatypes.h": "F29B62AC4C"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\debugginghelpers.h": "C2C67DC731"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\detouredfunctions.h": "C432BE1316"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\detouredfunctiontypes.h": "C12D657E75"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\detouredprocessinjector.h": "E91CBAF0F8"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\detouredscope.h": "909DEB2456"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\detourshelpers.h": "2E2DFBF017"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\detoursservices.h": "C95F93E49E"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\devicemap.h": "93A2980C6D"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\fileaccesshelpers.h": "080FF171FF"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\filescheckedforaccess.h": "AEFA5C48A0"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\globals.h": "33EF7E0231"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\handleoverlay.h": "57F5927B26"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\metadataoverrides.h": "D615613590"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\policyresult.h": "41824C7C49"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\policysearch.h": "C589A5695C"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\sendreport.h": "79952985EB"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\stdafx-mac-common.h": "CA2B554C4E"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\stdafx-mac-interop.h": "923C11B3AD"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\stdafx-mac-kext.h": "72CE9ABB83"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\stdafx-win.h": "16FA026F4C"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\stdafx.cpp": "6E0476F9FB"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\stdafx.h": "257959750B"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\stringoperations.h": "DC3FE0D1A7"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\substituteprocessexecution.h": "09AF60CC3B"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\targetver.h": "35EE273FD4"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\unicodeconverter.h": "47F85053FE"
+    },
+    {
+      "b:\\public\\src\\sandbox\\windows\\detoursservices\\uniquehandle.h": "5075720406"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\frontend\\nuget\\pkgs\\buildxl.devicemap.0.0.1",
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64",
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include",
+    "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared",
+    "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt",
+    "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um",
+    "b:\\public\\src\\sandbox\\windows\\detours\\include"
+  ],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_5\\stdafx.nativecodeanalysis.xml": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_5\\stdafx.obj": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\t_5",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%localappdata%",
+    "%internethistory%",
+    "%internetcache%",
+    "%appdata%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/nologo /c /X /IB:\\PUBLIC\\SRC\\SANDBOX\\WINDOWS\\DETOURSSERVICES /IB:\\OUT\\FRONTEND\\NUGET\\PKGS\\BUILDXL.DEVICEMAP.0.0.1 /IB:\\PUBLIC\\SRC\\SANDBOX\\WINDOWS\\DETOURS\\INCLUDE /IB:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\INCLUDE\\10.0.16299.0\\UM /IB:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\INCLUDE\\10.0.16299.0\\SHARED /IB:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\INCLUDE\\10.0.16299.0\\UCRT /IB:\\OUT\\FRONTEND\\NUGET\\PKGS\\VISUALCPPTOOLS.COMMUNITY.VS2017LAYOUT.14.11.25506\\LIB\\NATIVE\\INCLUDE /d1import_no_registry /WX /Wall /wd4711 /wd4595 /wd4711 /wd4505 /wd4702 /wd4722 /Od /GS /GR- /EHsc /D_STL_WARNING_LEVEL=3 /D_DEBUG /DDETOURS_X86_X64 /D_MBCS /DDETOURS_X64 /DDETOURS_64BIT /D_WINDOWS /D_USRDLL /D_WINDLL /D_UNICODE /DUNICODE /DVERBOSE=0 /D_WINDOWS /D_USRDLL /D_WINDLL /D_UNICODE /DUNICODE /DVERBOSE=0 /DDETOURSSERVICES_EXPORTS /DFEATURE_DEVICE_MAP /DBUILDXL_NATIVES_LIBRARY /Z7 /Zc:wchar_t- /Zc:forScope /MTd /d1nodatetime /d2Zi+ /FC /FoB:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_5\\STDAFX.OBJ /analyze /analyze:quiet /analyze:logB:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\CL_5\\STDAFX.NATIVECODEANALYSIS.XML B:\\PUBLIC\\SRC\\SANDBOX\\WINDOWS\\DETOURSSERVICES\\STDAFX.CPP",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\T_5"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\R\\C\\VQWNVBE18Y6B9CG6TJ83CJ3O5ELM0Y\\T_5"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[EB2F440FFC6B4EBC9486621936F5BC7F7C969F0A, {
+  "Namespace": "1",
+  "WeakFingerprint": "FD066A4E6587D4E3E06739EB24DDBEA91AD0D176",
+  "PathSet": "019CD74CC4",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "A8D7F2364B"
+    },
+    {
+      "R": "1B76FC180F"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "19301F1C0F"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "61D1D61BB4"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "F6089F5DBF"
+    },
+    {
+      "R": "2C0391592E"
+    },
+    {
+      "P": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "E": "C1C2D7A1CC"
+    },
+    {
+      "R": "0800F4E41B"
+    },
+    {
+      "R": "03D9DC0F39"
+    },
+    {
+      "R": "AAF5163E3D"
+    },
+    {
+      "R": "9F1C76FDDE"
+    },
+    {
+      "R": "A31B4FCDA6"
+    },
+    {
+      "R": "73FFD14C24"
+    },
+    {
+      "R": "EFA6E55D50"
+    },
+    {
+      "R": "1FE78D5C05"
+    },
+    {
+      "R": "A13C4A54D5"
+    },
+    {
+      "R": "BF57B9E562"
+    },
+    {
+      "R": "3660955F77"
+    },
+    {
+      "R": "F8276A4A3B"
+    },
+    {
+      "R": "0005BD3EFA"
+    },
+    {
+      "R": "B4BEE1E820"
+    },
+    {
+      "R": "F27D7504C1"
+    },
+    {
+      "R": "ACC4D186EF"
+    },
+    {
+      "R": "E7F99B084D"
+    },
+    {
+      "R": "4F942E0628"
+    },
+    {
+      "R": "C596160C93"
+    },
+    {
+      "R": "977A205015"
+    },
+    {
+      "R": "9CDCD7C8D5"
+    },
+    {
+      "R": "9C38D81D60"
+    },
+    {
+      "R": "238086E56D"
+    },
+    {
+      "R": "362D197FC7"
+    },
+    {
+      "R": "78A0263F5C"
+    },
+    {
+      "R": "80A2874CD8"
+    },
+    {
+      "R": "1B0BCA3C33"
+    },
+    {
+      "R": "4A1CD84C3E"
+    },
+    {
+      "R": "6062C2B765"
+    },
+    {
+      "R": "58D3B06D7B"
+    },
+    {
+      "R": "D5DBFD68C6"
+    },
+    {
+      "R": "54746BDF05"
+    },
+    {
+      "R": "847EDFC748"
+    },
+    {
+      "R": "32BD11917B"
+    },
+    {
+      "R": "30793866F8"
+    },
+    {
+      "R": "ED4E6B130F"
+    },
+    {
+      "R": "5283176156"
+    },
+    {
+      "R": "01E1405780"
+    },
+    {
+      "R": "6DA667DF53"
+    },
+    {
+      "R": "84C222DC17"
+    },
+    {
+      "R": "42F6A30A51"
+    },
+    {
+      "R": "1ED80D5B5F"
+    },
+    {
+      "R": "4209EF7653"
+    },
+    {
+      "R": "B63A2459A0"
+    },
+    {
+      "R": "430B8EC92F"
+    },
+    {
+      "R": "90A7D0DFDE"
+    },
+    {
+      "R": "FBDDDF8703"
+    },
+    {
+      "R": "E71A7FEA59"
+    },
+    {
+      "R": "855D44AF02"
+    },
+    {
+      "R": "356B9A390D"
+    },
+    {
+      "R": "DD0AD57218"
+    },
+    {
+      "R": "C88200CCEC"
+    },
+    {
+      "R": "4DCC77955C"
+    },
+    {
+      "R": "40B4C2ACF0"
+    },
+    {
+      "R": "825C3FB5DC"
+    },
+    {
+      "R": "5293F6E320"
+    },
+    {
+      "R": "643ABFE708"
+    },
+    {
+      "R": "C9715F2964"
+    },
+    {
+      "R": "5E72F92281"
+    },
+    {
+      "R": "4EB53CBBD5"
+    },
+    {
+      "R": "59255B5794"
+    },
+    {
+      "E": "950D50B9DF"
+    },
+    {
+      "R": "687D3FB9E7"
+    },
+    {
+      "R": "540DEC6DC5"
+    },
+    {
+      "R": "E0E06A4CD6"
+    },
+    {
+      "R": "05D95ECE02"
+    },
+    {
+      "R": "DC3641C912"
+    },
+    {
+      "R": "68E84ACA1D"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "FDD2E14061"
+    },
+    {
+      "R": "074EDB584B"
+    },
+    {
+      "R": "4A367FF81B"
+    },
+    {
+      "R": "2524175A23"
+    },
+    {
+      "R": "9E82719DC8"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "545023FA82"
+    },
+    {
+      "R": "AC50AA96C5"
+    },
+    {
+      "R": "E745C11E91"
+    },
+    {
+      "R": "9729AB8543"
+    },
+    {
+      "R": "A6D37F08FE"
+    },
+    {
+      "R": "6230B2413D"
+    },
+    {
+      "R": "EECCF76EBA"
+    },
+    {
+      "R": "09AA3169B1"
+    },
+    {
+      "R": "E152CEFB2C"
+    },
+    {
+      "R": "4473A3473B"
+    },
+    {
+      "R": "43AE2C6283"
+    },
+    {
+      "R": "842DE1DAB4"
+    },
+    {
+      "R": "9F68D4C8D3"
+    },
+    {
+      "R": "51BCCD0284"
+    },
+    {
+      "R": "AD0930C2BC"
+    },
+    {
+      "R": "7038869E79"
+    },
+    {
+      "R": "AFA92963CD"
+    },
+    {
+      "R": "74C7857FD2"
+    },
+    {
+      "R": "A50F1C255D"
+    },
+    {
+      "R": "98F4134A41"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "40281E075C"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "FA3C3CEEFD"
+    },
+    {
+      "R": "DFF66F1EB9"
+    },
+    {
+      "R": "D6A353AFA0"
+    },
+    {
+      "R": "17B2F0B630"
+    },
+    {
+      "R": "AF5F64F5D8"
+    },
+    {
+      "R": "6AD2826B6A"
+    },
+    {
+      "R": "EBE3FABE65"
+    },
+    {
+      "R": "60F71563D8"
+    },
+    {
+      "P": ""
+    },
+    {
+      "E": "10503F3FBF"
+    },
+    {
+      "R": "CAFEF45744"
+    },
+    {
+      "R": "CDA288EEFF"
+    },
+    {
+      "R": "FAED518B99"
+    },
+    {
+      "R": "4C20DD2CB1"
+    },
+    {
+      "R": "A3D13F0B78"
+    },
+    {
+      "R": "89224EE6F9"
+    },
+    {
+      "R": "15860BE1B7"
+    },
+    {
+      "R": "A04788F02C"
+    },
+    {
+      "R": "B4EBA9F208"
+    },
+    {
+      "R": "0191BCEC93"
+    },
+    {
+      "R": "7B68BC4F5E"
+    },
+    {
+      "R": "2BA4C78C62"
+    },
+    {
+      "R": "22A3A76D37"
+    },
+    {
+      "R": "B389A67205"
+    },
+    {
+      "R": "9FA5C7505D"
+    },
+    {
+      "R": "6366FF8CDC"
+    },
+    {
+      "R": "3E0CB1F9C5"
+    },
+    {
+      "R": "39BD47321F"
+    },
+    {
+      "R": "18621708D7"
+    },
+    {
+      "R": "8CF82736FA"
+    },
+    {
+      "R": "DD08A1D2D2"
+    },
+    {
+      "R": "C7C77522BB"
+    },
+    {
+      "R": "54B7CAE446"
+    },
+    {
+      "R": "AF88A46C64"
+    },
+    {
+      "R": "AE4564C98D"
+    },
+    {
+      "R": "20885613C5"
+    },
+    {
+      "R": "AE12674936"
+    },
+    {
+      "R": "E8C9EDEE82"
+    },
+    {
+      "R": "C71A4DADCA"
+    },
+    {
+      "R": "48FA64652B"
+    },
+    {
+      "E": "2CEA38C677"
+    },
+    {
+      "R": "2D7DF88CA1"
+    },
+    {
+      "R": "1CFCAAE86D"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "612AB182BD"
+    },
+    {
+      "E": "DA858FBFDC"
+    },
+    {
+      "R": "F31E0EC4FC"
+    },
+    {
+      "R": "1CB00568EC"
+    },
+    {
+      "R": "28771E0EC6"
+    },
+    {
+      "R": "0C5D98829F"
+    },
+    {
+      "R": "94D73F31D9"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "F8C9CA06BC"
+    },
+    {
+      "R": "4C1A34C267"
+    },
+    {
+      "R": "5871A77FE2"
+    },
+    {
+      "R": "366A706B96"
+    },
+    {
+      "R": "A1E57CCBE2"
+    },
+    {
+      "R": "3F942652FC"
+    },
+    {
+      "R": "A76314BFAA"
+    },
+    {
+      "R": "9F25F78DEB"
+    },
+    {
+      "R": "05F2D63161"
+    },
+    {
+      "R": "063CD274F3"
+    },
+    {
+      "R": "29D59C2CCB"
+    },
+    {
+      "R": "5E26597642"
+    },
+    {
+      "R": "1DE81679A5"
+    },
+    {
+      "R": "A02F5415CC"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "CA5358BC9A"
+    },
+    {
+      "R": "9B68A61162"
+    },
+    {
+      "R": "A461466AB6"
+    },
+    {
+      "R": "6B258B793D"
+    },
+    {
+      "R": "8B234F243D"
+    },
+    {
+      "R": "F5EE3E1BC3"
+    },
+    {
+      "R": "BDA839533C"
+    },
+    {
+      "R": "AAA65D7765"
+    },
+    {
+      "R": "5122DC8188"
+    },
+    {
+      "R": "20FA5F5759"
+    },
+    {
+      "R": "787A1AA38B"
+    },
+    {
+      "R": "653D26EFF4"
+    },
+    {
+      "R": "C533BC7F25"
+    },
+    {
+      "R": "90BD587838"
+    },
+    {
+      "R": "236B8ABBBC"
+    },
+    {
+      "R": "3D1941B7F0"
+    },
+    {
+      "R": "8806EFD690"
+    },
+    {
+      "R": "FAED4CF08A"
+    },
+    {
+      "R": "F200C9A7D1"
+    },
+    {
+      "R": "D7DC10AB09"
+    },
+    {
+      "R": "834F293C79"
+    },
+    {
+      "R": "4BEC84950F"
+    },
+    {
+      "R": "0D0FDE194C"
+    },
+    {
+      "R": "4814E2D413"
+    },
+    {
+      "R": "2B1C34B072"
+    },
+    {
+      "R": "8CAB8D20E3"
+    },
+    {
+      "R": "C06E0CA3D8"
+    },
+    {
+      "R": "CDA24C0213"
+    },
+    {
+      "R": "C73ECD3F74"
+    },
+    {
+      "R": "E2699A1284"
+    },
+    {
+      "R": "37956FF59B"
+    },
+    {
+      "R": "ACC47A8C4D"
+    },
+    {
+      "R": "F73051C6F0"
+    },
+    {
+      "R": "2ACCB36BC3"
+    },
+    {
+      "R": "23615D609D"
+    },
+    {
+      "R": "79B91360A3"
+    },
+    {
+      "R": "FE4BB9C00A"
+    },
+    {
+      "R": "70F27EEBA2"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "4DBACB7625"
+    },
+    {
+      "R": "9DC42A512D"
+    },
+    {
+      "R": "D2ECE1AFF2"
+    },
+    {
+      "R": "1C390E28A6"
+    },
+    {
+      "R": "5C3494F4C5"
+    },
+    {
+      "R": "EF2D04CF55"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "65FCAF6E12"
+    },
+    {
+      "R": "46AC652439"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "B0C5176EC0"
+    },
+    {
+      "R": "C15BC9A727"
+    },
+    {
+      "R": "89303B33AF"
+    },
+    {
+      "R": "75672508AF"
+    },
+    {
+      "R": "E131E53AA8"
+    },
+    {
+      "R": "75EA1AFECA"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "6B94A83DF2"
+    },
+    {
+      "R": "F8E44ECFBA"
+    },
+    {
+      "R": "22FDD7941C"
+    },
+    {
+      "R": "FFFB2B0019"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "A3A8A912CF"
+    },
+    {
+      "R": "506A9C780F"
+    },
+    {
+      "R": "FC94018461"
+    },
+    {
+      "R": "F4F03FC2FB"
+    },
+    {
+      "R": "DB3763DAD3"
+    },
+    {
+      "R": "47C060393F"
+    },
+    {
+      "R": "A6397D8DBF"
+    },
+    {
+      "R": "3CCC53432D"
+    },
+    {
+      "R": "4C538DB3BC"
+    },
+    {
+      "R": "5209E93A3E"
+    },
+    {
+      "R": "0A208281B1"
+    },
+    {
+      "R": "4384172BDC"
+    },
+    {
+      "R": "0E4EED8371"
+    },
+    {
+      "R": "8986603308"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "852FCB2907"
+    },
+    {
+      "R": "68F127EFAB"
+    },
+    {
+      "R": "6E25079C2B"
+    },
+    {
+      "R": "D9EEF71B89"
+    },
+    {
+      "R": "16D89D897A"
+    },
+    {
+      "R": "9497A00038"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "E": "91A25EE52B"
+    },
+    {
+      "R": "9B060FF431"
+    },
+    {
+      "E": "EFCA5C8E8E"
+    }
+  ]
+}]
+[019CD74CC4, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.devicemap.0.0.1",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.devicemap.0.0.1\\sys",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.devicemap.0.0.1\\windows.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\1033\\clui.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\1033\\mspft140ui.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\analyze.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\c1xx.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\c1xx.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\c2.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\c2.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\mspdbcore.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\mspft140.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.config",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.exe",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cerrno",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cfloat",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\climits",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cmath",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\crtdefs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cstddef",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cstdint",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cstdio",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cstdlib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cstring",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\cwchar",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\eh.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\exception",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\excpt.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\initializer_list",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\intrin0.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\ios",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\iosfwd",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\istream",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\limits",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\limits.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\memory",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\new",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\ostream",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\stdarg.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\stdexcept",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\stdint.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\streambuf",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\string",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\system_error",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\typeinfo",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\type_traits",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\use_ansi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\utility",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vadefs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vcruntime.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vcruntime_exception.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vcruntime_new.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vcruntime_new_debug.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vcruntime_string.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vcruntime_typeinfo.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\vector",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xatomic0.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xcall_once.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xfacet",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xiosbase",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xkeycheck.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xlocale",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xlocinfo",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xlocinfo.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xlocnum",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xmemory",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xmemory0",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xstddef",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xstring",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xstring_insert.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xtgmath.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xtr1common",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\xutility",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\ymath.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\include\\yvals.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\apiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\apisetcconv.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\basetsd.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\bcrypt.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\cderr.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\concurrencysal.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\corecrt_memory.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\corecrt_wstdio.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\crtdefs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\driverspecs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\guiddef.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\inaddr.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\kernelspecs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\ktmtypes.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\locale.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\minwindef.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\poppack.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\pshpack1.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\pshpack2.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\pshpack4.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\pshpack8.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\rpc.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\rpcasync.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\rpcdce.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\rpcdcep.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\rpcndr.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\rpcnterr.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\rpcsal.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\sal.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\sdkddkver.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\sdv_driverspecs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\specstrings.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\specstrings_strict.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\specstrings_undef.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\stralign.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\sys",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\tvout.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\use_ansi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\winapifamily.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\windef.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\winerror.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\winpackagefamily.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\winsmcrd.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\wnnc.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\wtypes.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\wtypesbase.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\shared\\xtgmath.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_malloc.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_math.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_memcpy_s.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_memory.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_search.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_share.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_stdio_config.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_terminate.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wconio.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wctype.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wdirect.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wio.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wprocess.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wstdio.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wstdlib.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wstring.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\corecrt_wtime.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\crtdbg.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\ctype.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\errno.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\float.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\locale.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\malloc.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\math.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\share.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\stddef.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\stdio.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\stdlib.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\string.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\sys",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\sys\\stat.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\sys\\types.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\use_ansi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\ucrt\\wchar.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\cguid.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\combaseapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\coml2api.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\commdlg.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\consoleapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\corecrt_wdirect.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\crtdefs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\datetimeapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\dde.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\ddeml.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\debugapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\dlgs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\dpapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\enclaveapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\errhandlingapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\fibersapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\fileapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\handleapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\heapapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\ime_cmodes.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\imm.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\inaddr.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\interlockedapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\ioapiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\jobapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\jobapi2.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\joystickapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\libloaderapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\lzexpand.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\mciapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\mcx.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\memoryapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\minwinbase.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\mmeapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\mmiscapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\mmiscapi2.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\mmsyscom.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\mmsystem.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\msxml.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\namedpipeapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\namespaceapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\nb30.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\ncrypt.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\oaidl.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\objbase.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\objidl.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\objidlbase.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\ole2.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\oleauto.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\oleidl.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\playsoundapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\processenv.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\processthreadsapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\processtopologyapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\profileapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\propidl.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\propidlbase.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\prsht.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\realtimeapiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\reason.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\rpc.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\rpcnsi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\rpcnsip.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\securityappcontainer.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\securitybaseapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\servprov.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\shellapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\stdarg.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\stdio.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\stringapiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\synchapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\sys",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\sysinfoapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\systemtopologyapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\threadpoolapiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\threadpoollegacyapiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\timeapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\timezoneapi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\tvout.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\unknwn.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\unknwnbase.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\urlmon.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\utilapiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\vcruntime_typeinfo.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\verrsrc.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winbase.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\wincon.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\wincrypt.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\windows.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winefs.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\wingdi.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winioctl.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winnetwk.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winnls.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winnt.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winperf.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winreg.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winscard.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winsmcrd.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winsock.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winspool.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winsvc.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winuser.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\winver.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\wow64apiset.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\xcall_once.h",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\include\\10.0.16299.0\\um\\ymath.h",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_5\\analyze.dll",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_5\\c1xx.exe",
+    "Path": "b:\\out\\objects\\r\\c\\vqwnvbe18y6b9cg6tj83cj3o5elm0y\\cl_5\\c2.exe",
+    "Path": "b:\\public\\src\\sandbox\\windows\\detours\\include",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration",
+    "Path": "b:\\public\\src\\sandbox\\windows\\detours\\include\\detours.h",
+    "Path": "b:\\public\\src\\sandbox\\windows\\detoursservices",
+    "Flags": "IsSearchPath, IsDirectoryPath, DirectoryEnumeration"
+  },
+  "ObservedAccessedFileNames": [
+    "apiset",
+    "apisetcconv",
+    "basetsd",
+    "bcrypt",
+    "cderr",
+    "cerrno",
+    "cfloat",
+    "cguid",
+    "climits",
+    "cmath",
+    "combaseapi",
+    "coml2api",
+    "commdlg",
+    "concurrencysal",
+    "consoleapi",
+    "corecrt",
+    "corecrt_malloc",
+    "corecrt_math",
+    "corecrt_memcpy_s",
+    "corecrt_memory",
+    "CORECRT_MEMORY",
+    "corecrt_search",
+    "corecrt_share",
+    "corecrt_stdio_config",
+    "corecrt_terminate",
+    "corecrt_wconio",
+    "corecrt_wctype",
+    "corecrt_wdirect",
+    "corecrt_wio",
+    "corecrt_wprocess",
+    "CORECRT_WSTDIO",
+    "corecrt_wstdio",
+    "corecrt_wstdlib",
+    "corecrt_wstring",
+    "corecrt_wtime",
+    "crtdbg",
+    "CRTDEFS",
+    "crtdefs",
+    "cstddef",
+    "cstdint",
+    "cstdio",
+    "cstdlib",
+    "cstring",
+    "ctype",
+    "cwchar",
+    "datetimeapi",
+    "dde",
+    "ddeml",
+    "debugapi",
+    "detours",
+    "dlgs",
+    "dpapi",
+    "driverspecs",
+    "eh",
+    "enclaveapi",
+    "errhandlingapi",
+    "errno",
+    "exception",
+    "excpt",
+    "fibersapi",
+    "fileapi",
+    "float",
+    "guiddef",
+    "handleapi",
+    "heapapi",
+    "ime_cmodes",
+    "imm",
+    "INADDR",
+    "inaddr",
+    "initializer_list",
+    "interlockedapi",
+    "intrin0",
+    "ioapiset",
+    "ios",
+    "iosfwd",
+    "istream",
+    "jobapi",
+    "jobapi2",
+    "joystickapi",
+    "kernelspecs",
+    "ktmtypes",
+    "libloaderapi",
+    "limits",
+    "locale",
+    "LOCALE",
+    "lzexpand",
+    "malloc",
+    "math",
+    "mciapi",
+    "mcx",
+    "memory",
+    "memoryapi",
+    "minwinbase",
+    "minwindef",
+    "mmeapi",
+    "mmiscapi",
+    "mmiscapi2",
+    "mmsyscom",
+    "mmsystem",
+    "msxml",
+    "namedpipeapi",
+    "namespaceapi",
+    "nb30",
+    "ncrypt",
+    "new",
+    "OAIdl",
+    "objbase",
+    "ObjIdl",
+    "ObjIdlbase",
+    "Ole2",
+    "OleAuto",
+    "oleidl",
+    "ostream",
+    "playsoundapi",
+    "poppack",
+    "processenv",
+    "processthreadsapi",
+    "processtopologyapi",
+    "profileapi",
+    "PropIdl",
+    "PropIdlBase",
+    "prsht",
+    "pshpack1",
+    "pshpack2",
+    "pshpack4",
+    "pshpack8",
+    "realtimeapiset",
+    "reason",
+    "rpc",
+    "RPC",
+    "rpcasync",
+    "rpcdce",
+    "rpcdcep",
+    "rpcndr",
+    "rpcnsi",
+    "rpcnsip",
+    "rpcnterr",
+    "rpcsal",
+    "sal",
+    "sdkddkver",
+    "sdv_driverspecs",
+    "securityappcontainer",
+    "securitybaseapi",
+    "servprov",
+    "share",
+    "shellapi",
+    "specstrings",
+    "specstrings_strict",
+    "specstrings_undef",
+    "stat",
+    "STDARG",
+    "stdarg",
+    "stddef",
+    "stdexcept",
+    "stdint",
+    "STDIO",
+    "stdio",
+    "stdlib",
+    "stralign",
+    "streambuf",
+    "string",
+    "stringapiset",
+    "synchapi",
+    "sys",
+    "SYS",
+    "sysinfoapi",
+    "systemtopologyapi",
+    "system_error",
+    "threadpoolapiset",
+    "threadpoollegacyapiset",
+    "timeapi",
+    "timezoneapi",
+    "tvout",
+    "TVOUT",
+    "typeinfo",
+    "types",
+    "type_traits",
+    "Unknwn",
+    "Unknwnbase",
+    "urlmon",
+    "USE_ANSI",
+    "use_ansi",
+    "utilapiset",
+    "utility",
+    "vadefs",
+    "vcruntime",
+    "vcruntime_exception",
+    "vcruntime_new",
+    "vcruntime_new_debug",
+    "vcruntime_string",
+    "VCRUNTIME_TYPEINFO",
+    "vcruntime_typeinfo",
+    "vector",
+    "verrsrc",
+    "wchar",
+    "winapifamily",
+    "WinBase",
+    "wincon",
+    "wincrypt",
+    "windef",
+    "windows",
+    "Windows",
+    "winefs",
+    "winerror",
+    "wingdi",
+    "winioctl",
+    "winnetwk",
+    "WinNls",
+    "winnt",
+    "winpackagefamily",
+    "winperf",
+    "winreg",
+    "winscard",
+    "WINSMCRD",
+    "winsmcrd",
+    "winsock",
+    "winspool",
+    "winsvc",
+    "WinUser",
+    "winver",
+    "wnnc",
+    "wow64apiset",
+    "wtypes",
+    "WTypesbase",
+    "xatomic0",
+    "xcall_once",
+    "xfacet",
+    "xiosbase",
+    "xkeycheck",
+    "xlocale",
+    "xlocinfo",
+    "xlocnum",
+    "xmemory",
+    "xmemory0",
+    "xstddef",
+    "xstring",
+    "xstring_insert",
+    "XTGMATH",
+    "xtgmath",
+    "xtr1common",
+    "xutility",
+    "ymath",
+    "yvals"
+  ]
+}]

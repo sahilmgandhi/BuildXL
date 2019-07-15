@@ -1,0 +1,1009 @@
+[PipF6C780B6627C0A50, {
+  "WeakFingerprint": "5FA19F264A895A15325499B50979FCBB4F6DDEFA",
+  "StrongFingerprint": "D851E2D30C2F2F3D6A48C7909D03F904B7FCE8D2",
+  "PathSet": "B0AA9A5FC9"
+}]
+[5FA19F264A895A15325499B50979FCBB4F6DDEFA, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.exe": "4A53E46A51"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\buildxl.keyvaluestore.dll-csc",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\asyncfixer.1.1.5\\analyzers\\dotnet\\cs\\asyncfixer.dll": "462FBF4FEF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.core.dll": "8C84CDB343"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.coreanalyzers.dll": "696BB2072E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\.signature.p7s": "0DDF32F299"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\build\\microsoft.net.compilers.props": "A313862AAB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\microsoft.net.compilers.nuspec": "B70228C8B4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\thirdpartynotices.rtf": "AA82F4CF6B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.build.tasks.codeanalysis.resources.dll": "7179E5B635"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.csharp.resources.dll": "77671CA993"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.csharp.scripting.resources.dll": "DED883E7AA"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.resources.dll": "B85AFF778B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.scripting.resources.dll": "BC4899DF53"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.visualbasic.resources.dll": "2FEF917020"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.exe": "4A53E46A51"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.exe.config": "563F709C6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.rsp": "393E5FFFEC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csi.exe": "19EAA1252F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csi.exe.config": "4DEEF711D3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csi.rsp": "9D679DE4F2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.build.tasks.codeanalysis.resources.dll": "7F92D90CCF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.csharp.resources.dll": "CAC16E7E38"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.csharp.scripting.resources.dll": "E17B1BA66B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.resources.dll": "34968DA26D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.scripting.resources.dll": "458E6CD65B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.visualbasic.resources.dll": "2EEA0F9475"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.build.tasks.codeanalysis.resources.dll": "391FF92FB4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.csharp.resources.dll": "BF89F35346"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.csharp.scripting.resources.dll": "2A49FAAA34"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.resources.dll": "919959FCE7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.scripting.resources.dll": "B29C17501D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.visualbasic.resources.dll": "BE0A4BB113"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.build.tasks.codeanalysis.resources.dll": "687AA69F82"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.csharp.resources.dll": "14323DD796"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.csharp.scripting.resources.dll": "DEF7FE8F43"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.resources.dll": "ADD490A9CD"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.scripting.resources.dll": "7ECF44AFB5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.visualbasic.resources.dll": "5D4AC262D4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.build.tasks.codeanalysis.resources.dll": "465E134E6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.csharp.resources.dll": "A132C225E7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.csharp.scripting.resources.dll": "8FB282345D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.resources.dll": "B7284C8122"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.scripting.resources.dll": "565D2BBF7A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.visualbasic.resources.dll": "23AAD9BD5F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.build.tasks.codeanalysis.resources.dll": "4188AEA4F1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.csharp.resources.dll": "3A87D0F735"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.csharp.scripting.resources.dll": "498ECC9139"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.resources.dll": "681FB97453"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.scripting.resources.dll": "553EC93EF4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.visualbasic.resources.dll": "404461A1FB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.build.tasks.codeanalysis.resources.dll": "CF2C91715B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.csharp.resources.dll": "85F87838F8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.csharp.scripting.resources.dll": "02F08228A6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.resources.dll": "F83EE7AAAC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.scripting.resources.dll": "923FCBFE3A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.visualbasic.resources.dll": "272CDF6818"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.build.tasks.codeanalysis.dll": "C4904D2BC1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.csharp.dll": "D9D0484BBC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.csharp.scripting.dll": "90778AB743"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.dll": "300EA38FC0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.scripting.dll": "BF42AE5030"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.visualbasic.dll": "F159443DC7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.csharp.core.targets": "7500830F91"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.diasymreader.native.amd64.dll": "DEC5A2E466"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.diasymreader.native.x86.dll": "979B4D9B53"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.managed.core.targets": "512E5441A8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.visualbasic.core.targets": "5396AAEA17"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.build.tasks.codeanalysis.resources.dll": "6A2FD7267C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.csharp.resources.dll": "1FB56DE374"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.csharp.scripting.resources.dll": "32ADE16C71"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.resources.dll": "A9999B9A6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.scripting.resources.dll": "7ACC42A071"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.visualbasic.resources.dll": "6ED6236B43"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.build.tasks.codeanalysis.resources.dll": "3BC5A47988"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.csharp.resources.dll": "A5BF98C1FB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.csharp.scripting.resources.dll": "66276E3D12"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.resources.dll": "05F5217978"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.scripting.resources.dll": "C25ACE07E0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.visualbasic.resources.dll": "0DC2000D83"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.build.tasks.codeanalysis.resources.dll": "B8A18A4577"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.csharp.resources.dll": "5E07B110B2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.csharp.scripting.resources.dll": "E199E7B72B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.resources.dll": "7981E3B898"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.scripting.resources.dll": "D3197D0C54"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.visualbasic.resources.dll": "CB23948B0F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.buffers.dll": "98F0CBB6F8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.collections.immutable.dll": "F9F6BBCDE3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.memory.dll": "EE5702580E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.numerics.vectors.dll": "D40B796AB5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.reflection.metadata.dll": "4F669C99A7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.runtime.compilerservices.unsafe.dll": "2B47F298DB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.text.encoding.codepages.dll": "AB599DC84C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.threading.tasks.extensions.dll": "486DC5DD98"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.build.tasks.codeanalysis.resources.dll": "6AB829D3C5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.csharp.resources.dll": "5DF57D5F92"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.csharp.scripting.resources.dll": "7398459BAC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.resources.dll": "6FEC29B7D7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.scripting.resources.dll": "009BC4A5A2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.visualbasic.resources.dll": "B9A47A7A1C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbc.exe": "83AF60C59F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbc.exe.config": "563F709C6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbc.rsp": "BA6AC73786"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbcscompiler.exe": "49F480CF9E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbcscompiler.exe.config": "3EA697B671"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.build.tasks.codeanalysis.resources.dll": "30A435722A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.csharp.resources.dll": "9B7C0932D3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.csharp.scripting.resources.dll": "A5EBE2E973"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.resources.dll": "25DFD806FF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.scripting.resources.dll": "D23F30679E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.visualbasic.resources.dll": "DC35B8A0FD"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.build.tasks.codeanalysis.resources.dll": "C84C6409DA"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.csharp.resources.dll": "8C1AF6101C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.csharp.scripting.resources.dll": "4A77F819DA"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.resources.dll": "1AC2EEBDCB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.scripting.resources.dll": "87AE6D973A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.visualbasic.resources.dll": "A991DDB5E0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.csharp.dll": "B0FE69A8FC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.visualbasic.core.dll": "4B04A78AA7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.visualbasic.dll": "04A36E9EBB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.win32.primitives.dll": "582FDCF634"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\mscorlib.dll": "D067672186"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\netstandard.dll": "12A00AEA7D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.appcontext.dll": "A2B9844E07"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.buffers.dll": "D9A76D2A74"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.concurrent.dll": "50CC9FFF58"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.dll": "F599E7BB22"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.immutable.dll": "7AB3C2C226"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.nongeneric.dll": "BBF9094DF4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.specialized.dll": "BDAAE1EEC3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.annotations.dll": "B33731EF1D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.dataannotations.dll": "D097A5A58F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.dll": "308D331335"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.eventbasedasync.dll": "4C75F02B1F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.primitives.dll": "1EE6DEF62E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.typeconverter.dll": "77A9D74441"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.configuration.dll": "D1501356F7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.console.dll": "9DEAFC454E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.core.dll": "747A606637"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.data.common.dll": "A35C534221"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.data.datasetextensions.dll": "62C0962984"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.data.dll": "92FBA27F2A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.contracts.dll": "C1EE8ED826"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.debug.dll": "F865E64B88"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.diagnosticsource.dll": "1E796B41E2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.fileversioninfo.dll": "D7F83DFA39"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.process.dll": "C2CB3C4367"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.stacktrace.dll": "D4BBFAA3C6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.textwritertracelistener.dll": "E24F556734"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.tools.dll": "92F40AE1A5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.tracesource.dll": "FEFFA25B57"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.tracing.dll": "04F656EEAB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.dll": "FF0FE9194A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.drawing.dll": "19D4DB9066"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.drawing.primitives.dll": "DB06A50401"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.dynamic.runtime.dll": "C57BE0243D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.globalization.calendars.dll": "DB6E5E570D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.globalization.dll": "1C9DC43FA1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.globalization.extensions.dll": "9523B37F22"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.brotli.dll": "7E77B39301"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.dll": "C704371D38"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.filesystem.dll": "1DCE0DCE5E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.zipfile.dll": "1223891A7B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.dll": "D0C19B623D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.dll": "B942A2441C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.driveinfo.dll": "AB010CD340"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.primitives.dll": "8942585AC4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.watcher.dll": "742EBE584C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.isolatedstorage.dll": "F81AF051BE"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.memorymappedfiles.dll": "5F37023351"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.pipes.dll": "79FB68F6C0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.unmanagedmemorystream.dll": "03FD373BC2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.dll": "6A20BFD77B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.expressions.dll": "9BF74F4B34"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.parallel.dll": "48A7C96F05"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.queryable.dll": "C581E01823"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.memory.dll": "6D00C96C11"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.dll": "07395F9961"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.http.dll": "15DFF2E363"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.httplistener.dll": "248181171C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.mail.dll": "C8C46D8EF2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.nameresolution.dll": "F43D69E4EE"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.networkinformation.dll": "EC87965131"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.ping.dll": "AFDC88C726"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.primitives.dll": "C43EB8D39E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.requests.dll": "57CD0EDC0D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.security.dll": "081DB325E7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.servicepoint.dll": "27D752E463"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.sockets.dll": "04EA480820"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.webclient.dll": "B41DE9CCE2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.webheadercollection.dll": "407E4C7D6F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.webproxy.dll": "5E9BEAC8FF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.websockets.client.dll": "01FE2968C6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.websockets.dll": "AB4F558BC4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.numerics.dll": "063A569E58"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.numerics.vectors.dll": "E0A557F5E9"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.objectmodel.dll": "032660859A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.dispatchproxy.dll": "29D944D174"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.dll": "7D3FF7521E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.emit.dll": "30188B58A3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.emit.ilgeneration.dll": "5CBC9DE1B0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.emit.lightweight.dll": "4252797570"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.extensions.dll": "1172FD8472"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.metadata.dll": "0A28DDD1E9"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.primitives.dll": "86A386D1E1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.typeextensions.dll": "9DF0DEF17A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.resources.reader.dll": "60CAAA9599"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.resources.resourcemanager.dll": "85CFDF6FB6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.resources.writer.dll": "1C34974B1B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.compilerservices.unsafe.dll": "D3F651400A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.compilerservices.visualc.dll": "B1D0B5852F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.dll": "7F7EB22DB1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.extensions.dll": "E4FC37697B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.handles.dll": "1EB7021F4B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.interopservices.dll": "212B30D76B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.interopservices.runtimeinformation.dll": "C69ADC9BE3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.interopservices.windowsruntime.dll": "E2BAD07638"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.intrinsics.dll": "4FB998126A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.loader.dll": "EC4911F96F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.numerics.dll": "7B84190473"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.dll": "73CE678CB1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.formatters.dll": "3BB9C01300"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.json.dll": "FAF862CC78"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.primitives.dll": "0CC0E60149"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.xml.dll": "28C9230DF4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.claims.dll": "97A7091C5F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.algorithms.dll": "3B38D688E1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.csp.dll": "1EFFE8597C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.encoding.dll": "A2B6460E5D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.primitives.dll": "343422D297"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.x509certificates.dll": "BE10536B4E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.dll": "C0F6BE30B3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.principal.dll": "EF4D0E95A5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.securestring.dll": "75FA685CA2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.servicemodel.web.dll": "51E684CE0F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.serviceprocess.dll": "61E946C7B8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.encoding.dll": "C8EAB59684"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.encoding.extensions.dll": "698BCF7CA7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.json.dll": "D50257AFD1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.regularexpressions.dll": "7A3DE65CBF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.dll": "CA1BE1C145"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.overlapped.dll": "94E8D266E6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.dataflow.dll": "74AD900040"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.dll": "BF4C99CAD2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.extensions.dll": "DC2FC71C0B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.parallel.dll": "4C55FBC581"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.thread.dll": "1A15A0D4F4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.threadpool.dll": "B9AFAF3098"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.timer.dll": "EA31CA8333"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.transactions.dll": "DB0372FFB8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.transactions.local.dll": "C89E57E705"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.valuetuple.dll": "0060E917E7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.web.dll": "D229682C5E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.web.httputility.dll": "A2E8E950C3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.windows.dll": "982200D883"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.dll": "239683E072"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.linq.dll": "B9CB2E3313"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.readerwriter.dll": "7B7D28D5BB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.serialization.dll": "FE14CCFE0F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xdocument.dll": "85790FA6EC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xmldocument.dll": "1EA59FD394"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xmlserializer.dll": "BF77CD77DE"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xpath.dll": "2DE291612E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xpath.xdocument.dll": "D5048B7797"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\windowsbase.dll": "030ED65B07"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\rocksdbsharp.5.8.0-b20181023.3\\lib\\net45\\rocksdbsharp.dll": "87E94DD3D6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.0.1.7.1\\lib\\netstandard1.1\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.analyzer.0.1.7.1\\analyzers\\dotnet\\cs\\runtimecontracts.analyzer.dll": "D89B1E64FC"
+    },
+    {
+      "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\assemblyinfogen\\assemblyinfo.g.cs": {
+        "PathNormalizedWriteFileContent": "//------------------------------------------------------------------------------\r\n// <auto-generated>\r\n//     This code was generated by a tool.\r\n//\r\n//     Changes to this file may cause incorrect behavior and will be lost if\r\n//     the code is regenerated.\r\n// </auto-generated>\r\n//------------------------------------------------------------------------------\r\n\r\nusing System.Reflection;\r\nusing System.Resources;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\nusing System.Runtime.Versioning;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n\r\n[assembly: AssemblyTitle(\"BuildXL.KeyValueStore.dll\")]\r\n[assembly: AssemblyProduct(\"Microsoft (R) Build Accelerator\")]\r\n[assembly: AssemblyCompany(\"Microsoft\")]\r\n[assembly: AssemblyCopyright(\"© Microsoft Corporation. All rights reserved.\")]\r\n[assembly: AssemblyVersion(\"1.0.0.0\")]\r\n[assembly: AssemblyFileVersion(\"1.0.0.0\")]\r\n[assembly: AssemblyConfiguration(\"debug\")]\r\n[assembly: NeutralResourcesLanguage(\"en-US\")]\r\n[assembly: TargetFramework(\".NETCoreApp,Version=v3.0\", FrameworkDisplayName=\".NET Core App\")]"
+      }
+    },
+    {
+      "b:\\out\\objects\\9\\b\\tnrttxxawd95x5lm7o6azm66yvavre\\buildxl.utilities.collections.dll-csc\\ref\\buildxl.utilities.collections.dll": "6F016C430C"
+    },
+    {
+      "b:\\out\\objects\\k\\1\\ro9bhjrm20zkpewomh0ch3gp717t5c\\buildxl.utilities.dll-csc\\ref\\buildxl.utilities.dll": "8DA595132C"
+    },
+    {
+      "b:\\out\\objects\\p\\b\\nyx9h35pd8ndowendynpcjnt54y79j\\buildxl.utilities.instrumentation.common.dll-csc\\ref\\buildxl.utilities.instrumentation.common.dll": "C8474AF4C6"
+    },
+    {
+      "b:\\out\\objects\\t\\w\\e4672hkjagng1mvkgqg0qom6y0njd6\\buildxl.native.dll-csc\\ref\\buildxl.native.dll": "AFDE9D03C9"
+    },
+    {
+      "b:\\public\\sdk\\selfhost\\buildxl\\buildxl.devkey.snk": "607D7A3DCD"
+    },
+    {
+      "b:\\public\\src\\utilities\\keyvaluestore\\ibuildxlkeyvaluestore.cs": "F2ED5EA80C"
+    },
+    {
+      "b:\\public\\src\\utilities\\keyvaluestore\\ikeyvaluestore.cs": "E73BCA68C1"
+    },
+    {
+      "b:\\public\\src\\utilities\\keyvaluestore\\keyvaluestoreaccessor.cs": "F6CAF2A664"
+    },
+    {
+      "b:\\public\\src\\utilities\\keyvaluestore\\rocksdb\\rocksdbstore.cs": "40DE455D36"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\buildxl.keyvaluestore.dll-csc\\buildxl.keyvaluestore.dll": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\buildxl.keyvaluestore.dll-csc\\buildxl.keyvaluestore.pdb": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\buildxl.keyvaluestore.dll-csc\\buildxl.keyvaluestore.xml": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\buildxl.keyvaluestore.dll-csc\\ref\\buildxl.keyvaluestore.dll": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [
+    "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\csc.exe.std\\args.rsp"
+  ],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\3\\7\\za048a242h7ql0y02zjzyv0q401qgb\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/nologo /noconfig @B:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\CSC.EXE.STD\\ARGS.RSP",
+  "ResponseFileData": "/out:B:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\BUILDXL.KEYVALUESTORE.DLL-CSC\\BUILDXL.KEYVALUESTORE.DLL\r\n/pdb:B:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\BUILDXL.KEYVALUESTORE.DLL-CSC\\BUILDXL.KEYVALUESTORE.PDB\r\n/doc:B:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\BUILDXL.KEYVALUESTORE.DLL-CSC\\BUILDXL.KEYVALUESTORE.XML\r\n/target:library\r\n/platform:anycpu\r\n/refout:B:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\BUILDXL.KEYVALUESTORE.DLL-CSC\\REF\\BUILDXL.KEYVALUESTORE.DLL\r\n/langversion:Latest\r\n/define:\"DEBUG;TRACE;DEFTEMP;FEATURE_CORECLR;FEATURE_SAFE_PROCESS_HANDLE;DISABLE_FEATURE_VSEXTENSION_INSTALL_CHECK;DISABLE_FEATURE_HTMLWRITER;DISABLE_FEATURE_EXTENDED_ENCODING;DISABLE_FEATURE_BOND_RPC;FEATURE_ARIA_TELEMETRY;PLATFORM_OSX;FEATURE_THROTTLE_EVAL_SCHEDULER;CONTRACTS_LIGHT_PRECONDITIONS;CONTRACTS_LIGHT_INVARIANTS;CONTRACTS_LIGHT_ASSERTS;CONTRACTS_LIGHT_QUANTIFIERS;NET461Plus\"\r\n/nowarn:1701,1702\r\n/warn:4\r\n/unsafe-\r\n/checked+\r\n/optimize-\r\n/nostdlib+\r\n/debug+\r\n/highentropyva+\r\n/subsystemversion:6.00\r\n/checksumalgorithm:sha256\r\n/debug:portable\r\n/fullpaths\r\n/deterministic\r\n/pathMap:B:\\=\\.\r\n/keyfile:B:\\PUBLIC\\SDK\\SELFHOST\\BUILDXL\\BUILDXL.DEVKEY.SNK\r\n/r:B:\\OUT\\OBJECTS\\P\\B\\NYX9H35PD8NDOWENDYNPCJNT54Y79J\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL-CSC\\REF\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL\r\n/r:B:\\OUT\\OBJECTS\\K\\1\\RO9BHJRM20ZKPEWOMH0CH3GP717T5C\\BUILDXL.UTILITIES.DLL-CSC\\REF\\BUILDXL.UTILITIES.DLL\r\n/r:B:\\OUT\\OBJECTS\\9\\B\\TNRTTXXAWD95X5LM7O6AZM66YVAVRE\\BUILDXL.UTILITIES.COLLECTIONS.DLL-CSC\\REF\\BUILDXL.UTILITIES.COLLECTIONS.DLL\r\n/r:B:\\OUT\\OBJECTS\\T\\W\\E4672HKJAGNG1MVKGQG0QOM6Y0NJD6\\BUILDXL.NATIVE.DLL-CSC\\REF\\BUILDXL.NATIVE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ROCKSDBSHARP.5.8.0-B20181023.3\\LIB\\NET45\\ROCKSDBSHARP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\RUNTIMECONTRACTS.0.1.7.1\\LIB\\NETSTANDARD1.1\\RUNTIMECONTRACTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.CSHARP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.VISUALBASIC.CORE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.VISUALBASIC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.WIN32.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MSCORLIB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\NETSTANDARD.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.APPCONTEXT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.BUFFERS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.CONCURRENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.IMMUTABLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.NONGENERIC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.SPECIALIZED.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.ANNOTATIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.DATAANNOTATIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.EVENTBASEDASYNC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.TYPECONVERTER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.CONFIGURATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.CONSOLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.CORE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DATA.COMMON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DATA.DATASETEXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DATA.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.CONTRACTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.DEBUG.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.DIAGNOSTICSOURCE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.FILEVERSIONINFO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.PROCESS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.STACKTRACE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TEXTWRITERTRACELISTENER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TOOLS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TRACESOURCE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TRACING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DRAWING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DRAWING.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DYNAMIC.RUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.GLOBALIZATION.CALENDARS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.GLOBALIZATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.GLOBALIZATION.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.BROTLI.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.FILESYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.ZIPFILE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.DRIVEINFO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.WATCHER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.ISOLATEDSTORAGE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.MEMORYMAPPEDFILES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.PIPES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.UNMANAGEDMEMORYSTREAM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.EXPRESSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.PARALLEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.QUERYABLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.MEMORY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.HTTP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.HTTPLISTENER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.MAIL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.NAMERESOLUTION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.NETWORKINFORMATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.PING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.REQUESTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.SECURITY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.SERVICEPOINT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.SOCKETS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBCLIENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBHEADERCOLLECTION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBPROXY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBSOCKETS.CLIENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBSOCKETS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NUMERICS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NUMERICS.VECTORS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.OBJECTMODEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.DISPATCHPROXY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EMIT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EMIT.ILGENERATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EMIT.LIGHTWEIGHT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.METADATA.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.TYPEEXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RESOURCES.READER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RESOURCES.RESOURCEMANAGER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RESOURCES.WRITER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.COMPILERSERVICES.VISUALC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.HANDLES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTEROPSERVICES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTEROPSERVICES.RUNTIMEINFORMATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTEROPSERVICES.WINDOWSRUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTRINSICS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.LOADER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.NUMERICS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.FORMATTERS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.JSON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.XML.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CLAIMS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.ALGORITHMS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.CSP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.ENCODING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.X509CERTIFICATES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.PRINCIPAL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.SECURESTRING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SERVICEMODEL.WEB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SERVICEPROCESS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.ENCODING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.ENCODING.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.JSON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.REGULAREXPRESSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.OVERLAPPED.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.DATAFLOW.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.PARALLEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.THREAD.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.THREADPOOL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TIMER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TRANSACTIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TRANSACTIONS.LOCAL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.VALUETUPLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.WEB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.WEB.HTTPUTILITY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.WINDOWS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.LINQ.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.READERWRITER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.SERIALIZATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XDOCUMENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XMLDOCUMENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XMLSERIALIZER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XPATH.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XPATH.XDOCUMENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\WINDOWSBASE.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ASYNCFIXER.1.1.5\\ANALYZERS\\DOTNET\\CS\\ASYNCFIXER.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ERRORPRONE.NET.COREANALYZERS.0.1.2\\ANALYZERS\\DOTNET\\CS\\ERRORPRONE.NET.CORE.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ERRORPRONE.NET.COREANALYZERS.0.1.2\\ANALYZERS\\DOTNET\\CS\\ERRORPRONE.NET.COREANALYZERS.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ERRORPRONE.NET.COREANALYZERS.0.1.2\\ANALYZERS\\DOTNET\\CS\\RUNTIMECONTRACTS.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\RUNTIMECONTRACTS.ANALYZER.0.1.7.1\\ANALYZERS\\DOTNET\\CS\\RUNTIMECONTRACTS.ANALYZER.DLL\r\nB:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\ASSEMBLYINFOGEN\\ASSEMBLYINFO.G.CS\r\nB:\\PUBLIC\\SRC\\UTILITIES\\KEYVALUESTORE\\IBUILDXLKEYVALUESTORE.CS\r\nB:\\PUBLIC\\SRC\\UTILITIES\\KEYVALUESTORE\\IKEYVALUESTORE.CS\r\nB:\\PUBLIC\\SRC\\UTILITIES\\KEYVALUESTORE\\KEYVALUESTOREACCESSOR.CS\r\nB:\\PUBLIC\\SRC\\UTILITIES\\KEYVALUESTORE\\ROCKSDB\\ROCKSDBSTORE.CS",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\3\\7\\ZA048A242H7QL0Y02ZJZYV0Q401QGB\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[D851E2D30C2F2F3D6A48C7909D03F904B7FCE8D2, {
+  "Namespace": "1",
+  "WeakFingerprint": "5FA19F264A895A15325499B50979FCBB4F6DDEFA",
+  "PathSet": "B0AA9A5FC9",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[B0AA9A5FC9, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\asyncfixer.1.1.5\\analyzers\\dotnet\\cs\\asyncfixer.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.core.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.coreanalyzers.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\runtimecontracts.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core\\errorprone.net.core.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core\\errorprone.net.core.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.csharp.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts\\runtimecontracts.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts\\runtimecontracts.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.memory.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.runtime.compilerservices.unsafe.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.text.encoding.codepages.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.threading.tasks.extensions.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.analyzer.0.1.7.1\\analyzers\\dotnet\\cs\\runtimecontracts.analyzer.ini",
+    "Path": "%appdata%"
+  },
+  "ObservedAccessedFileNames": []
+}]

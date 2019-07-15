@@ -1,0 +1,784 @@
+[Pip5729980E9308AF06, {
+  "WeakFingerprint": "A7042607AFB8C8956966FF2C02D3CCAA7C99FA9D",
+  "StrongFingerprint": "BA6631006DE7BEBFF12DAA97772D59FE915D89D2",
+  "PathSet": "B0AA9A5FC9"
+}]
+[A7042607AFB8C8956966FF2C02D3CCAA7C99FA9D, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.exe": "4A53E46A51"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\buildxl.engine.cache.dll-csc",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\asyncfixer.1.1.5\\analyzers\\dotnet\\cs\\asyncfixer.dll": "462FBF4FEF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.core.csharp.8.0.0\\lib\\net45\\bond.attributes.dll": "B81C999230"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.core.csharp.8.0.0\\lib\\net45\\bond.dll": "008DF61609"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.core.csharp.8.0.0\\lib\\net45\\bond.io.dll": "EC0202DA34"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.core.csharp.8.0.0\\lib\\net45\\bond.reflection.dll": "9A6CBF93C6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.runtime.csharp.8.0.0\\lib\\net45\\bond.json.dll": "7BA9AF57DA"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.core.dll": "8C84CDB343"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.coreanalyzers.dll": "696BB2072E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\jsondiffpatch.net.2.1.0\\lib\\net45\\jsondiffpatchdotnet.dll": "E0999FCB2B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.applications.telemetry.desktop.1.1.152\\lib\\net45\\microsoft.applications.telemetry.desktop.dll": "0D8C34D5B0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.applications.telemetry.desktop.1.1.152\\lib\\net45\\microsoft.applications.telemetry.dll": "30529BB352"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.diagnostics.tracing.eventsource.redist.1.1.28\\lib\\net46\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\.signature.p7s": "0DDF32F299"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\build\\microsoft.net.compilers.props": "A313862AAB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\microsoft.net.compilers.nuspec": "B70228C8B4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\thirdpartynotices.rtf": "AA82F4CF6B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.build.tasks.codeanalysis.resources.dll": "7179E5B635"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.csharp.resources.dll": "77671CA993"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.csharp.scripting.resources.dll": "DED883E7AA"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.resources.dll": "B85AFF778B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.scripting.resources.dll": "BC4899DF53"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\cs\\microsoft.codeanalysis.visualbasic.resources.dll": "2FEF917020"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.exe": "4A53E46A51"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.exe.config": "563F709C6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.rsp": "393E5FFFEC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csi.exe": "19EAA1252F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csi.exe.config": "4DEEF711D3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csi.rsp": "9D679DE4F2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.build.tasks.codeanalysis.resources.dll": "7F92D90CCF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.csharp.resources.dll": "CAC16E7E38"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.csharp.scripting.resources.dll": "E17B1BA66B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.resources.dll": "34968DA26D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.scripting.resources.dll": "458E6CD65B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\de\\microsoft.codeanalysis.visualbasic.resources.dll": "2EEA0F9475"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.build.tasks.codeanalysis.resources.dll": "391FF92FB4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.csharp.resources.dll": "BF89F35346"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.csharp.scripting.resources.dll": "2A49FAAA34"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.resources.dll": "919959FCE7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.scripting.resources.dll": "B29C17501D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\es\\microsoft.codeanalysis.visualbasic.resources.dll": "BE0A4BB113"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.build.tasks.codeanalysis.resources.dll": "687AA69F82"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.csharp.resources.dll": "14323DD796"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.csharp.scripting.resources.dll": "DEF7FE8F43"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.resources.dll": "ADD490A9CD"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.scripting.resources.dll": "7ECF44AFB5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\fr\\microsoft.codeanalysis.visualbasic.resources.dll": "5D4AC262D4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.build.tasks.codeanalysis.resources.dll": "465E134E6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.csharp.resources.dll": "A132C225E7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.csharp.scripting.resources.dll": "8FB282345D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.resources.dll": "B7284C8122"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.scripting.resources.dll": "565D2BBF7A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\it\\microsoft.codeanalysis.visualbasic.resources.dll": "23AAD9BD5F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.build.tasks.codeanalysis.resources.dll": "4188AEA4F1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.csharp.resources.dll": "3A87D0F735"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.csharp.scripting.resources.dll": "498ECC9139"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.resources.dll": "681FB97453"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.scripting.resources.dll": "553EC93EF4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ja\\microsoft.codeanalysis.visualbasic.resources.dll": "404461A1FB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.build.tasks.codeanalysis.resources.dll": "CF2C91715B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.csharp.resources.dll": "85F87838F8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.csharp.scripting.resources.dll": "02F08228A6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.resources.dll": "F83EE7AAAC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.scripting.resources.dll": "923FCBFE3A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ko\\microsoft.codeanalysis.visualbasic.resources.dll": "272CDF6818"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.build.tasks.codeanalysis.dll": "C4904D2BC1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.csharp.dll": "D9D0484BBC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.csharp.scripting.dll": "90778AB743"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.dll": "300EA38FC0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.scripting.dll": "BF42AE5030"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.visualbasic.dll": "F159443DC7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.csharp.core.targets": "7500830F91"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.diasymreader.native.amd64.dll": "DEC5A2E466"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.diasymreader.native.x86.dll": "979B4D9B53"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.managed.core.targets": "512E5441A8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.visualbasic.core.targets": "5396AAEA17"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.build.tasks.codeanalysis.resources.dll": "6A2FD7267C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.csharp.resources.dll": "1FB56DE374"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.csharp.scripting.resources.dll": "32ADE16C71"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.resources.dll": "A9999B9A6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.scripting.resources.dll": "7ACC42A071"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pl\\microsoft.codeanalysis.visualbasic.resources.dll": "6ED6236B43"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.build.tasks.codeanalysis.resources.dll": "3BC5A47988"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.csharp.resources.dll": "A5BF98C1FB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.csharp.scripting.resources.dll": "66276E3D12"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.resources.dll": "05F5217978"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.scripting.resources.dll": "C25ACE07E0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\pt-br\\microsoft.codeanalysis.visualbasic.resources.dll": "0DC2000D83"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.build.tasks.codeanalysis.resources.dll": "B8A18A4577"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.csharp.resources.dll": "5E07B110B2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.csharp.scripting.resources.dll": "E199E7B72B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.resources.dll": "7981E3B898"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.scripting.resources.dll": "D3197D0C54"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\ru\\microsoft.codeanalysis.visualbasic.resources.dll": "CB23948B0F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.buffers.dll": "98F0CBB6F8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.collections.immutable.dll": "F9F6BBCDE3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.memory.dll": "EE5702580E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.numerics.vectors.dll": "D40B796AB5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.reflection.metadata.dll": "4F669C99A7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.runtime.compilerservices.unsafe.dll": "2B47F298DB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.text.encoding.codepages.dll": "AB599DC84C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.threading.tasks.extensions.dll": "486DC5DD98"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.build.tasks.codeanalysis.resources.dll": "6AB829D3C5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.csharp.resources.dll": "5DF57D5F92"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.csharp.scripting.resources.dll": "7398459BAC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.resources.dll": "6FEC29B7D7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.scripting.resources.dll": "009BC4A5A2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\tr\\microsoft.codeanalysis.visualbasic.resources.dll": "B9A47A7A1C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbc.exe": "83AF60C59F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbc.exe.config": "563F709C6D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbc.rsp": "BA6AC73786"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbcscompiler.exe": "49F480CF9E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\vbcscompiler.exe.config": "3EA697B671"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.build.tasks.codeanalysis.resources.dll": "30A435722A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.csharp.resources.dll": "9B7C0932D3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.csharp.scripting.resources.dll": "A5EBE2E973"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.resources.dll": "25DFD806FF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.scripting.resources.dll": "D23F30679E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hans\\microsoft.codeanalysis.visualbasic.resources.dll": "DC35B8A0FD"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.build.tasks.codeanalysis.resources.dll": "C84C6409DA"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.csharp.resources.dll": "8C1AF6101C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.csharp.scripting.resources.dll": "4A77F819DA"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.resources.dll": "1AC2EEBDCB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.scripting.resources.dll": "87AE6D973A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\zh-hant\\microsoft.codeanalysis.visualbasic.resources.dll": "A991DDB5E0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.collections.dll": "737E2755FF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.io.dll": "14B92B4916"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.runtime.dll": "3F590040CC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.text.encoding.dll": "4C47F43775"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.threading.tasks.dll": "B38E7BCAC1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\mscorlib.dll": "9138B1D4D5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\system.core.dll": "BCD6E8DC2D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\system.dll": "CEB8045269"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\newtonsoft.json.11.0.2\\lib\\net45\\newtonsoft.json.dll": "DBD0222EC5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.0.1.7.1\\lib\\netstandard1.1\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.analyzer.0.1.7.1\\analyzers\\dotnet\\cs\\runtimecontracts.analyzer.dll": "D89B1E64FC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\system.threading.tasks.dataflow.4.9.0\\lib\\portable-net45+win8+wpa81\\system.threading.tasks.dataflow.dll": "122A86CF32"
+    },
+    {
+      "b:\\out\\objects\\2\\t\\7z2jphk7xg9og2ow68o7t6clo4nq76\\buildxl.cache.contentstore.interfaces.dll-csc\\ref\\buildxl.cache.contentstore.interfaces.dll": "415B78A837"
+    },
+    {
+      "b:\\out\\objects\\4\\h\\437q076vxlkdtn7pokz1chlevdwak0\\buildxl.utilities.instrumentation.common.dll-csc\\ref\\buildxl.utilities.instrumentation.common.dll": "4C1DFA0384"
+    },
+    {
+      "b:\\out\\objects\\5\\3\\cw3xktv1h6vg8exv7gywdrkm0tvgw2\\output\\openbonddistribution_types.cs": "4FD6441088"
+    },
+    {
+      "b:\\out\\objects\\8\\t\\ezbzz41c2gotvoz2jao2gbkq2bvaje\\buildxl.tracing.dll-csc\\ref\\buildxl.tracing.dll": "6DF128B68C"
+    },
+    {
+      "b:\\out\\objects\\b\\9\\jmvv9h193zbj067rwk861x6bm1h80d\\buildxl.cache.contentstore.hashing.dll-csc\\ref\\buildxl.cache.contentstore.hashing.dll": "08A52942BB"
+    },
+    {
+      "b:\\out\\objects\\c\\l\\31d5vagbop349jzckktm5lhgdhwdtm\\buildxl.utilities.configuration.dll-csc\\ref\\buildxl.utilities.configuration.dll": "B987960AFB"
+    },
+    {
+      "b:\\out\\objects\\h\\z\\5qex632q1agrvolagoqgl0kg6n23om\\buildxl.cache.contentstore.utilitiescore.dll-csc\\ref\\buildxl.cache.contentstore.utilitiescore.dll": "9F807C585B"
+    },
+    {
+      "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\assemblyinfogen\\assemblyinfo.g.cs": {
+        "PathNormalizedWriteFileContent": "//------------------------------------------------------------------------------\r\n// <auto-generated>\r\n//     This code was generated by a tool.\r\n//\r\n//     Changes to this file may cause incorrect behavior and will be lost if\r\n//     the code is regenerated.\r\n// </auto-generated>\r\n//------------------------------------------------------------------------------\r\n\r\nusing System.Reflection;\r\nusing System.Resources;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\nusing System.Runtime.Versioning;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n\r\n[assembly: AssemblyTitle(\"BuildXL.Engine.Cache.dll\")]\r\n[assembly: AssemblyProduct(\"Microsoft (R) Build Accelerator\")]\r\n[assembly: AssemblyCompany(\"Microsoft\")]\r\n[assembly: AssemblyCopyright(\"© Microsoft Corporation. All rights reserved.\")]\r\n[assembly: AssemblyVersion(\"1.0.0.0\")]\r\n[assembly: AssemblyFileVersion(\"1.0.0.0\")]\r\n[assembly: AssemblyConfiguration(\"debug\")]\r\n[assembly: NeutralResourcesLanguage(\"en-US\")]\r\n[assembly: TargetFramework(\".NETFramework,Version=v4.7.2\", FrameworkDisplayName=\".NET Framework 4.7.2\")]"
+      }
+    },
+    {
+      "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\loggen\\log.g.cs": "0ECB53AFA2"
+    },
+    {
+      "b:\\out\\objects\\m\\o\\7mbr9m5go09a9rtzdvad2508n3ram9\\buildxl.utilities.dll-csc\\ref\\buildxl.utilities.dll": "39E98A4F53"
+    },
+    {
+      "b:\\out\\objects\\o\\o\\gnq8ny9zn0zk4lzh8j4l2z9jv1eyo3\\buildxl.utilities.collections.dll-csc\\ref\\buildxl.utilities.collections.dll": "3E16F9ECA3"
+    },
+    {
+      "b:\\out\\objects\\p\\a\\1t5kjbeelc4plxg0cloakg0v1gw497\\output\\pipcachedescriptor_types.cs": "44CA8DBA6D"
+    },
+    {
+      "b:\\out\\objects\\w\\j\\baxzh3hp3wz0gw2kx7q4hdgce1t93g\\buildxl.storage.dll-csc\\ref\\buildxl.storage.dll": "31932260E0"
+    },
+    {
+      "b:\\out\\objects\\w\\x\\509tp5jnn4ao4x4tgt9dq3otxlx3q8\\buildxl.native.dll-csc\\ref\\buildxl.native.dll": "B4586660F4"
+    },
+    {
+      "b:\\out\\objects\\x\\j\\oedz28er9cbj0t4mqe3oxj8yk5hb4z\\buildxl.cache.memoizationstore.interfaces.dll-csc\\ref\\buildxl.cache.memoizationstore.interfaces.dll": "6746F3C4F2"
+    },
+    {
+      "b:\\public\\sdk\\selfhost\\buildxl\\buildxl.devkey.snk": "607D7A3DCD"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\artifactcontentcacheserializationextensions.cs": "4C7FF9F3F5"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\cachesites.cs": "B23F7C2FEE"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\contentavailabilitybatchresult.cs": "581F4BA21C"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\contentavailabilityresult.cs": "EA349D9B56"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\elidingartifactcontentcachewrapper.cs": "CBCD0C03D5"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\filerealizationmodes.cs": "D1AA3D9258"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\iartifactcontentcache.cs": "CAAE0D1FF8"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\iartifactcontentcachefortest.cs": "568FFD3DDC"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\ilocaldiskfilesystemexistenceview.cs": "30036656A8"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\ilocaldiskfilesystemview.cs": "3CEF368513"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\inmemoryartifactcontentcache.cs": "7FE21109CF"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\localdiskcontentstore.cs": "BD1E8F8DB0"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\artifacts\\localdiskcontentstorecounter.cs": "AE66EA24E7"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\corehashinghelper.cs": "8EF34BD8B2"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\enginecache.cs": "1323EC3E3A"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\bondextensions.cs": "8A26F78F51"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\cacheentry.cs": "22864CED68"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\cachequerydata.cs": "3E3AE13CB5"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\contentfingerprint.cs": "471496075F"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\fileartifactkeyedhash.cs": "C7CEF216AE"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\filedownloaddescriptor.cs": "BD43A9C3D1"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\ifingerprint.cs": "885437E36E"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\ipipfingerprintentrydata.cs": "3DE17CD8EA"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\packagedownloaddescriptor.cs": "1330D151A1"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\pipcachedescriptor.cs": "57061D69BA"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\pipcachedescriptorv2metadata.cs": "0B27906C86"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\pipfingerprintentry.cs": "BB51AE3222"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\pipgraphcachedescriptor.cs": "5029462D6C"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\pipgraphinputdescriptor.cs": "9175F46AEC"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\singlephase\\singlephasefingerprintstoreadapter.cs": "15A90338F5"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\singlephase\\temporalfingerprintextensions.cs": "7862300680"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\singlephase\\timetreenode.cs": "CE83097AF7"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\strongcontentfingerprint.cs": "643A261630"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\twophase\\emptytwophasefingerprintstore.cs": "91A734F0D8"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\twophase\\inmemorytwophasefingerprintstore.cs": "6798A04F66"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\twophase\\itwophasefingerprintstore.cs": "3A9D001CB4"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\weakcontentfingerprint.cs": "24833D3A86"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\graphcachefile.cs": "FB53C0CE64"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\hashinghelper.cs": "19E13B7EB5"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\icollectionfingerprinter.cs": "B372086E14"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\ifingerprinter.cs": "7C25601428"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\jsonfingerprinter.cs": "81150898E1"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\serialization\\inliningreaderdedupinputstream.cs": "1F451C6D2B"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\serialization\\inliningwriterdedupoutputstream.cs": "794849D630"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\serialization\\jsonreader.cs": "BD01E2597B"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\serialization\\jsontree.cs": "684751A3C7"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\serializationextensions.cs": "0EA0BB4683"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\tracing\\log.cs": "E0F2BB1C43"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\tracing\\logeventid.cs": "FDE9859F14"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\buildxl.engine.cache.dll-csc\\buildxl.engine.cache.dll": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\buildxl.engine.cache.dll-csc\\buildxl.engine.cache.pdb": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\buildxl.engine.cache.dll-csc\\buildxl.engine.cache.xml": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\buildxl.engine.cache.dll-csc\\ref\\buildxl.engine.cache.dll": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [
+    "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\csc.exe.std\\args.rsp"
+  ],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\t_1",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/nologo /noconfig @B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\CSC.EXE.STD\\ARGS.RSP",
+  "ResponseFileData": "/out:B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\BUILDXL.ENGINE.CACHE.DLL-CSC\\BUILDXL.ENGINE.CACHE.DLL\r\n/pdb:B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\BUILDXL.ENGINE.CACHE.DLL-CSC\\BUILDXL.ENGINE.CACHE.PDB\r\n/doc:B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\BUILDXL.ENGINE.CACHE.DLL-CSC\\BUILDXL.ENGINE.CACHE.XML\r\n/target:library\r\n/platform:anycpu\r\n/refout:B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\BUILDXL.ENGINE.CACHE.DLL-CSC\\REF\\BUILDXL.ENGINE.CACHE.DLL\r\n/langversion:Latest\r\n/define:\"DEBUG;TRACE;DEFTEMP;FEATURE_MICROSOFT_DIAGNOSTICS_TRACING;FEATURE_ARIA_TELEMETRY;CONTRACTS_LIGHT_PRECONDITIONS;CONTRACTS_LIGHT_INVARIANTS;CONTRACTS_LIGHT_ASSERTS;CONTRACTS_LIGHT_QUANTIFIERS;NET461Plus\"\r\n/nowarn:1701,1702\r\n/warn:4\r\n/unsafe+\r\n/checked+\r\n/optimize-\r\n/nostdlib+\r\n/debug+\r\n/highentropyva+\r\n/subsystemversion:6.00\r\n/checksumalgorithm:sha256\r\n/debug:full\r\n/fullpaths\r\n/deterministic\r\n/pathMap:B:\\=\\.\r\n/keyfile:B:\\PUBLIC\\SDK\\SELFHOST\\BUILDXL\\BUILDXL.DEVKEY.SNK\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.THREADING.TASKS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.DIAGNOSTICS.TRACING.EVENTSOURCE.REDIST.1.1.28\\LIB\\NET46\\MICROSOFT.DIAGNOSTICS.TRACING.EVENTSOURCE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\SYSTEM.THREADING.TASKS.DATAFLOW.4.9.0\\LIB\\PORTABLE-NET45+WIN8+WPA81\\SYSTEM.THREADING.TASKS.DATAFLOW.DLL\r\n/r:B:\\OUT\\OBJECTS\\4\\H\\437Q076VXLKDTN7POKZ1CHLEVDWAK0\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL-CSC\\REF\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL\r\n/r:B:\\OUT\\OBJECTS\\8\\T\\EZBZZ41C2GOTVOZ2JAO2GBKQ2BVAJE\\BUILDXL.TRACING.DLL-CSC\\REF\\BUILDXL.TRACING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.APPLICATIONS.TELEMETRY.DESKTOP.1.1.152\\LIB\\NET45\\MICROSOFT.APPLICATIONS.TELEMETRY.DESKTOP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.APPLICATIONS.TELEMETRY.DESKTOP.1.1.152\\LIB\\NET45\\MICROSOFT.APPLICATIONS.TELEMETRY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.IO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.TEXT.ENCODING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\BOND.CORE.CSHARP.8.0.0\\LIB\\NET45\\BOND.ATTRIBUTES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\BOND.CORE.CSHARP.8.0.0\\LIB\\NET45\\BOND.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\BOND.CORE.CSHARP.8.0.0\\LIB\\NET45\\BOND.IO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\BOND.CORE.CSHARP.8.0.0\\LIB\\NET45\\BOND.REFLECTION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\BOND.RUNTIME.CSHARP.8.0.0\\LIB\\NET45\\BOND.JSON.DLL\r\n/r:B:\\OUT\\OBJECTS\\B\\9\\JMVV9H193ZBJ067RWK861X6BM1H80D\\BUILDXL.CACHE.CONTENTSTORE.HASHING.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.HASHING.DLL\r\n/r:B:\\OUT\\OBJECTS\\H\\Z\\5QEX632Q1AGRVOLAGOQGL0KG6N23OM\\BUILDXL.CACHE.CONTENTSTORE.UTILITIESCORE.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.UTILITIESCORE.DLL\r\n/r:B:\\OUT\\OBJECTS\\2\\T\\7Z2JPHK7XG9OG2OW68O7T6CLO4NQ76\\BUILDXL.CACHE.CONTENTSTORE.INTERFACES.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.INTERFACES.DLL\r\n/r:B:\\OUT\\OBJECTS\\X\\J\\OEDZ28ER9CBJ0T4MQE3OXJ8YK5HB4Z\\BUILDXL.CACHE.MEMOIZATIONSTORE.INTERFACES.DLL-CSC\\REF\\BUILDXL.CACHE.MEMOIZATIONSTORE.INTERFACES.DLL\r\n/r:B:\\OUT\\OBJECTS\\M\\O\\7MBR9M5GO09A9RTZDVAD2508N3RAM9\\BUILDXL.UTILITIES.DLL-CSC\\REF\\BUILDXL.UTILITIES.DLL\r\n/r:B:\\OUT\\OBJECTS\\W\\X\\509TP5JNN4AO4X4TGT9DQ3OTXLX3Q8\\BUILDXL.NATIVE.DLL-CSC\\REF\\BUILDXL.NATIVE.DLL\r\n/r:B:\\OUT\\OBJECTS\\W\\J\\BAXZH3HP3WZ0GW2KX7Q4HDGCE1T93G\\BUILDXL.STORAGE.DLL-CSC\\REF\\BUILDXL.STORAGE.DLL\r\n/r:B:\\OUT\\OBJECTS\\O\\O\\GNQ8NY9ZN0ZK4LZH8J4L2Z9JV1EYO3\\BUILDXL.UTILITIES.COLLECTIONS.DLL-CSC\\REF\\BUILDXL.UTILITIES.COLLECTIONS.DLL\r\n/r:B:\\OUT\\OBJECTS\\C\\L\\31D5VAGBOP349JZCKKTM5LHGDHWDTM\\BUILDXL.UTILITIES.CONFIGURATION.DLL-CSC\\REF\\BUILDXL.UTILITIES.CONFIGURATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\JSONDIFFPATCH.NET.2.1.0\\LIB\\NET45\\JSONDIFFPATCHDOTNET.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\NEWTONSOFT.JSON.11.0.2\\LIB\\NET45\\NEWTONSOFT.JSON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\RUNTIMECONTRACTS.0.1.7.1\\LIB\\NETSTANDARD1.1\\RUNTIMECONTRACTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\MSCORLIB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\SYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\SYSTEM.CORE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.RUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.COLLECTIONS.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ASYNCFIXER.1.1.5\\ANALYZERS\\DOTNET\\CS\\ASYNCFIXER.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ERRORPRONE.NET.COREANALYZERS.0.1.2\\ANALYZERS\\DOTNET\\CS\\ERRORPRONE.NET.CORE.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ERRORPRONE.NET.COREANALYZERS.0.1.2\\ANALYZERS\\DOTNET\\CS\\ERRORPRONE.NET.COREANALYZERS.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ERRORPRONE.NET.COREANALYZERS.0.1.2\\ANALYZERS\\DOTNET\\CS\\RUNTIMECONTRACTS.DLL\r\n/analyzer:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\RUNTIMECONTRACTS.ANALYZER.0.1.7.1\\ANALYZERS\\DOTNET\\CS\\RUNTIMECONTRACTS.ANALYZER.DLL\r\nB:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\ASSEMBLYINFOGEN\\ASSEMBLYINFO.G.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\COREHASHINGHELPER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ENGINECACHE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\GRAPHCACHEFILE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\HASHINGHELPER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ICOLLECTIONFINGERPRINTER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\IFINGERPRINTER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\JSONFINGERPRINTER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\SERIALIZATIONEXTENSIONS.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\ARTIFACTCONTENTCACHESERIALIZATIONEXTENSIONS.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\CACHESITES.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\CONTENTAVAILABILITYBATCHRESULT.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\CONTENTAVAILABILITYRESULT.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\ELIDINGARTIFACTCONTENTCACHEWRAPPER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\FILEREALIZATIONMODES.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\IARTIFACTCONTENTCACHE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\IARTIFACTCONTENTCACHEFORTEST.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\ILOCALDISKFILESYSTEMEXISTENCEVIEW.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\ILOCALDISKFILESYSTEMVIEW.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\INMEMORYARTIFACTCONTENTCACHE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\LOCALDISKCONTENTSTORE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\ARTIFACTS\\LOCALDISKCONTENTSTORECOUNTER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\BONDEXTENSIONS.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\CACHEENTRY.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\CACHEQUERYDATA.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\CONTENTFINGERPRINT.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\FILEARTIFACTKEYEDHASH.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\FILEDOWNLOADDESCRIPTOR.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\IFINGERPRINT.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\IPIPFINGERPRINTENTRYDATA.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\PACKAGEDOWNLOADDESCRIPTOR.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\PIPCACHEDESCRIPTOR.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\PIPCACHEDESCRIPTORV2METADATA.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\PIPFINGERPRINTENTRY.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\PIPGRAPHCACHEDESCRIPTOR.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\PIPGRAPHINPUTDESCRIPTOR.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\STRONGCONTENTFINGERPRINT.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\WEAKCONTENTFINGERPRINT.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\SINGLEPHASE\\SINGLEPHASEFINGERPRINTSTOREADAPTER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\SINGLEPHASE\\TEMPORALFINGERPRINTEXTENSIONS.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\SINGLEPHASE\\TIMETREENODE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\TWOPHASE\\EMPTYTWOPHASEFINGERPRINTSTORE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\TWOPHASE\\INMEMORYTWOPHASEFINGERPRINTSTORE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\TWOPHASE\\ITWOPHASEFINGERPRINTSTORE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\SERIALIZATION\\INLININGREADERDEDUPINPUTSTREAM.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\SERIALIZATION\\INLININGWRITERDEDUPOUTPUTSTREAM.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\SERIALIZATION\\JSONREADER.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\SERIALIZATION\\JSONTREE.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\TRACING\\LOG.CS\r\nB:\\PUBLIC\\SRC\\ENGINE\\CACHE\\TRACING\\LOGEVENTID.CS\r\nB:\\OUT\\OBJECTS\\P\\A\\1T5KJBEELC4PLXG0CLOAKG0V1GW497\\OUTPUT\\PIPCACHEDESCRIPTOR_TYPES.CS\r\nB:\\OUT\\OBJECTS\\5\\3\\CW3XKTV1H6VG8EXV7GYWDRKM0TVGW2\\OUTPUT\\OPENBONDDISTRIBUTION_TYPES.CS\r\nB:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\LOGGEN\\LOG.G.CS",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\T_1"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\T_1"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[BA6631006DE7BEBFF12DAA97772D59FE915D89D2, {
+  "Namespace": "1",
+  "WeakFingerprint": "A7042607AFB8C8956966FF2C02D3CCAA7C99FA9D",
+  "PathSet": "B0AA9A5FC9",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[B0AA9A5FC9, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\asyncfixer.1.1.5\\analyzers\\dotnet\\cs\\asyncfixer.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.core.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\errorprone.net.coreanalyzers.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\errorprone.net.coreanalyzers.0.1.2\\analyzers\\dotnet\\cs\\runtimecontracts.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\csc.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core\\errorprone.net.core.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core\\errorprone.net.core.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\errorprone.net.core.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.csharp.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\microsoft.codeanalysis.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts\\runtimecontracts.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts\\runtimecontracts.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\runtimecontracts.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.memory.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.runtime.compilerservices.unsafe.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.text.encoding.codepages.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\microsoft.net.compilers.3.0.0\\tools\\system.threading.tasks.extensions.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.analyzer.0.1.7.1\\analyzers\\dotnet\\cs\\runtimecontracts.analyzer.ini",
+    "Path": "%appdata%"
+  },
+  "ObservedAccessedFileNames": []
+}]

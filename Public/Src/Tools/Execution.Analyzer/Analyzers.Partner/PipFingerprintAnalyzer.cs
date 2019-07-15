@@ -13,6 +13,7 @@ namespace BuildXL.Execution.Analyzer
     {
         public Analyzer InitializePipFingerprintAnalyzer(AnalysisInput analysisInput)
         {
+
             string outputDirectory = null;
             string formattedSemistableHash = "";
             foreach (var opt in AnalyzerOptions)
@@ -21,10 +22,6 @@ namespace BuildXL.Execution.Analyzer
                    opt.Name.Equals("o", StringComparison.OrdinalIgnoreCase))
                 {
                     outputDirectory = ParseSingletonPathOption(opt, outputDirectory);
-                }
-                else if (opt.Name.StartsWith("pip", StringComparison.OrdinalIgnoreCase))
-                {
-                    formattedSemistableHash = "Pip" + ParseStringOption(opt).ToUpperInvariant().Replace("PIP", "");
                 }
                 else
                 {
@@ -37,15 +34,10 @@ namespace BuildXL.Execution.Analyzer
                 throw new Exception("'outputDirectory' is required.");
             }
 
-            if (string.IsNullOrEmpty(formattedSemistableHash))
-            {
-                throw new Exception("'pip' is required.");
-            }
-
             return new PipFingerprintAnalyzer(analysisInput)
             {
                 OutputDirectory = outputDirectory,
-                PipFormattedSemistableHash = formattedSemistableHash
+                //PipFormattedSemistableHash = formattedSemistableHash
             };
         }
 
@@ -69,11 +61,6 @@ namespace BuildXL.Execution.Analyzer
         /// The path to the output directory.
         /// </summary>
         public string OutputDirectory;
-
-        /// <summary>
-        /// Pip formatted semistable hash.
-        /// </summary>
-        public string PipFormattedSemistableHash;
 
         /// <summary>
         /// FingerprintStore directory location;
@@ -113,22 +100,27 @@ namespace BuildXL.Execution.Analyzer
         private void WriteHeader()
         {
             m_writer.WriteLine("FingerprintStore: " + m_storeLocation);
-            m_writer.WriteLine("Pip: " + PipFormattedSemistableHash);
             m_writer.WriteLine();
         }
 
         public override int Analyze()
         {
-            using (var pipSession = m_storeReader.StartPipRecordingSession(PipFormattedSemistableHash))
+            System.Diagnostics.Debugger.Launch();
+            foreach (var pip in PipGraph.RetrievePipsOfType(Pips.Operations.PipType.Process))
             {
-                m_writer.WriteLine("WEAKFINGERPRINT:");
-                m_writer.WriteLine(JsonTree.Serialize(pipSession.GetWeakFingerprintTree()));
-                m_writer.WriteLine();
-                m_writer.WriteLine("STRONGFINGERPRINT:");
-                m_writer.WriteLine(JsonTree.Serialize(pipSession.GetStrongFingerprintTree()));
+                if (m_storeReader.Store.ContainsFingerprintStoreEntry(pip.FormattedSemiStableHash))
+                {
+                    using (var pipSession = m_storeReader.StartPipRecordingSession(pip.FormattedSemiStableHash))
+                    {
+                        m_writer.WriteLine("WEAKFINGERPRINT:");
+                        m_writer.WriteLine(JsonTree.Serialize(pipSession.GetWeakFingerprintTree()));
+                        m_writer.WriteLine();
+                        m_writer.WriteLine("STRONGFINGERPRINT:");
+                        m_writer.WriteLine(JsonTree.Serialize(pipSession.GetStrongFingerprintTree()));
+                    }
+                    m_writer.Flush();
+                }
             }
-
-            m_writer.Flush();
             return 0;
         }
     }

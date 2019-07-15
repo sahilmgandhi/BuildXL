@@ -1,0 +1,1605 @@
+[Pip724F7DD08A8259A8, {
+  "WeakFingerprint": "4583461CD5A812E24E2088E2DB51A2298043A131",
+  "StrongFingerprint": "C802C588BE880F408BBD4C02752CCC3420D5BB90",
+  "PathSet": "E3EB7BEE00"
+}]
+[4583461CD5A812E24E2088E2DB51A2298043A131, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe": "8B8DE1B6CC"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\e\\7\\7mx0ma0lawr3n6qrykphh6ta70bhq4\\loggen",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.applications.telemetry.desktop.1.1.152\\lib\\net45\\microsoft.applications.telemetry.desktop.dll": "0D8C34D5B0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.applications.telemetry.desktop.1.1.152\\lib\\net45\\microsoft.applications.telemetry.dll": "30529BB352"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.diagnostics.tracing.eventsource.redist.1.1.28\\lib\\net46\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.collections.dll": "737E2755FF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.runtime.dll": "3F590040CC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\facades\\system.threading.tasks.dll": "B38E7BCAC1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\mscorlib.dll": "9138B1D4D5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\system.core.dll": "BCD6E8DC2D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\system.dll": "CEB8045269"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netframework.referenceassemblies.net472.1.0.0-alpha-5\\build\\.netframework\\v4.7.2\\system.xml.dll": "8C519D3A83"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\newtonsoft.json.11.0.2\\lib\\net45\\newtonsoft.json.dll": "DBD0222EC5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.0.1.7.1\\lib\\netstandard1.1\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\system.collections.immutable.1.5.0\\lib\\portable-net45+win8+wp8+wpa81\\system.collections.immutable.dll": "273FFA5B8F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\system.threading.tasks.dataflow.4.9.0\\lib\\portable-net45+win8+wpa81\\system.threading.tasks.dataflow.dll": "122A86CF32"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\system.threading.tasks.extensions.4.3.0\\lib\\portable-net45+win8+wp8+wpa81\\system.threading.tasks.extensions.dll": "5EE61A3208"
+    },
+    {
+      "b:\\out\\objects\\0\\0\\tda74124vnp17kca3cndg27p0y6k0n\\vscode.debugprotocol.dll-csc\\ref\\vscode.debugprotocol.dll": "223E87C086"
+    },
+    {
+      "b:\\out\\objects\\2\\t\\7z2jphk7xg9og2ow68o7t6clo4nq76\\buildxl.cache.contentstore.interfaces.dll-csc\\ref\\buildxl.cache.contentstore.interfaces.dll": "415B78A837"
+    },
+    {
+      "b:\\out\\objects\\4\\h\\437q076vxlkdtn7pokz1chlevdwak0\\buildxl.utilities.instrumentation.common.dll-csc\\ref\\buildxl.utilities.instrumentation.common.dll": "4C1DFA0384"
+    },
+    {
+      "b:\\out\\objects\\4\\v\\yp3ggratgog5koxcd52pmkmcjq50zc\\buildxl.ipc.dll-csc\\ref\\buildxl.ipc.dll": "297C6CCA67"
+    },
+    {
+      "b:\\out\\objects\\8\\t\\ezbzz41c2gotvoz2jao2gbkq2bvaje\\buildxl.tracing.dll-csc\\ref\\buildxl.tracing.dll": "6DF128B68C"
+    },
+    {
+      "b:\\out\\objects\\b\\9\\jmvv9h193zbj067rwk861x6bm1h80d\\buildxl.cache.contentstore.hashing.dll-csc\\ref\\buildxl.cache.contentstore.hashing.dll": "08A52942BB"
+    },
+    {
+      "b:\\out\\objects\\c\\l\\31d5vagbop349jzckktm5lhgdhwdtm\\buildxl.utilities.configuration.dll-csc\\ref\\buildxl.utilities.configuration.dll": "B987960AFB"
+    },
+    {
+      "b:\\out\\objects\\e\\q\\agck7d9w9y0jpzn53og7p7zxjd2je2\\buildxl.frontend.script.constants.dll-csc\\ref\\buildxl.frontend.script.constants.dll": "17D97D1EB8"
+    },
+    {
+      "b:\\out\\objects\\h\\z\\5qex632q1agrvolagoqgl0kg6n23om\\buildxl.cache.contentstore.utilitiescore.dll-csc\\ref\\buildxl.cache.contentstore.utilitiescore.dll": "9F807C585B"
+    },
+    {
+      "b:\\out\\objects\\k\\4\\e29k9nvkxe2q1v6phz537zgyjmj7ob\\buildxl.engine.cache.dll-csc\\ref\\buildxl.engine.cache.dll": "B44FABEBA4"
+    },
+    {
+      "b:\\out\\objects\\l\\b\\82hb2nkn3pl6w7ozwe9344ap9dorbx\\buildxl.interop.dll-csc\\ref\\buildxl.interop.dll": "366E8E2B0E"
+    },
+    {
+      "b:\\out\\objects\\m\\o\\7mbr9m5go09a9rtzdvad2508n3ram9\\buildxl.utilities.dll-csc\\ref\\buildxl.utilities.dll": "39E98A4F53"
+    },
+    {
+      "b:\\out\\objects\\o\\o\\gnq8ny9zn0zk4lzh8j4l2z9jv1eyo3\\buildxl.utilities.collections.dll-csc\\ref\\buildxl.utilities.collections.dll": "3E16F9ECA3"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.dll": "6295EC4403"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.pdb": "DD6FDFD65D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.xml": "38A9DDE3CB"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe": "8B8DE1B6CC"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe.config": {
+        "PathNormalizedWriteFileContent": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<configuration>\r\n  <startup>\r\n    <supportedRuntime version=\"v4.0\" sku=\".NETFramework,Version=v4.7.2\" />\r\n  </startup>\r\n  <runtime>\r\n    <assemblyBinding xmlns=\"urn:schemas-microsoft-com:asm.v1\">\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Newtonsoft.Json\" publicKeyToken=\"30ad4fe6b2a6aeed\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-11.0.0.0\" newVersion=\"11.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.VstsContentStore\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.3.0.0\" newVersion=\"1.3.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"System.Collections.Immutable\" publicKeyToken=\"b03f5f7f11d50a3a\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.5.0.0\" newVersion=\"1.2.3.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.ContentStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.MemoizationStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n    </assemblyBinding>\r\n  </runtime>\r\n</configuration>"
+      }
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.pdb": "CA881A5758"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.xml": "7F9D1A759A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.dll": "FF040B21E9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.pdb": "3655B8D038"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.xml": "34F4963F2E"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.dll": "758E851A5C"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.pdb": "B470090FA5"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.xml": "8C731EF71F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.dll": "BCF9DD6CB9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.pdb": "3D71F4CCB0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.xml": "A75C443232"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.dll": "5E9CC3E4ED"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.dll": "05F97CCFF6"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.pdb": "A92DFBEE3A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.xml": "7D0CD0A2FF"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.pdb": "9E69E7EB42"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.xml": "A7B7D1A9C8"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.dll": "0D8C34D5B0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.pdb": "4B730A7481"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.xml": "946C30761F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.dll": "30529BB352"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.pdb": "9C3762A454"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.xml": "8F098CD1B0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.dll": "050FF9EE55"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.pdb": "8160D00024"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.xml": "CD48B8F00B"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.dll": "77EC19B800"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.pdb": "F0C308186D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.xml": "E4F30E1B6D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\newtonsoft.json.dll": "DBD0222EC5"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\newtonsoft.json.xml": "D4A784188A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.dll": "273FFA5B8F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.xml": "D9B9AA68EB"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.dll": "F4051D6506"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.xml": "047C366869"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.dataflow.dll": "122A86CF32"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.dataflow.xml": "62314D47AD"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.extensions.dll": "5EE61A3208"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.extensions.xml": "1EBB5473EA"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\buildxlaria.dll": "B4C15DA631"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\buildxlaria.pdb": "2647FF413F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.dll": "413B3456A9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.lib": "09C27C944D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.pdb": "F639E60704"
+    },
+    {
+      "b:\\out\\objects\\t\\2\\on1r6blvp730og5oere4z6rz42c5ve\\typescript.net.dll-csc\\ref\\typescript.net.dll": "A321CB984D"
+    },
+    {
+      "b:\\out\\objects\\t\\g\\njnzw4mkg6l2p4ghb8gyxy6a51xgxl\\buildxl.pips.dll-csc\\ref\\buildxl.pips.dll": "8C7F682AA9"
+    },
+    {
+      "b:\\out\\objects\\w\\j\\baxzh3hp3wz0gw2kx7q4hdgce1t93g\\buildxl.storage.dll-csc\\ref\\buildxl.storage.dll": "31932260E0"
+    },
+    {
+      "b:\\out\\objects\\w\\x\\509tp5jnn4ao4x4tgt9dq3otxlx3q8\\buildxl.native.dll-csc\\ref\\buildxl.native.dll": "B4586660F4"
+    },
+    {
+      "b:\\out\\objects\\x\\j\\oedz28er9cbj0t4mqe3oxj8yk5hb4z\\buildxl.cache.memoizationstore.interfaces.dll-csc\\ref\\buildxl.cache.memoizationstore.interfaces.dll": "6746F3C4F2"
+    },
+    {
+      "b:\\out\\objects\\y\\m\\aotda8hxrmrmppzmke0prk2vt8vkmv\\buildxl.frontend.sdk.dll-csc\\ref\\buildxl.frontend.sdk.dll": "A1DFCFDB03"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientargumentkind.cs": "8BD6D929C8"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientarray.cs": "3ED14F149A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientartifactkind.cs": "E5FB275494"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientbasepathqueries.cs": "FBD933F94D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientboolean.cs": "2DA1965B38"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientcontainerisolationlevel.cs": "852EFFCBE5"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientcontext.cs": "2657951295"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientcontract.cs": "4583590E43"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientdebug.cs": "2E590BB3CC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientdirectory.cs": "5C3DF17E87"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientenum.cs": "505393DE28"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientenvironment.cs": "1AEE187472"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientfile.cs": "533A08A801"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientglobal.cs": "709220EB03"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambienthack.cs": "8873F21B58"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambienthashing.cs": "AE356E30F9"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientjson.cs": "9A974552CE"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientkeyform.cs": "3E36B20C0B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientmath.cs": "3828F21506"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientnameresolutionsemantics.cs": "E76263E78B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientnumber.cs": "FF652CEF41"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientobject.cs": "2D2A0472E3"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientpath.cs": "2622F72F85"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientpathatom.cs": "450B1851E2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientrelativepath.cs": "AE647D55B7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientstaticdirectory.cs": "71E72FDD62"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientstring.cs": "F1838A17CB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientstringbuilder.cs": "28C37582A9"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambienttextencoding.cs": "1A60CF7084"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientunit.cs": "538116BDFA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientvaluecache.cs": "3B9E93B4B2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientxml.cs": "7B296C7682"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientxml.read.cs": "BD4847C761"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\ambientxml.write.cs": "413578A045"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\core\\ambientdefinition.cs": "F7D5B6D736"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\core\\ambientdefinitionbase.cs": "049C66B8D1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\core\\ambientenumdefinitionbase.cs": "4EE59729A7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\core\\ambientnamespacedefinition.cs": "9D08EAAD48"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\core\\namespacefunctiondefinition.cs": "197E8418D3"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\core\\predefinedtypes.cs": "D093C2622C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\arithmeticoverflowexception.cs": "D16C02BE95"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\contractassertexception.cs": "9324B69736"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\contractfailexception.cs": "449358FEE2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\contractrequireexception.cs": "11D69BD072"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\directorynotsupportedexception.cs": "86F0AD40D6"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\directoryoperationexception.cs": "B9A6C8EB1C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\filenotfoundinstaticdirectoryexception.cs": "74FD7DC831"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\fileoperationexception.cs": "983242BF15"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\inputvalidationexception.cs": "FADC422DC8"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\invalidformatexception.cs": "525B6D65EB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\invalidpathoperationexception.cs": "BF9AAD9C0A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\invalidradixexception.cs": "AD1AE8ED5B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\jsonexception.cs": "76E919E493"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\keyformexceptions.cs": "E6B7C61080"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\mathdividebyzeroexception.cs": "9303284D78"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\qualifiercoerceexception.cs": "4EA9C2DEE7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\trygetmountexception.cs": "A0C8014904"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\trygettemplateexception.cs": "23C5804C34"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\valuecacheexception.cs": "87CA4812D0"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\exceptions\\xmlexception.cs": "ADA7AABC74"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\map\\ambientmap.cs": "2CB709AEDD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\map\\invalidkeyvaluemapexception.cs": "649F7A8A7C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\map\\orderedmap.cs": "A214F454CD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\map\\undefinedmapkeyexception.cs": "C03F950E19"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\set\\ambientmutableset.cs": "6E030F68E8"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\set\\ambientset.cs": "A58FF96781"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\set\\mutableset.cs": "E06598043B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\set\\orderedset.cs": "D87B129804"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\set\\taggedentry.cs": "B68D9D12E2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\set\\undefinedsetitemexception.cs": "2C4710B23B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\textencoding.cs": "5049BFF157"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambientsealsourcedirectoryoption.cs": "8F41AB688A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambienttransformer.copyfile.cs": "69DB08F18A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambienttransformer.cs": "DA53A86FA9"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambienttransformer.ipc.cs": "A06C270198"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambienttransformer.process.cs": "BCDDC971A1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambienttransformer.processoutputs.cs": "64E8B9508A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambienttransformer.sealdirectory.cs": "26A327E36C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\ambienttransformer.write.cs": "E4C1791133"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\arguments.cs": "8DCB3F54BA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\cachedtooldefinition.cs": "6B02D6681C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\commandlineargumentsconverter.cs": "96A46CA9D1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\dataprocessor.cs": "4FD59CFED6"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\pipbuilderextensions.cs": "EBB3EE8909"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ambients\\transformers\\transformerexecuteargumentsprocessor.cs": "14AEA0CA0E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\configurationdeclaration.cs": "E33EBAA611"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\declaration.cs": "8E000A4622"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\enumdeclaration.cs": "906C45913E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\enummemberdeclaration.cs": "C18D5FD31B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\exportdeclaration.cs": "7EF42FF51F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\functiondeclaration.cs": "2EEE0DE40B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\importdeclaration.cs": "F3DA219912"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\importorexportclause.cs": "55C07BFC68"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\importorexportdeclaration.cs": "63A7DCDB44"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\importorexportmodulespecifier.cs": "324D0C2C70"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\importorexportspecifier.cs": "5B59976602"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\importorexportvarspecifier.cs": "3EC189F172"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\interfacedeclaration.cs": "A049221497"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\moduledeclaration.cs": "E5F2F8BA39"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\namedbinding.cs": "2B543D4474"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\namedimportsorexports.cs": "87206E1A1F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\namespaceasvarimport.cs": "0CA4C483B9"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\namespaceimport.cs": "93AE938328"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\packagedeclaration.cs": "B6CB741930"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\qualifierspacedeclaration.cs": "E9A74E96DB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\typealiasdeclaration.cs": "88711A9BB2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\declarations\\vardeclaration.cs": "186774E0AA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\deserializationcontext.cs": "FC8310F89C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\displaystringextensions.cs": "E8C2E79186"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\applyexpression.cs": "6A854762B2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\applyexpressionwithtypearguments.cs": "8B3EB02665"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\arrayexpression.cs": "CC840FCFAA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\assignmentexpression.cs": "AE7343DC00"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\assignmentoperator.cs": "99C66176B7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\assignmentorincrementdecrementexpression.cs": "F9BAD064F2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\binaryexpression.cs": "B021AF24AF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\binaryoperator.cs": "CC6845D7EC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\castexpression.cs": "065DD7ABA7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\compositeexpressions\\arrayliteralwithspreads.cs": "52F2AF29FA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\compositeexpressions\\interpolatedpaths.cs": "60DD89FB69"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\conditionalexpression.cs": "F9A7198C47"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\expression.cs": "7209C7F5CD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\functionlikeexpression.cs": "734DFFE5AA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\importaliasexpression.cs": "31A1B8AC26"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\incrementdecrementexpression.cs": "35C367B36C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\incrementdecrementoperator.cs": "6D2646B29F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\indexexpression.cs": "A988238E9E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\moduleselectorexpression.cs": "B6ED9D6D65"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\moduletoobjectliteral.cs": "7969B3D185"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\propertyassignment.cs": "202FCC46D4"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\qualifiers\\coercequalifiertypeexpression.cs": "1C1FC274AA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\qualifiers\\qualifierreferenceexpression.cs": "949CBBA86B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\qualifiers\\qualifierutilities.cs": "AFF0B81238"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\qualifiers\\withqualifierexpression.cs": "F720799B2D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\resolvedselectorexpression.cs": "0D0FBF08CE"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\selectorexpression.cs": "60B1B5CF40"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\selectorexpressionbase.cs": "88911723BF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\switchexpression.cs": "DE410FCF9A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\switchexpressionclause.cs": "BB5899A5DB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\symbolreferences\\fullnamebasedsymbolreference.cs": "150039DC2D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\symbolreferences\\localreferenceexpression.cs": "330938316D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\symbolreferences\\locationbasedsymbolreference.cs": "AB11F3FF58"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\symbolreferences\\moduleidexpression.cs": "79C6847560"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\symbolreferences\\modulereferenceexpression.cs": "100DFF04F8"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\symbolreferences\\namebasedsymbolreference.cs": "9B057C23B1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\symbolreferences\\symbolreferenceexpression.cs": "056A5AAC46"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\unaryexpression.cs": "78067AFC9C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\expressions\\unaryoperator.cs": "FC204FF11B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\boolliteral.cs": "B266EFD052"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\boxednumber.cs": "12855F5E57"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\directoryliteralexpression.cs": "9CE6179CBA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\fileliteral.cs": "5386A9E457"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\fileliteralexpression.cs": "9AD7D1783B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\iconstantexpression.cs": "5166F0231B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\ipathlikeliteral.cs": "B5E8A8CEB9"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\numberliteral.cs": "DC6E162FE9"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\pathatomliteral.cs": "99F7717FC1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\pathliteral.cs": "CFAEC002AB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\relativepathliteral.cs": "76AE3AE37D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\resolvedstringliteral.cs": "A220AE454C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\stringidliteral.cs": "C73E64715B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\stringliteral.cs": "67671F12F6"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\stringliteralexpression.cs": "347FC88F9F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\literals\\undefinedliteral.cs": "5480C609EE"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\node.cs": "DAE41C1000"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\node.persistence.cs": "62E2FF1CB0"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\prettyprinter.cs": "7AD0563489"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\sourcefile.cs": "DD0F556305"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\blockstatement.cs": "67A5F6FE10"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\breakstatement.cs": "1C7B675AEE"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\caseclause.cs": "40D4E20E79"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\continuestatement.cs": "B24CE21755"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\defaultclause.cs": "DD4B4A5D2F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\expressionstatement.cs": "707CBA5D9B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\forofstatement.cs": "CFBDD9A7BD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\forstatement.cs": "D485A9E39E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\ifstatement.cs": "ADDDACF73F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\returnstatement.cs": "FFC8C82F45"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\statement.cs": "E6CCBE6646"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\switchstatement.cs": "29219E2C86"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\varstatement.cs": "6CD4F10346"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\statements\\whilestatement.cs": "1DCED18952"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\syntaxkind.cs": "E6B35FF68E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\arraytype.cs": "A25811106E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\callsignature.cs": "E813D2E935"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\functiontype.cs": "4D5C395B14"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\namedtypereference.cs": "72E09ACBDC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\objecttype.cs": "B539429B22"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\parameter.cs": "CDE5F3399E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\parameterkind.cs": "8E548EE2E1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\primitivetype.cs": "55BA4C2ACB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\primitivetypekind.cs": "2FB139A40E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\propertysignature.cs": "E5D9CD96B4"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\signature.cs": "B3E2EBBB7C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\tupletype.cs": "FA14FA4051"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\type.cs": "4C2455E47F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\typeparameter.cs": "5B4F5DCE97"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\typequery.cs": "5B11D5EA10"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\types\\uniontype.cs": "C110C59CD7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\binding.cs": "DDB101203B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\breakvalue.cs": "299DA5D560"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\callablemembers\\callablemember.cs": "60387CE7CF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\callablemembers\\callablemember0.cs": "6230DC813B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\callablemembers\\callablemember1.cs": "47FB2EE761"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\callablemembers\\callablemember2.cs": "533872DE94"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\callablemembers\\callablemembern.cs": "FFAD43AEB1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\callablemembers\\callablevalue.cs": "D9057D6D8C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\closure.cs": "D1908534C3"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\continuevalue.cs": "A906242ACA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\enumvalue.cs": "C7AFE60D5D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\errorvalue.cs": "C88F0CA70B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\evaluationresult.cs": "020E6C9A70"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\moduleorobjectbase.cs": "83A4AA78F0"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\arrayliteral.cs": "F9B3440EE8"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\arrayliteralwithcustommerge.cs": "5478846472"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\arrayliteralwithnativecustommerge.cs": "F7EA50D893"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\evaluatedarrayliteral.cs": "ED13B637C2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\namedvalue.cs": "94C1F30120"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\objectliteral.cs": "E751F2C923"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\objectliteral0.cs": "C64F30906B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\objectliteraln.cs": "4950F3EA17"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\objectliteralslim.cs": "6BFC544A10"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\objectliterals\\unevaluatedarrayliteral.cs": "86271D0FBE"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\primitivetypes.cs": "7A2B08B8A6"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\qualifiervalue.cs": "23FD381C64"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\thunk.cs": "D4F2AA0F3F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\values\\undefinedvalue.cs": "E266521AEB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\ast\\visitor.cs": "4C66E65533"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\configurationprocessing\\configconversionresult.cs": "D1766173D9"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\configurationprocessing\\configurationconversionhelper.cs": "F01D235258"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\configurationprocessing\\configurationprocessor.cs": "BE48F5C537"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\core\\number.cs": "641F7A69EE"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\core\\numberoperations.cs": "5F536877BF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\dscriptfrontend.cs": "78AB23AF86"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\dscriptinterpreterbase.cs": "FCFFCCC9AB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\dscriptsourceresolver.cs": "A6D9C4AEF5"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\args.cs": "29BDE194AC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\commonconstants.cs": "9A079C0D9B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\context.cs": "E4465AD469"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\contextdebugstate.cs": "4A8AC6395B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\contexttree.cs": "22564EC831"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\conversioncontext.cs": "6DCE3987FA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\converter.cs": "EAD50748AD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\decorator.cs": "45E9F93EC7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\displaystacktraceentry.cs": "D6BA499182"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\displaystringhelper.cs": "0DFF56088D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\errorcontext.cs": "4B4A9F43B3"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\evaluationerrors.cs": "2C95AA0109"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\evaluationstackframe.cs": "E9102FC42C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\evaluationstatistics.cs": "64B0014E40"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\evaluatorconfiguration.cs": "C7E6A1F0DC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\exceptions\\argumentindexoutofboundexception.cs": "6C1478F849"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\exceptions\\convertexception.cs": "4FBD210401"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\exceptions\\evaluationexception.cs": "F1DD59F0E5"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\exceptions\\invalidpathatomexception.cs": "1F306F5F69"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\exceptions\\invalidrelativepathexception.cs": "92A9334F0C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\exceptions\\stringindexoutofboundexception.cs": "0DADE4932E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\functioninvocationstatistics.cs": "F25FCC40BC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\immutablecontextbase.cs": "F2112621E7"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\lazylocationdata.cs": "F0AB29938E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\profiling\\profiledfunctioncall.cs": "FD184BE94F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\profiling\\profilerdecorator.cs": "3F18D15923"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\profiling\\profilermaterializer.cs": "E7AD159A56"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\snippetevaluationcontext.cs": "1BD3A76A96"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\stackentry.cs": "A56C1A5808"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\stackentrydebuginfo.cs": "CF63722880"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\toplevelvalueinfo.cs": "7AA30165C5"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\evaluator\\tostringconverter.cs": "AB4EC89C40"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\failures\\projectoutsidemoduleconefailure.cs": "B815FA802E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\filetype.cs": "86CFA6C360"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\functionstatistic.cs": "40C32C2146"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\incrementality\\moduleregistryserializer.cs": "7FF1474522"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\incrementality\\publicsurfaceprinter.cs": "710FD6EE68"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\filemoduleliteral.cs": "FDB420C20D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\globalmoduleliteral.cs": "93F79EC98C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\modulebinding.cs": "66ECCAF544"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\moduleevaluationmode.cs": "6B5AA0F86C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\moduleliteral.cs": "9A1F6E70A6"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\moduleliteralextensions.cs": "C629B90B77"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\moduleliteralid.cs": "B7E58709D1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\moduleregistry.cs": "00CD99E27B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\qualifiedmoduleid.cs": "DBFBB7306A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\typeornamespacemoduleliteral.cs": "FC150C4E16"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\uninstantiatedmoduleinfo.cs": "F363EB1D07"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\modules\\visitedmoduletracker.cs": "D7E60BE139"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\nativemethods.cs": "9259D8F37D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\nullfrontendstatistics.cs": "16D0DAFB86"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\nullloadconfigstatistics.cs": "D82A9C5C7D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\nullresolver.cs": "AC3A297441"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\qualifiervaluecache.cs": "25DED72320"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtime\\runtimetypeid.cs": "C308C772D5"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtime\\runtimetypeidextensions.cs": "422D3142C3"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\astconversioncontext.cs": "FC8933F501"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\astconverter.cs": "70962A035E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\binder.cs": "A2F7B053D0"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\configurationconverter.cs": "AB9D1CFD29"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\constantevaluator.cs": "11E5B991C2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\convertedstatement.cs": "AAB065483A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\iastconverter.cs": "05CB3F5A57"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\interpolationconverter.cs": "E5F953CCC0"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\analysiscontext.cs": "B63371CDCB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\diagnosticanalyzer.cs": "0BB677D54D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\diagnosticrule.cs": "9015A83A73"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\policyrule.cs": "0D28A503F2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\policyrules\\enforceexplicittypedtemplaterule.cs": "5A956F80CC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\policyrules\\enforcenoglobrule.cs": "518D7EDA77"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\policyrules\\enforcenotransformersrule.cs": "3D71549977"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\policyrules\\enforcesometypesanityrule.cs": "013264E9AF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\policyrules\\enforcetypeannotationsontopleveldeclarationsrule.cs": "DFF5693EBF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforceambientaccessinconfig.cs": "DE72D4FD54"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforceconstbindingontoplevel.cs": "8EE8B02774"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforceconstonenumrule.cs": "4230AC976E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforceidentifierextendsinterfacerule.cs": "D02598CCDD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforceimportorexportfromstringliteralrule.cs": "6EE21CB28C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcenumberliteralrule.cs": "C8A93D9833"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcepackageconfigurationstructurerule.cs": "1A7E1CF9E4"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcerootconfigstucturerule.cs": "43DD0AAD43"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcesimplifiedforrule.cs": "9BA9310FFF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcesingledeclarationinforofrule.cs": "53FA6E93C2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcevalidinterpolationrule.cs": "BB8719D757"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcevariableinitializationrule.cs": "8A1ABB8879"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcewellshapedinlineimportbase.cs": "DABAA09A2B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcewellshapedinlineimportconfigpackagerule.cs": "50DE88803C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcewellshapedinlineimportrule.cs": "89F3AD31BA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\enforcewellshapedrootnamespace.cs": "7F1B24FF41"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidclassrule.cs": "109A7B4987"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbiddefaultargumentrule.cs": "BDDCB8D242"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbiddefaultimportsrule.cs": "7395516A91"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbiddivisionoperator.cs": "C3179899FF"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidequalsequalsrule.cs": "F0616AB901"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidevalrule.cs": "F4A7432E6D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidexportsinnamespace.cs": "EEFDCE24A6"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidforinrule.cs": "2F01CEAB32"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidimportstarrule.cs": "EAB3F7E93E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidlabelrule.cs": "6B4A76369B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidlocalfunctionsrule.cs": "7CF6A9E16E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidmethoddeclarationinobjectliteralrule.cs": "9C8625D272"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidmodifiersonimportrule.cs": "221359B6E0"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidmutabledatatypesinpublicsurface.cs": "DF29FF9AB4"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidnullrule.cs": "58AA6480BB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidreadonlyrule.cs": "C712618355"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidsometopleveldeclarationsrule.cs": "C85E79DB52"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidsymboltyperule.cs": "7681006961"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidthrowrule.cs": "E819BEF78B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\forbidvardeclarationrule.cs": "51CC86AC46"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\linternodeextensions.cs": "423541D42F"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\enforcequalifierdeclarationrule.cs": "2F59DBBACD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\enforcetemplatedeclarationrule.cs": "8E4C17FBBA"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\forbidlogicinprojectsrule.cs": "4AF0BA3BF2"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\forbidmoduleselfreferencingrule.cs": "0F7C9EEB10"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\forbidnonvariablequalifierortemplatedeclarationrule.cs": "2C6CDA46E0"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\forbidprojectlikeimportsandexportsonv2specsrule.cs": "753B7227AC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\forbidpropertyaccessonqualifierrule.cs": "97BA7239E4"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\linter\\rules\\v2\\forbidqualifiertypedeclarationrule.cs": "69C615575D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\literalconverter.cs": "C617C9F887"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\literalconverterextensions.cs": "6DFEDA8407"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\moduleresolution\\importpathhelpers.cs": "C393678E25"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\moduleresolution\\parsedpath.cs": "0BD7643DA4"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\moduleresolution\\pathresolver.cs": "FAEA742FF3"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\nodeextensions.cs": "0F64567427"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\qualifiersconverter.cs": "2AE0C98579"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astbridge\\universallocation.cs": "CC475E9808"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\astconversionconfiguration.cs": "6162AE6A6C"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\functionscope.cs": "0B348D7968"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\namespacescope.cs": "1943D2A7BC"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\parseresults\\moduleliteralparseresult.cs": "450F594D73"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\parseresults\\packageconfigparseresult.cs": "EF90FD2BE6"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\parseresults\\parseresult.cs": "C3AD290B53"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\parseresults\\sourcefileparseresult.cs": "4377209B32"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\runtimemodelcontext.cs": "DC37C82768"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\runtimemodelfactory.cs": "47E52A0FD5"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\unsafeconversionconfiguration.cs": "A80C9CEB77"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\runtimemodel\\variabledefinition.cs": "0D1E226226"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\semanticmodel\\fileposition.cs": "DF37FAA718"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\semanticmodel\\resolvedentry.cs": "997B7F7EC1"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\tracing\\log.cs": "BD81A5B6CE"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\tracing\\logastconverterevents.cs": "417A488274"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\tracing\\logevaluationevents.cs": "85899E3E47"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\tracing\\logeventid.cs": "21F6FF3E99"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\tracing\\logpolicyevents.cs": "DEAAAED48E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\tracing\\logsyntacticevents.cs": "2BE8FE5719"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\allocationfreecollectionextensions.cs": "66A2A7638D"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\configurationconverter.cs": "2617C5346E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\conversionexception.cs": "3ECA993D51"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\dsfullsymboldictionary.cs": "E839FC606E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\dssymboldictionary.cs": "1B83EFE2DB"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\locationextensions.cs": "DA9C482E17"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\locationutilities.cs": "9D8D288993"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\pathutil.cs": "ED26FD0C9A"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\stringutil.cs": "E6E9C29E13"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\structarray.cs": "F3E91C8B3B"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\typeconverter.cs": "6370A9DC92"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\util\\typeextensions.cs": "7042DACCE8"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\v2qualifiersconverter.cs": "E3278B9DFD"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\workspaceresolvers\\moduleresolutionresult.cs": "62CE01DD52"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\workspaceresolvers\\workspacedefaultsourcemoduleresolver.cs": "2FAA30412E"
+    },
+    {
+      "b:\\public\\src\\frontend\\script\\workspaceresolvers\\workspacesourcemoduleresolver.cs": "39A3C21AEF"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\e\\7\\7mx0ma0lawr3n6qrykphh6ta70bhq4\\loggen\\log.g.cs": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [
+    "b:\\out\\objects\\e\\7\\7mx0ma0lawr3n6qrykphh6ta70bhq4\\buildxl.loggen.exe.std\\args.rsp"
+  ],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\e\\7\\7mx0ma0lawr3n6qrykphh6ta70bhq4\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "@B:\\OUT\\OBJECTS\\E\\7\\7MX0MA0LAWR3N6QRYKPHH6TA70BHQ4\\BUILDXL.LOGGEN.EXE.STD\\ARGS.RSP",
+  "ResponseFileData": "/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\DSCRIPTFRONTEND.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\DSCRIPTINTERPRETERBASE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\DSCRIPTSOURCERESOLVER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\FILETYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\FUNCTIONSTATISTIC.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\NATIVEMETHODS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\NULLFRONTENDSTATISTICS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\NULLLOADCONFIGSTATISTICS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\NULLRESOLVER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\QUALIFIERVALUECACHE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\V2QUALIFIERSCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTARGUMENTKIND.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTARRAY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTARTIFACTKIND.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTBASEPATHQUERIES.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTBOOLEAN.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTCONTAINERISOLATIONLEVEL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTCONTRACT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTDEBUG.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTDIRECTORY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTENUM.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTENVIRONMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTFILE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTGLOBAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTHACK.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTHASHING.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTJSON.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTKEYFORM.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTMATH.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTNAMERESOLUTIONSEMANTICS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTNUMBER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTOBJECT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTPATH.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTPATHATOM.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTRELATIVEPATH.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTSTATICDIRECTORY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTSTRING.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTSTRINGBUILDER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTTEXTENCODING.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTUNIT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTVALUECACHE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTXML.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTXML.READ.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\AMBIENTXML.WRITE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TEXTENCODING.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\CORE\\AMBIENTDEFINITION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\CORE\\AMBIENTDEFINITIONBASE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\CORE\\AMBIENTENUMDEFINITIONBASE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\CORE\\AMBIENTNAMESPACEDEFINITION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\CORE\\NAMESPACEFUNCTIONDEFINITION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\CORE\\PREDEFINEDTYPES.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\ARITHMETICOVERFLOWEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\CONTRACTASSERTEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\CONTRACTFAILEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\CONTRACTREQUIREEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\DIRECTORYNOTSUPPORTEDEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\DIRECTORYOPERATIONEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\FILENOTFOUNDINSTATICDIRECTORYEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\FILEOPERATIONEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\INPUTVALIDATIONEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\INVALIDFORMATEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\INVALIDPATHOPERATIONEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\INVALIDRADIXEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\JSONEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\KEYFORMEXCEPTIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\MATHDIVIDEBYZEROEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\QUALIFIERCOERCEEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\TRYGETMOUNTEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\TRYGETTEMPLATEEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\VALUECACHEEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\EXCEPTIONS\\XMLEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\MAP\\AMBIENTMAP.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\MAP\\INVALIDKEYVALUEMAPEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\MAP\\ORDEREDMAP.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\MAP\\UNDEFINEDMAPKEYEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\SET\\AMBIENTMUTABLESET.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\SET\\AMBIENTSET.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\SET\\MUTABLESET.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\SET\\ORDEREDSET.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\SET\\TAGGEDENTRY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\SET\\UNDEFINEDSETITEMEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTSEALSOURCEDIRECTORYOPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTTRANSFORMER.COPYFILE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTTRANSFORMER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTTRANSFORMER.IPC.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTTRANSFORMER.PROCESS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTTRANSFORMER.PROCESSOUTPUTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTTRANSFORMER.SEALDIRECTORY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\AMBIENTTRANSFORMER.WRITE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\ARGUMENTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\CACHEDTOOLDEFINITION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\COMMANDLINEARGUMENTSCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\DATAPROCESSOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\PIPBUILDEREXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AMBIENTS\\TRANSFORMERS\\TRANSFORMEREXECUTEARGUMENTSPROCESSOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DESERIALIZATIONCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DISPLAYSTRINGEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\NODE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\NODE.PERSISTENCE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\PRETTYPRINTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\SOURCEFILE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\SYNTAXKIND.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VISITOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\CONFIGURATIONDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\DECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\ENUMDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\ENUMMEMBERDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\EXPORTDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\FUNCTIONDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\IMPORTDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\IMPORTOREXPORTCLAUSE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\IMPORTOREXPORTDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\IMPORTOREXPORTMODULESPECIFIER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\IMPORTOREXPORTSPECIFIER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\IMPORTOREXPORTVARSPECIFIER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\INTERFACEDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\MODULEDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\NAMEDBINDING.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\NAMEDIMPORTSOREXPORTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\NAMESPACEASVARIMPORT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\NAMESPACEIMPORT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\PACKAGEDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\QUALIFIERSPACEDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\TYPEALIASDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\DECLARATIONS\\VARDECLARATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\APPLYEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\APPLYEXPRESSIONWITHTYPEARGUMENTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\ARRAYEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\ASSIGNMENTEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\ASSIGNMENTOPERATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\ASSIGNMENTORINCREMENTDECREMENTEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\BINARYEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\BINARYOPERATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\CASTEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\CONDITIONALEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\EXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\FUNCTIONLIKEEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\IMPORTALIASEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\INCREMENTDECREMENTEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\INCREMENTDECREMENTOPERATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\INDEXEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\MODULESELECTOREXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\MODULETOOBJECTLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\PROPERTYASSIGNMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\RESOLVEDSELECTOREXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SELECTOREXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SELECTOREXPRESSIONBASE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SWITCHEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SWITCHEXPRESSIONCLAUSE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\UNARYEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\UNARYOPERATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\COMPOSITEEXPRESSIONS\\ARRAYLITERALWITHSPREADS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\COMPOSITEEXPRESSIONS\\INTERPOLATEDPATHS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\QUALIFIERS\\COERCEQUALIFIERTYPEEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\QUALIFIERS\\QUALIFIERREFERENCEEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\QUALIFIERS\\QUALIFIERUTILITIES.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\QUALIFIERS\\WITHQUALIFIEREXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SYMBOLREFERENCES\\FULLNAMEBASEDSYMBOLREFERENCE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SYMBOLREFERENCES\\LOCALREFERENCEEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SYMBOLREFERENCES\\LOCATIONBASEDSYMBOLREFERENCE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SYMBOLREFERENCES\\MODULEIDEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SYMBOLREFERENCES\\MODULEREFERENCEEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SYMBOLREFERENCES\\NAMEBASEDSYMBOLREFERENCE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\EXPRESSIONS\\SYMBOLREFERENCES\\SYMBOLREFERENCEEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\BOOLLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\BOXEDNUMBER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\DIRECTORYLITERALEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\FILELITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\FILELITERALEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\ICONSTANTEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\IPATHLIKELITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\NUMBERLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\PATHATOMLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\PATHLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\RELATIVEPATHLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\RESOLVEDSTRINGLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\STRINGIDLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\STRINGLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\STRINGLITERALEXPRESSION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\LITERALS\\UNDEFINEDLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\BLOCKSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\BREAKSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\CASECLAUSE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\CONTINUESTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\DEFAULTCLAUSE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\EXPRESSIONSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\FOROFSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\FORSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\IFSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\RETURNSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\STATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\SWITCHSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\VARSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\STATEMENTS\\WHILESTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\ARRAYTYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\CALLSIGNATURE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\FUNCTIONTYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\NAMEDTYPEREFERENCE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\OBJECTTYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\PARAMETER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\PARAMETERKIND.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\PRIMITIVETYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\PRIMITIVETYPEKIND.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\PROPERTYSIGNATURE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\SIGNATURE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\TUPLETYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\TYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\TYPEPARAMETER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\TYPEQUERY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\TYPES\\UNIONTYPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\BINDING.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\BREAKVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CLOSURE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CONTINUEVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\ENUMVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\ERRORVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\EVALUATIONRESULT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\MODULEOROBJECTBASE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\PRIMITIVETYPES.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\QUALIFIERVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\THUNK.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\UNDEFINEDVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CALLABLEMEMBERS\\CALLABLEMEMBER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CALLABLEMEMBERS\\CALLABLEMEMBER0.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CALLABLEMEMBERS\\CALLABLEMEMBER1.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CALLABLEMEMBERS\\CALLABLEMEMBER2.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CALLABLEMEMBERS\\CALLABLEMEMBERN.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\CALLABLEMEMBERS\\CALLABLEVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\ARRAYLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\ARRAYLITERALWITHCUSTOMMERGE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\ARRAYLITERALWITHNATIVECUSTOMMERGE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\EVALUATEDARRAYLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\NAMEDVALUE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\OBJECTLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\OBJECTLITERAL0.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\OBJECTLITERALN.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\OBJECTLITERALSLIM.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\AST\\VALUES\\OBJECTLITERALS\\UNEVALUATEDARRAYLITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\CONFIGURATIONPROCESSING\\CONFIGCONVERSIONRESULT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\CONFIGURATIONPROCESSING\\CONFIGURATIONCONVERSIONHELPER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\CONFIGURATIONPROCESSING\\CONFIGURATIONPROCESSOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\CORE\\NUMBER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\CORE\\NUMBEROPERATIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\ARGS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\COMMONCONSTANTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\CONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\CONTEXTDEBUGSTATE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\CONTEXTTREE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\CONVERSIONCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\CONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\DECORATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\DISPLAYSTACKTRACEENTRY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\DISPLAYSTRINGHELPER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\ERRORCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EVALUATIONERRORS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EVALUATIONSTACKFRAME.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EVALUATIONSTATISTICS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EVALUATORCONFIGURATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\FUNCTIONINVOCATIONSTATISTICS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\IMMUTABLECONTEXTBASE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\LAZYLOCATIONDATA.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\SNIPPETEVALUATIONCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\STACKENTRY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\STACKENTRYDEBUGINFO.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\TOPLEVELVALUEINFO.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\TOSTRINGCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EXCEPTIONS\\ARGUMENTINDEXOUTOFBOUNDEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EXCEPTIONS\\CONVERTEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EXCEPTIONS\\EVALUATIONEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EXCEPTIONS\\INVALIDPATHATOMEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EXCEPTIONS\\INVALIDRELATIVEPATHEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\EXCEPTIONS\\STRINGINDEXOUTOFBOUNDEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\PROFILING\\PROFILEDFUNCTIONCALL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\PROFILING\\PROFILERDECORATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\EVALUATOR\\PROFILING\\PROFILERMATERIALIZER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\FAILURES\\PROJECTOUTSIDEMODULECONEFAILURE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\INCREMENTALITY\\MODULEREGISTRYSERIALIZER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\INCREMENTALITY\\PUBLICSURFACEPRINTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\FILEMODULELITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\GLOBALMODULELITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\MODULEBINDING.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\MODULEEVALUATIONMODE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\MODULELITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\MODULELITERALEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\MODULELITERALID.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\MODULEREGISTRY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\QUALIFIEDMODULEID.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\TYPEORNAMESPACEMODULELITERAL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\UNINSTANTIATEDMODULEINFO.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\MODULES\\VISITEDMODULETRACKER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIME\\RUNTIMETYPEID.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIME\\RUNTIMETYPEIDEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTCONVERSIONCONFIGURATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\FUNCTIONSCOPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\NAMESPACESCOPE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\RUNTIMEMODELCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\RUNTIMEMODELFACTORY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\UNSAFECONVERSIONCONFIGURATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\VARIABLEDEFINITION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\ASTCONVERSIONCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\ASTCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\BINDER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\CONFIGURATIONCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\CONSTANTEVALUATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\CONVERTEDSTATEMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\IASTCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\INTERPOLATIONCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LITERALCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LITERALCONVERTEREXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\NODEEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\QUALIFIERSCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\UNIVERSALLOCATION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\ANALYSISCONTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\DIAGNOSTICANALYZER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\DIAGNOSTICRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\POLICYRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\POLICYRULES\\ENFORCEEXPLICITTYPEDTEMPLATERULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\POLICYRULES\\ENFORCENOGLOBRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\POLICYRULES\\ENFORCENOTRANSFORMERSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\POLICYRULES\\ENFORCESOMETYPESANITYRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\POLICYRULES\\ENFORCETYPEANNOTATIONSONTOPLEVELDECLARATIONSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEAMBIENTACCESSINCONFIG.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCECONSTBINDINGONTOPLEVEL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCECONSTONENUMRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEIDENTIFIEREXTENDSINTERFACERULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEIMPORTOREXPORTFROMSTRINGLITERALRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCENUMBERLITERALRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEPACKAGECONFIGURATIONSTRUCTURERULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEROOTCONFIGSTUCTURERULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCESIMPLIFIEDFORRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCESINGLEDECLARATIONINFOROFRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEVALIDINTERPOLATIONRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEVARIABLEINITIALIZATIONRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEWELLSHAPEDINLINEIMPORTBASE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEWELLSHAPEDINLINEIMPORTCONFIGPACKAGERULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEWELLSHAPEDINLINEIMPORTRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\ENFORCEWELLSHAPEDROOTNAMESPACE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDCLASSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDDEFAULTARGUMENTRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDDEFAULTIMPORTSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDDIVISIONOPERATOR.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDEQUALSEQUALSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDEVALRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDEXPORTSINNAMESPACE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDFORINRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDIMPORTSTARRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDLABELRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDLOCALFUNCTIONSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDMETHODDECLARATIONINOBJECTLITERALRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDMODIFIERSONIMPORTRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDMUTABLEDATATYPESINPUBLICSURFACE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDNULLRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDREADONLYRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDSOMETOPLEVELDECLARATIONSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDSYMBOLTYPERULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDTHROWRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\FORBIDVARDECLARATIONRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\LINTERNODEEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\ENFORCEQUALIFIERDECLARATIONRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\ENFORCETEMPLATEDECLARATIONRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\FORBIDLOGICINPROJECTSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\FORBIDMODULESELFREFERENCINGRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\FORBIDNONVARIABLEQUALIFIERORTEMPLATEDECLARATIONRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\FORBIDPROJECTLIKEIMPORTSANDEXPORTSONV2SPECSRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\FORBIDPROPERTYACCESSONQUALIFIERRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\LINTER\\RULES\\V2\\FORBIDQUALIFIERTYPEDECLARATIONRULE.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\MODULERESOLUTION\\IMPORTPATHHELPERS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\MODULERESOLUTION\\PARSEDPATH.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\ASTBRIDGE\\MODULERESOLUTION\\PATHRESOLVER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\PARSERESULTS\\MODULELITERALPARSERESULT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\PARSERESULTS\\PACKAGECONFIGPARSERESULT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\PARSERESULTS\\PARSERESULT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\RUNTIMEMODEL\\PARSERESULTS\\SOURCEFILEPARSERESULT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\SEMANTICMODEL\\FILEPOSITION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\SEMANTICMODEL\\RESOLVEDENTRY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\TRACING\\LOG.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\TRACING\\LOGASTCONVERTEREVENTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\TRACING\\LOGEVALUATIONEVENTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\TRACING\\LOGEVENTID.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\TRACING\\LOGPOLICYEVENTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\TRACING\\LOGSYNTACTICEVENTS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\ALLOCATIONFREECOLLECTIONEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\CONFIGURATIONCONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\CONVERSIONEXCEPTION.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\DSFULLSYMBOLDICTIONARY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\DSSYMBOLDICTIONARY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\LOCATIONEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\LOCATIONUTILITIES.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\PATHUTIL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\STRINGUTIL.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\STRUCTARRAY.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\TYPECONVERTER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\UTIL\\TYPEEXTENSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\WORKSPACERESOLVERS\\MODULERESOLUTIONRESULT.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\WORKSPACERESOLVERS\\WORKSPACEDEFAULTSOURCEMODULERESOLVER.CS\r\n/s:B:\\PUBLIC\\SRC\\FRONTEND\\SCRIPT\\WORKSPACERESOLVERS\\WORKSPACESOURCEMODULERESOLVER.CS\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.THREADING.TASKS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.DIAGNOSTICS.TRACING.EVENTSOURCE.REDIST.1.1.28\\LIB\\NET46\\MICROSOFT.DIAGNOSTICS.TRACING.EVENTSOURCE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\SYSTEM.THREADING.TASKS.DATAFLOW.4.9.0\\LIB\\PORTABLE-NET45+WIN8+WPA81\\SYSTEM.THREADING.TASKS.DATAFLOW.DLL\r\n/r:B:\\OUT\\OBJECTS\\4\\H\\437Q076VXLKDTN7POKZ1CHLEVDWAK0\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL-CSC\\REF\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL\r\n/r:B:\\OUT\\OBJECTS\\8\\T\\EZBZZ41C2GOTVOZ2JAO2GBKQ2BVAJE\\BUILDXL.TRACING.DLL-CSC\\REF\\BUILDXL.TRACING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.APPLICATIONS.TELEMETRY.DESKTOP.1.1.152\\LIB\\NET45\\MICROSOFT.APPLICATIONS.TELEMETRY.DESKTOP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.APPLICATIONS.TELEMETRY.DESKTOP.1.1.152\\LIB\\NET45\\MICROSOFT.APPLICATIONS.TELEMETRY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\SYSTEM.XML.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\SYSTEM.COLLECTIONS.IMMUTABLE.1.5.0\\LIB\\PORTABLE-NET45+WIN8+WP8+WPA81\\SYSTEM.COLLECTIONS.IMMUTABLE.DLL\r\n/r:B:\\OUT\\OBJECTS\\Y\\M\\AOTDA8HXRMRMPPZMKE0PRK2VT8VKMV\\BUILDXL.FRONTEND.SDK.DLL-CSC\\REF\\BUILDXL.FRONTEND.SDK.DLL\r\n/r:B:\\OUT\\OBJECTS\\T\\2\\ON1R6BLVP730OG5OERE4Z6RZ42C5VE\\TYPESCRIPT.NET.DLL-CSC\\REF\\TYPESCRIPT.NET.DLL\r\n/r:B:\\OUT\\OBJECTS\\B\\9\\JMVV9H193ZBJ067RWK861X6BM1H80D\\BUILDXL.CACHE.CONTENTSTORE.HASHING.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.HASHING.DLL\r\n/r:B:\\OUT\\OBJECTS\\H\\Z\\5QEX632Q1AGRVOLAGOQGL0KG6N23OM\\BUILDXL.CACHE.CONTENTSTORE.UTILITIESCORE.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.UTILITIESCORE.DLL\r\n/r:B:\\OUT\\OBJECTS\\2\\T\\7Z2JPHK7XG9OG2OW68O7T6CLO4NQ76\\BUILDXL.CACHE.CONTENTSTORE.INTERFACES.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.INTERFACES.DLL\r\n/r:B:\\OUT\\OBJECTS\\X\\J\\OEDZ28ER9CBJ0T4MQE3OXJ8YK5HB4Z\\BUILDXL.CACHE.MEMOIZATIONSTORE.INTERFACES.DLL-CSC\\REF\\BUILDXL.CACHE.MEMOIZATIONSTORE.INTERFACES.DLL\r\n/r:B:\\OUT\\OBJECTS\\K\\4\\E29K9NVKXE2Q1V6PHZ537ZGYJMJ7OB\\BUILDXL.ENGINE.CACHE.DLL-CSC\\REF\\BUILDXL.ENGINE.CACHE.DLL\r\n/r:B:\\OUT\\OBJECTS\\0\\0\\TDA74124VNP17KCA3CNDG27P0Y6K0N\\VSCODE.DEBUGPROTOCOL.DLL-CSC\\REF\\VSCODE.DEBUGPROTOCOL.DLL\r\n/r:B:\\OUT\\OBJECTS\\T\\G\\NJNZW4MKG6L2P4GHB8GYXY6A51XGXL\\BUILDXL.PIPS.DLL-CSC\\REF\\BUILDXL.PIPS.DLL\r\n/r:B:\\OUT\\OBJECTS\\M\\O\\7MBR9M5GO09A9RTZDVAD2508N3RAM9\\BUILDXL.UTILITIES.DLL-CSC\\REF\\BUILDXL.UTILITIES.DLL\r\n/r:B:\\OUT\\OBJECTS\\O\\O\\GNQ8NY9ZN0ZK4LZH8J4L2Z9JV1EYO3\\BUILDXL.UTILITIES.COLLECTIONS.DLL-CSC\\REF\\BUILDXL.UTILITIES.COLLECTIONS.DLL\r\n/r:B:\\OUT\\OBJECTS\\C\\L\\31D5VAGBOP349JZCKKTM5LHGDHWDTM\\BUILDXL.UTILITIES.CONFIGURATION.DLL-CSC\\REF\\BUILDXL.UTILITIES.CONFIGURATION.DLL\r\n/r:B:\\OUT\\OBJECTS\\W\\X\\509TP5JNN4AO4X4TGT9DQ3OTXLX3Q8\\BUILDXL.NATIVE.DLL-CSC\\REF\\BUILDXL.NATIVE.DLL\r\n/r:B:\\OUT\\OBJECTS\\L\\B\\82HB2NKN3PL6W7OZWE9344AP9DORBX\\BUILDXL.INTEROP.DLL-CSC\\REF\\BUILDXL.INTEROP.DLL\r\n/r:B:\\OUT\\OBJECTS\\4\\V\\YP3GGRATGOG5KOXCD52PMKMCJQ50ZC\\BUILDXL.IPC.DLL-CSC\\REF\\BUILDXL.IPC.DLL\r\n/r:B:\\OUT\\OBJECTS\\W\\J\\BAXZH3HP3WZ0GW2KX7Q4HDGCE1T93G\\BUILDXL.STORAGE.DLL-CSC\\REF\\BUILDXL.STORAGE.DLL\r\n/r:B:\\OUT\\OBJECTS\\E\\Q\\AGCK7D9W9Y0JPZN53OG7P7ZXJD2JE2\\BUILDXL.FRONTEND.SCRIPT.CONSTANTS.DLL-CSC\\REF\\BUILDXL.FRONTEND.SCRIPT.CONSTANTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\NEWTONSOFT.JSON.11.0.2\\LIB\\NET45\\NEWTONSOFT.JSON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\SYSTEM.THREADING.TASKS.EXTENSIONS.4.3.0\\LIB\\PORTABLE-NET45+WIN8+WP8+WPA81\\SYSTEM.THREADING.TASKS.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\RUNTIMECONTRACTS.0.1.7.1\\LIB\\NETSTANDARD1.1\\RUNTIMECONTRACTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\MSCORLIB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\SYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\SYSTEM.CORE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.RUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETFRAMEWORK.REFERENCEASSEMBLIES.NET472.1.0.0-ALPHA-5\\BUILD\\.NETFRAMEWORK\\V4.7.2\\FACADES\\SYSTEM.COLLECTIONS.DLL\r\n/namespace:BuildXL.FrontEnd.Script\r\n/targetFramework:net472\r\n/targetRuntime:win-x64\r\n/output:B:\\OUT\\OBJECTS\\E\\7\\7MX0MA0LAWR3N6QRYKPHH6TA70BHQ4\\LOGGEN\\LOG.G.CS\r\n/d:DEFTEMP;FEATURE_MICROSOFT_DIAGNOSTICS_TRACING;FEATURE_ARIA_TELEMETRY;CONTRACTS_LIGHT_PRECONDITIONS;CONTRACTS_LIGHT_INVARIANTS;CONTRACTS_LIGHT_ASSERTS;CONTRACTS_LIGHT_QUANTIFIERS\r\n/a:ShortProductName=BuildXL\r\n/a:\"LongProductName=Microsoft (R) Build Accelerator\"\r\n/a:ShortScriptName=DScript\r\n/a:MainExecutableName=bxl.exe",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\E\\7\\7MX0MA0LAWR3N6QRYKPHH6TA70BHQ4\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\E\\7\\7MX0MA0LAWR3N6QRYKPHH6TA70BHQ4\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[C802C588BE880F408BBD4C02752CCC3420D5BB90, {
+  "Namespace": "1",
+  "WeakFingerprint": "4583461CD5A812E24E2088E2DB51A2298043A131",
+  "PathSet": "E3EB7BEE00",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[E3EB7BEE00, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\runtimecontracts.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.ini",
+    "Path": "%appdata%"
+  },
+  "ObservedAccessedFileNames": []
+}]

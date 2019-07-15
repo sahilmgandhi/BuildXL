@@ -1,0 +1,153 @@
+[PipC9536E786175C770, {
+  "WeakFingerprint": "9D32A26BC0C7A87418BB5D30B50BBF26F2084F35",
+  "StrongFingerprint": "F6DFEA83EB22C9084E320A0563306E36543B2AD9",
+  "PathSet": "5EA36E8AB2"
+}]
+[9D32A26BC0C7A87418BB5D30B50BBF26F2084F35, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\resxpreprocessor.exe": "68C63E4DB4"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\v\\e\\2v7lk8mtowp1pk7lxdq29tpj657abj\\resxpp",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\buildxl.utilities.instrumentation.common.dll": "05F97CCFF6"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\buildxl.utilities.instrumentation.common.pdb": "A92DFBEE3A"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\buildxl.utilities.instrumentation.common.xml": "7D0CD0A2FF"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\microsoft.applications.telemetry.desktop.dll": "0D8C34D5B0"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\microsoft.applications.telemetry.desktop.pdb": "4B730A7481"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\microsoft.applications.telemetry.desktop.xml": "946C30761F"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\microsoft.applications.telemetry.dll": "30529BB352"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\microsoft.applications.telemetry.pdb": "9C3762A454"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\microsoft.applications.telemetry.xml": "8F098CD1B0"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\resxpreprocessor.exe": "68C63E4DB4"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\resxpreprocessor.exe.config": {
+        "PathNormalizedWriteFileContent": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<configuration>\r\n  <startup>\r\n    <supportedRuntime version=\"v4.0\" sku=\".NETFramework,Version=v4.7.2\" />\r\n  </startup>\r\n  <runtime>\r\n    <assemblyBinding xmlns=\"urn:schemas-microsoft-com:asm.v1\">\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Newtonsoft.Json\" publicKeyToken=\"30ad4fe6b2a6aeed\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-11.0.0.0\" newVersion=\"11.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.VstsContentStore\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.3.0.0\" newVersion=\"1.3.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"System.Collections.Immutable\" publicKeyToken=\"b03f5f7f11d50a3a\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.5.0.0\" newVersion=\"1.2.3.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.ContentStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.MemoizationStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n    </assemblyBinding>\r\n  </runtime>\r\n</configuration>"
+      }
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\resxpreprocessor.pdb": "63B25BA62D"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\resxpreprocessor.xml": "73FCED55B3"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\system.threading.tasks.dataflow.dll": "122A86CF32"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\system.threading.tasks.dataflow.xml": "62314D47AD"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\x64\\buildxlaria.dll": "B4C15DA631"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\x64\\buildxlaria.pdb": "2647FF413F"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\x64\\clienttelemetry.dll": "413B3456A9"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\x64\\clienttelemetry.lib": "09C27C944D"
+    },
+    {
+      "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\x64\\clienttelemetry.pdb": "F639E60704"
+    },
+    {
+      "b:\\public\\src\\engine\\scheduler\\filter\\errormessages.resx": "9587F2E377"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\v\\e\\2v7lk8mtowp1pk7lxdq29tpj657abj\\resxpp\\errormessages.resx": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\v\\e\\2v7lk8mtowp1pk7lxdq29tpj657abj\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "B:\\PUBLIC\\SRC\\ENGINE\\SCHEDULER\\FILTER\\ERRORMESSAGES.RESX B:\\OUT\\OBJECTS\\V\\E\\2V7LK8MTOWP1PK7LXDQ29TPJ657ABJ\\RESXPP\\ERRORMESSAGES.RESX /d:ShortProductName=BuildXL /d:\"LongProductName=Microsoft (R) Build Accelerator\" /d:ShortScriptName=DScript /d:MainExecutableName=bxl.exe",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\V\\E\\2V7LK8MTOWP1PK7LXDQ29TPJ657ABJ\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\V\\E\\2V7LK8MTOWP1PK7LXDQ29TPJ657ABJ\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[F6DFEA83EB22C9084E320A0563306E36543B2AD9, {
+  "Namespace": "1",
+  "WeakFingerprint": "9D32A26BC0C7A87418BB5D30B50BBF26F2084F35",
+  "PathSet": "5EA36E8AB2",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[5EA36E8AB2, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\objects\\6\\o\\4pjmhyb5thcmw9ak976t5myb0929qh\\resxpreprocessor.exe-deployment\\resxpreprocessor.ini",
+    "Path": "%appdata%"
+  },
+  "ObservedAccessedFileNames": []
+}]

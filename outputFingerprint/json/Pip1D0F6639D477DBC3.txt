@@ -1,0 +1,280 @@
+[Pip1D0F6639D477DBC3, {
+  "WeakFingerprint": "18E4DDF8561342CA5436AAE25F00A63FC92B86C1",
+  "StrongFingerprint": "FFB96C64050E42C616FB3830F18751EB64CADC5F",
+  "PathSet": "A3CA688836"
+}]
+[18E4DDF8561342CA5436AAE25F00A63FC92B86C1, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\resgen.lite.exe": "C4EEA40646"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\z\\q\\jvjgnv55z4ynm5zmxxr9bclj971o4c\\resgen",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.dll": "050FF9EE55"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.pdb": "8160D00024"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.workspaces.dll": "B54E85650B"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.workspaces.pdb": "AF8CBF050F"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.workspaces.xml": "2AE011F575"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.xml": "CD48B8F00B"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.dll": "77EC19B800"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.pdb": "F0C308186D"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.workspaces.dll": "8A01FFEE60"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.workspaces.pdb": "202568CF2A"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.workspaces.xml": "A1EA474B27"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.xml": "E4F30E1B6D"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\resgen.lite.exe": "C4EEA40646"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\resgen.lite.pdb": "71927C139D"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\resgen.lite.xml": "14A7EE0D3E"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.collections.immutable.dll": "273FFA5B8F"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.collections.immutable.xml": "D9B9AA68EB"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.attributedmodel.dll": "D158404B76"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.convention.dll": "2062A447B1"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.hosting.dll": "DB3190E036"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.runtime.dll": "D1AF04183A"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.typedparts.dll": "E3D71758A4"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.reflection.metadata.dll": "F4051D6506"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.reflection.metadata.xml": "047C366869"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.threading.tasks.extensions.dll": "5EE61A3208"
+    },
+    {
+      "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.threading.tasks.extensions.xml": "1EBB5473EA"
+    },
+    {
+      "b:\\out\\objects\\z\\q\\jvjgnv55z4ynm5zmxxr9bclj971o4c\\resxpp\\strings.resx": "4E99C25899"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\z\\q\\jvjgnv55z4ynm5zmxxr9bclj971o4c\\resgen\\strings.g.cs": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\z\\q\\jvjgnv55z4ynm5zmxxr9bclj971o4c\\resgen\\strings.resources": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\z\\q\\jvjgnv55z4ynm5zmxxr9bclj971o4c\\t_1",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "-str:cs,BuildXL.Utilities.Configuration,Strings,Strings.g.cs B:\\OUT\\OBJECTS\\Z\\Q\\JVJGNV55Z4YNM5ZMXXR9BCLJ971O4C\\RESXPP\\STRINGS.RESX B:\\OUT\\OBJECTS\\Z\\Q\\JVJGNV55Z4YNM5ZMXXR9BCLJ971O4C\\RESGEN\\STRINGS.RESOURCES",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\Z\\Q\\JVJGNV55Z4YNM5ZMXXR9BCLJ971O4C\\T_1"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\Z\\Q\\JVJGNV55Z4YNM5ZMXXR9BCLJ971O4C\\T_1"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[FFB96C64050E42C616FB3830F18751EB64CADC5F, {
+  "Namespace": "1",
+  "WeakFingerprint": "18E4DDF8561342CA5436AAE25F00A63FC92B86C1",
+  "PathSet": "A3CA688836",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[A3CA688836, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.features\\microsoft.codeanalysis.csharp.features.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.features\\microsoft.codeanalysis.csharp.features.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.features.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.features.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.csharp.workspaces.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.features\\microsoft.codeanalysis.features.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.features\\microsoft.codeanalysis.features.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.features.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.features.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.features\\microsoft.codeanalysis.visualbasic.features.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.features\\microsoft.codeanalysis.visualbasic.features.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.features.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.features.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.workspaces\\microsoft.codeanalysis.visualbasic.workspaces.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.workspaces\\microsoft.codeanalysis.visualbasic.workspaces.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.workspaces.dll",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.visualbasic.workspaces.exe",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\microsoft.codeanalysis.workspaces.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\resgen.lite.exe.config",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\resgen.lite.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.collections.immutable.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.attributedmodel.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.hosting.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.runtime.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.composition.typedparts.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.reflection.metadata.ini",
+    "Path": "b:\\out\\objects\\v\\j\\z8cyjwro5ttvlhbg7njt0hlwy08avk\\resgen.lite.exe-deployment\\system.threading.tasks.extensions.ini",
+    "Path": "%appdata%"
+  },
+  "ObservedAccessedFileNames": []
+}]

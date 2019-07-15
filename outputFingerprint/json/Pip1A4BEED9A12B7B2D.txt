@@ -1,0 +1,282 @@
+[Pip1A4BEED9A12B7B2D, {
+  "WeakFingerprint": "2661A6C43309BF45F5CAC033374A4AECD9E5873C",
+  "StrongFingerprint": "D18BDA0238440DE10B5A1AD767B717F09D2A6867",
+  "PathSet": "9ADCFABC48"
+}]
+[2661A6C43309BF45F5CAC033374A4AECD9E5873C, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\bondc.exe": "D49C851084"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\bondc.exe": "D49C851084"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\microsoft.bond.rules.dll": "EDE8B52179"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\microsoft.visualstudio.texttemplating.dll": "F635BF9A25"
+    },
+    {
+      "b:\\public\\src\\engine\\dll\\distribution\\internalbond\\distribution.bond": "90F2276E60"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\distribution_proxies.cs": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\distribution_services.cs": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\distribution_types.cs": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp.txt": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%localappdata%",
+    "%internethistory%",
+    "%internetcache%",
+    "%appdata%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/O:B:\\OUT\\OBJECTS\\9\\C\\VPYGZPXQN2G8R9NHYXDBL55OV634WW\\BOND /c# B:\\PUBLIC\\SRC\\ENGINE\\DLL\\DISTRIBUTION\\INTERNALBOND\\DISTRIBUTION.BOND",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\9\\C\\VPYGZPXQN2G8R9NHYXDBL55OV634WW\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\9\\C\\VPYGZPXQN2G8R9NHYXDBL55OV634WW\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[D18BDA0238440DE10B5A1AD767B717F09D2A6867, {
+  "Namespace": "1",
+  "WeakFingerprint": "2661A6C43309BF45F5CAC033374A4AECD9E5873C",
+  "PathSet": "9ADCFABC48",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[9ADCFABC48, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\bondc.config",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\bondc.exe.config",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\bondc.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en\\microsoft.bond.rules.resources\\microsoft.bond.rules.resources.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en\\microsoft.bond.rules.resources\\microsoft.bond.rules.resources.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en\\microsoft.bond.rules.resources.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en\\microsoft.bond.rules.resources.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en-us\\microsoft.bond.rules.resources\\microsoft.bond.rules.resources.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en-us\\microsoft.bond.rules.resources\\microsoft.bond.rules.resources.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en-us\\microsoft.bond.rules.resources.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\en-us\\microsoft.bond.rules.resources.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\microsoft.bond.rules.dll#rules_bond_csharp.tt",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\microsoft.bond.rules.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\microsoft.visualstudio.texttemplating.ini",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.net.3.2.0\\bin\\system.xml.dll",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\bondc.exe",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\bondc.exe#standardfileheader.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_clone.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_comparison.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_ctordtor.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_enum.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_getruntimeschema.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_impl.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_properties.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_read.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_rpc.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_tostring.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_utils.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\microsoft.bond.rules.dll#rules_bond_csharp_write.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_clone.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_comparison.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_ctordtor.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_enum.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_getruntimeschema.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_impl.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_properties.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_read.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_rpc.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_tostring.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_utils.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\rules_bond_csharp_write.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\standardfileheader.tt",
+    "Path": "b:\\out\\objects\\9\\c\\vpygzpxqn2g8r9nhyxdbl55ov634ww\\bond\\system.xml.dll"
+  },
+  "ObservedAccessedFileNames": []
+}]

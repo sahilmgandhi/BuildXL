@@ -1,0 +1,149 @@
+[Pip3417B41672A28F86, {
+  "WeakFingerprint": "5ED1BDDF8DA9A0421838DB914F2C400E91A2F213",
+  "StrongFingerprint": "98063016552DBCEF5F16361FE89BC313FA74E426",
+  "PathSet": "C9FBF52125"
+}]
+[5ED1BDDF8DA9A0421838DB914F2C400E91A2F213, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.interop.tmpopnamegenerator.exe": "D65814E10B"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\k\\o\\05hccpg2l80g6arj6w11jq49dro5q3\\op-name-out",
+  "StandardError": "??invalid",
+  "StandardOutput": "b:\\out\\objects\\k\\o\\05hccpg2l80g6arj6w11jq49dro5q3\\op-name-out\\fileoperation.g.cs",
+  "Dependencies": [
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.interop.tmpopnamegenerator.exe": "D65814E10B"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.interop.tmpopnamegenerator.exe.config": {
+        "PathNormalizedWriteFileContent": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<configuration>\r\n  <startup>\r\n    <supportedRuntime version=\"v4.0\" sku=\".NETFramework,Version=v4.7.2\" />\r\n  </startup>\r\n  <runtime>\r\n    <assemblyBinding xmlns=\"urn:schemas-microsoft-com:asm.v1\">\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Newtonsoft.Json\" publicKeyToken=\"30ad4fe6b2a6aeed\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-11.0.0.0\" newVersion=\"11.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.VstsContentStore\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.3.0.0\" newVersion=\"1.3.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"System.Collections.Immutable\" publicKeyToken=\"b03f5f7f11d50a3a\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.5.0.0\" newVersion=\"1.2.3.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.ContentStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.MemoizationStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n    </assemblyBinding>\r\n  </runtime>\r\n</configuration>"
+      }
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.interop.tmpopnamegenerator.pdb": "B2D6338325"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.interop.tmpopnamegenerator.xml": "6912A6B06B"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.utilities.instrumentation.common.dll": "05F97CCFF6"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.utilities.instrumentation.common.pdb": "A92DFBEE3A"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.utilities.instrumentation.common.xml": "7D0CD0A2FF"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\microsoft.applications.telemetry.desktop.dll": "0D8C34D5B0"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\microsoft.applications.telemetry.desktop.pdb": "4B730A7481"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\microsoft.applications.telemetry.desktop.xml": "946C30761F"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\microsoft.applications.telemetry.dll": "30529BB352"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\microsoft.applications.telemetry.pdb": "9C3762A454"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\microsoft.applications.telemetry.xml": "8F098CD1B0"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\system.threading.tasks.dataflow.dll": "122A86CF32"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\system.threading.tasks.dataflow.xml": "62314D47AD"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\x64\\buildxlaria.dll": "B4C15DA631"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\x64\\buildxlaria.pdb": "2647FF413F"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\x64\\clienttelemetry.dll": "413B3456A9"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\x64\\clienttelemetry.lib": "09C27C944D"
+    },
+    {
+      "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\x64\\clienttelemetry.pdb": "F639E60704"
+    },
+    {
+      "b:\\public\\src\\sandbox\\macos\\sandbox\\src\\kauth\\opnames.hpp": "AF30165E1E"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\k\\o\\05hccpg2l80g6arj6w11jq49dro5q3\\op-name-out\\fileoperation.g.cs": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\k\\o\\05hccpg2l80g6arj6w11jq49dro5q3\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "B:\\PUBLIC\\SRC\\SANDBOX\\MACOS\\SANDBOX\\SRC\\KAUTH\\OPNAMES.HPP",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\K\\O\\05HCCPG2L80G6ARJ6W11JQ49DRO5Q3\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\K\\O\\05HCCPG2L80G6ARJ6W11JQ49DRO5Q3\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[98063016552DBCEF5F16361FE89BC313FA74E426, {
+  "Namespace": "1",
+  "WeakFingerprint": "5ED1BDDF8DA9A0421838DB914F2C400E91A2F213",
+  "PathSet": "C9FBF52125",
+  "ObservedInputs": [
+    {
+      "P": ""
+    }
+  ]
+}]
+[C9FBF52125, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\objects\\j\\h\\vmmzakj7cwgxmzwotyt5wvj8nmph3a\\buildxl.interop.tmpopnamegenerator.exe-deployment\\buildxl.interop.tmpopnamegenerator.ini"
+  },
+  "ObservedAccessedFileNames": []
+}]

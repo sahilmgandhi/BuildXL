@@ -1,0 +1,247 @@
+[Pip36542ED7CB4FA178, {
+  "WeakFingerprint": "38C642461EC8436EC8EDDD49118E181793C16D5D",
+  "StrongFingerprint": "CDF902C450C29F446E9D9811C386CD1FC2C4FCEF",
+  "PathSet": "99B4B44021"
+}]
+[38C642461EC8436EC8EDDD49118E181793C16D5D, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\link.exe": "9FDCD6D26D"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6\\win-x64\\tools\\release\\clienttelemetry.lib": "09C27C944D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\link.exe": "9FDCD6D26D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\advapi32.lib": "E28B83F304"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\kernel32.lib": "4DF2C2A45E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\ntdll.lib": "E7C44B4639"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\um\\x64\\uuid.lib": "632303DE10"
+    },
+    {
+      "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\cl\\arialogger.obj": "79D4E99DEE"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6",
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64",
+    "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64",
+    "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\ucrt\\x64"
+  ],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\buildxlaria.dll": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\buildxlaria.exp": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\buildxlaria.lib": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\buildxlaria.pdb": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\t_2",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%localappdata%",
+    "%internethistory%",
+    "%internetcache%",
+    "%appdata%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/NOLOGO /INCREMENTAL:NO /DLL /PDBALTPATH:%_PDB% /LTCG /DEBUG /OUT:B:\\OUT\\OBJECTS\\N\\V\\QWTAJGEWT59EMMNRTYO3OL5JJZ37H0\\LINK\\BUILDXLARIA.DLL /PDB:B:\\OUT\\OBJECTS\\N\\V\\QWTAJGEWT59EMMNRTYO3OL5JJZ37H0\\LINK\\BUILDXLARIA.PDB /IMPLIB:B:\\OUT\\OBJECTS\\N\\V\\QWTAJGEWT59EMMNRTYO3OL5JJZ37H0\\LINK\\BUILDXLARIA.LIB /EXPORT:DllMain /EXPORT:CreateAriaLogger /EXPORT:DisposeAriaLogger /EXPORT:LogEvent B:\\OUT\\OBJECTS\\N\\V\\QWTAJGEWT59EMMNRTYO3OL5JJZ37H0\\CL\\ARIALOGGER.OBJ B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ARIA.CPP.SDK.8.5.6\\WIN-X64\\TOOLS\\RELEASE\\CLIENTTELEMETRY.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\KERNEL32.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\ADVAPI32.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\UUID.LIB B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UM\\X64\\NTDLL.LIB",
+  "EnvironmentVariables": [
+    {
+      "LIB": "B:\\OUT\\FRONTEND\\NUGET\\PKGS\\ARIA.CPP.SDK.8.5.6;B:\\OUT\\FRONTEND\\NUGET\\PKGS\\VISUALCPPTOOLS.COMMUNITY.VS2017LAYOUT.14.11.25506\\LIB\\NATIVE\\LIB\\X64;B:\\OUT\\FRONTEND\\NUGET\\PKGS\\WINDOWSSDK.COREXT.10.0.16299.1\\LIB\\10.0.16299.0\\UCRT\\X64"
+    },
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\N\\V\\QWTAJGEWT59EMMNRTYO3OL5JJZ37H0\\T_2"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\N\\V\\QWTAJGEWT59EMMNRTYO3OL5JJZ37H0\\T_2"
+    },
+    {
+      "_MSPDBSRV_ENDPOINT_": "n|v|qwtajgewt59emmnrtyo3ol5jjz37h0|link"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[CDF902C450C29F446E9D9811C386CD1FC2C4FCEF, {
+  "Namespace": "1",
+  "WeakFingerprint": "38C642461EC8436EC8EDDD49118E181793C16D5D",
+  "PathSet": "99B4B44021",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "B74EB1C8BC"
+    },
+    {
+      "R": "61D1D61BB4"
+    },
+    {
+      "R": "02AA10EC94"
+    },
+    {
+      "R": "70946D2B12"
+    },
+    {
+      "R": "F6089F5DBF"
+    },
+    {
+      "P": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "F3C78DF3DC"
+    },
+    {
+      "R": "370F40AED0"
+    },
+    {
+      "R": "2722E2DF0C"
+    },
+    {
+      "R": "53D36B191F"
+    },
+    {
+      "R": "5986F26BF2"
+    },
+    {
+      "R": "615DE6FCAB"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "ABCE49E104"
+    },
+    {
+      "R": "F416D5D9D5"
+    },
+    {
+      "R": "24386FAB0E"
+    },
+    {
+      "R": "8ECFDB65F0"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[99B4B44021, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6\\libcmt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6\\libconcrt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6\\libcpmt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6\\libucrt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6\\libvcruntime.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\aria.cpp.sdk.8.5.6\\oldnames.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\1033\\linkui.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\c2.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\msobj140.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\mspdb140.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\mspdbcore.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.config",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\bin\\hostx64\\x64\\vctip.exe",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcmt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcmt.pdb",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libconcrt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libconcrt.pdb",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcpmt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libcpmt.pdb",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libucrt.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libvcruntime.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\libvcruntime.pdb",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\visualcpptools.community.vs2017layout.14.11.25506\\lib\\native\\lib\\x64\\oldnames.lib",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\windowssdk.corext.10.0.16299.1\\lib\\10.0.16299.0\\ucrt\\x64\\libucrt.lib",
+    "Path": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\buildxlaria.ilk",
+    "Path": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\libcmt.lib",
+    "Path": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\libconcrt.lib",
+    "Path": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\libcpmt.lib",
+    "Path": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\libucrt.lib",
+    "Path": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\libvcruntime.lib",
+    "Path": "b:\\out\\objects\\n\\v\\qwtajgewt59emmnrtyo3ol5jjz37h0\\link\\oldnames.lib"
+  },
+  "ObservedAccessedFileNames": []
+}]

@@ -1,0 +1,2619 @@
+[PipC9BDB264245A25E0, {
+  "WeakFingerprint": "55845465B4FAFCD871A83F621C18E1EEABC022D2",
+  "StrongFingerprint": "C6146DBA621DB6BF2BDE34727477D40F9EB64CCE",
+  "PathSet": "4E61B8A746"
+}]
+[55845465B4FAFCD871A83F621C18E1EEABC022D2, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwsh.exe": "50311EEF7A"
+  },
+  "WorkingDirectory": "b:\\public\\sdk\\experimental\\powershell.core",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwsh.exe": "50311EEF7A"
+    },
+    {
+      "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\asar\\app.asar": "A083EDACC9"
+    },
+    {
+      "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\rcedit\\bxp.exe": "3FDB08B47A"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\frontend\\download\\electron.win-x64\\c",
+    "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64"
+  ],
+  "Outputs": [],
+  "DirectoryOutputs": [
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\electron-app"
+  ],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\t_6",
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\t_7",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%localappdata%\\microsoft\\windows\\powershell\\startupprofiledata-noninteractive",
+    "%locallow%\\microsoft\\cryptnetflushcache",
+    "%locallow%\\microsoft\\cryptneturlcache",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "-NonInteractive -NoProfile -Command \"& {Microsoft.PowerShell.Core\\Set-StrictMode -Version Latest;$progressPreference='silentlyContinue';$ErrorActionPreference='Stop';Copy-Item -Path $Env:Param_inElectron\\* -Destination $Env:Param_output -Recurse;$electronExe=[io.path]::combine($Env:Param_output, 'electron.exe');Remove-Item -Path $electronExe -Force;Copy-Item -Path $Env:Param_inBrandedExe -Destination $Env:Param_output;$resourceFolder=[io.path]::combine($Env:Param_output, 'resources');$default_app=[io.path]::combine($resourceFolder, 'default_app.asar');Remove-Item -Path $default_app -Force;Copy-Item -Path $Env:Param_appAsar -Destination $resourceFolder}\"",
+  "EnvironmentVariables": [
+    {
+      "PSModuleAnalysisCachePath": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\T_6"
+    },
+    {
+      "Param_appAsar": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\ASAR\\APP.ASAR"
+    },
+    {
+      "Param_inBrandedExe": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\RCEDIT\\BXP.EXE"
+    },
+    {
+      "Param_inElectron": "B:\\OUT\\FRONTEND\\DOWNLOAD\\ELECTRON.WIN-X64\\C"
+    },
+    {
+      "Param_output": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\ELECTRON-APP"
+    },
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\T_7"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\T_7"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[C6146DBA621DB6BF2BDE34727477D40F9EB64CCE, {
+  "Namespace": "1",
+  "WeakFingerprint": "55845465B4FAFCD871A83F621C18E1EEABC022D2",
+  "PathSet": "4E61B8A746",
+  "ObservedInputs": [
+    {
+      "E": "D693222458"
+    },
+    {
+      "R": "537109ABFA"
+    },
+    {
+      "R": "45F6797BAA"
+    },
+    {
+      "R": "37B5FB55A6"
+    },
+    {
+      "R": "064543D274"
+    },
+    {
+      "R": "E13C6E678B"
+    },
+    {
+      "R": "63DD3E7614"
+    },
+    {
+      "R": "3F5A3D4531"
+    },
+    {
+      "R": "6DBC497B6F"
+    },
+    {
+      "R": "87514DA006"
+    },
+    {
+      "R": "0CB2B72F0A"
+    },
+    {
+      "R": "B270AE3025"
+    },
+    {
+      "R": "92818A00F8"
+    },
+    {
+      "R": "42443132E0"
+    },
+    {
+      "R": "742E001A04"
+    },
+    {
+      "R": "F629BB24F5"
+    },
+    {
+      "R": "C778A077EB"
+    },
+    {
+      "R": "01987C8AC2"
+    },
+    {
+      "R": "8BB59DCFEA"
+    },
+    {
+      "R": "38552F83AD"
+    },
+    {
+      "R": "BDE83618AF"
+    },
+    {
+      "R": "2FEBAA2631"
+    },
+    {
+      "R": "4A59C71D85"
+    },
+    {
+      "R": "06EF0863FC"
+    },
+    {
+      "R": "F3B644D564"
+    },
+    {
+      "R": "899BE8B0E9"
+    },
+    {
+      "R": "A7D7804330"
+    },
+    {
+      "R": "413452ECA0"
+    },
+    {
+      "R": "E708B047A6"
+    },
+    {
+      "R": "D2D2154BA6"
+    },
+    {
+      "R": "FFA3806AB6"
+    },
+    {
+      "R": "51C40A3F7A"
+    },
+    {
+      "R": "EE3FE1B6CE"
+    },
+    {
+      "R": "3160B25510"
+    },
+    {
+      "R": "787EF1A549"
+    },
+    {
+      "R": "30D40C9D60"
+    },
+    {
+      "R": "3F6FA8FE16"
+    },
+    {
+      "R": "13DCF218E1"
+    },
+    {
+      "R": "CFA83C96BF"
+    },
+    {
+      "R": "12D5C870D2"
+    },
+    {
+      "R": "A10F6445E0"
+    },
+    {
+      "R": "FD7CBDB3AD"
+    },
+    {
+      "R": "DA2B71D4C2"
+    },
+    {
+      "R": "1FBF927FCD"
+    },
+    {
+      "R": "3BC4ECFAF2"
+    },
+    {
+      "R": "B07905F7F2"
+    },
+    {
+      "R": "6975A8B50A"
+    },
+    {
+      "R": "159C63C49C"
+    },
+    {
+      "R": "F3A7B29F4B"
+    },
+    {
+      "R": "425E253499"
+    },
+    {
+      "R": "F271FD01FA"
+    },
+    {
+      "R": "A319AB6BF6"
+    },
+    {
+      "E": "E9C0E3665C"
+    },
+    {
+      "R": "26C65AE709"
+    },
+    {
+      "R": "BD1CAAB14E"
+    },
+    {
+      "R": "7C0F97D905"
+    },
+    {
+      "R": "2053B6496A"
+    },
+    {
+      "R": "DA242E8C6E"
+    },
+    {
+      "R": "4BFCC94818"
+    },
+    {
+      "R": "BFB90C0DE9"
+    },
+    {
+      "R": "D837B5A34D"
+    },
+    {
+      "R": "E3F04BA81E"
+    },
+    {
+      "R": "F4B5540BEA"
+    },
+    {
+      "R": "6F798F26AF"
+    },
+    {
+      "R": "8269C07B12"
+    },
+    {
+      "R": "50F8039B6A"
+    },
+    {
+      "R": "8CA7001EBE"
+    },
+    {
+      "R": "E3AB80707C"
+    },
+    {
+      "R": "A3F254289C"
+    },
+    {
+      "R": "7A46CDEC1A"
+    },
+    {
+      "R": "8D604C13AF"
+    },
+    {
+      "R": "5B0BDBA545"
+    },
+    {
+      "R": "52E8588A35"
+    },
+    {
+      "R": "B28101C472"
+    },
+    {
+      "R": "4E665CF014"
+    },
+    {
+      "R": "3027EC2333"
+    },
+    {
+      "R": "8AC9AF7DE0"
+    },
+    {
+      "R": "A6B15A6F00"
+    },
+    {
+      "R": "F1493B8D70"
+    },
+    {
+      "R": "64A0C1A23E"
+    },
+    {
+      "R": "B6C7A4AB9F"
+    },
+    {
+      "R": "4E7686BED1"
+    },
+    {
+      "R": "64FBE24649"
+    },
+    {
+      "R": "900E75DD37"
+    },
+    {
+      "R": "4A07F7D2C1"
+    },
+    {
+      "R": "DA8FA08DC1"
+    },
+    {
+      "R": "72B6624C34"
+    },
+    {
+      "R": "1C062E3BBE"
+    },
+    {
+      "R": "E0A389A63D"
+    },
+    {
+      "R": "F1FC1A8B0E"
+    },
+    {
+      "R": "43BDD1A69F"
+    },
+    {
+      "R": "20FE6843B5"
+    },
+    {
+      "R": "170528EC43"
+    },
+    {
+      "R": "FE9FC34672"
+    },
+    {
+      "R": "84F9AEDAD2"
+    },
+    {
+      "R": "4D556D6564"
+    },
+    {
+      "R": "31043EE10F"
+    },
+    {
+      "R": "C10FA6B426"
+    },
+    {
+      "R": "761E4C6169"
+    },
+    {
+      "R": "521641782B"
+    },
+    {
+      "R": "0F0C87357E"
+    },
+    {
+      "R": "89AC6A0C4C"
+    },
+    {
+      "R": "22253E1D1C"
+    },
+    {
+      "R": "B308CA9FC6"
+    },
+    {
+      "R": "4F1A2A3A03"
+    },
+    {
+      "R": "195E09A188"
+    },
+    {
+      "R": "F4087B9175"
+    },
+    {
+      "R": "1E7EAC3644"
+    },
+    {
+      "R": "7DC53BFFE7"
+    },
+    {
+      "R": "3F95700BB3"
+    },
+    {
+      "R": "D89FB4B633"
+    },
+    {
+      "E": "DE10906CEC"
+    },
+    {
+      "R": "1DF92FF59F"
+    },
+    {
+      "R": "65D523F7AD"
+    },
+    {
+      "R": "DE3D3425ED"
+    },
+    {
+      "R": "7EE67C3FAF"
+    },
+    {
+      "R": "EF68B91834"
+    },
+    {
+      "R": "5383D1D668"
+    },
+    {
+      "R": "E171054D2F"
+    },
+    {
+      "R": "84D8E16145"
+    },
+    {
+      "E": "13EB3AA6DE"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "FA8573BE4D"
+    },
+    {
+      "R": "9AB399E2C4"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "63F43DF9A8"
+    },
+    {
+      "R": "90D027F3BA"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "B4400151B1"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "5D715B7341"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "589EDC0B6A"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "F6A70653F5"
+    },
+    {
+      "R": "C11DAA2F1F"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "7902819FCF"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "219A70C61E"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "4126434497"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "E": "EA5B8698ED"
+    },
+    {
+      "E": "BA45975669"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "5F21E21A63"
+    },
+    {
+      "P": ""
+    },
+    {
+      "E": "12C1F82190"
+    },
+    {
+      "R": "2AFBF1AF8D"
+    },
+    {
+      "R": "47FACD2196"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "D50235CB9A"
+    },
+    {
+      "R": "3FB45042EB"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "F29B0895DA"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "F1406B3EA6"
+    },
+    {
+      "R": "C7C008A2D4"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "D2E9A993A2"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "F7D28C1BE5"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "1321F9E7A3"
+    },
+    {
+      "R": "1541CD4FA6"
+    },
+    {
+      "R": "F31D80ECDA"
+    },
+    {
+      "R": "4075315A20"
+    },
+    {
+      "R": "0F21BB94B3"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "2FF35455C4"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "BE14BBA855"
+    },
+    {
+      "R": "7DFCE4CE05"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "1F325438F0"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "09AF0AFD17"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "8E89D12647"
+    },
+    {
+      "R": "50AC3961D8"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "BE23136179"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "1E293943FD"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "F47A73D61F"
+    },
+    {
+      "R": "140C7B87F2"
+    },
+    {
+      "R": "D660470E18"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "CBF9FF5D41"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "71D2D94A87"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "BCEF54D4C0"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "D533512183"
+    },
+    {
+      "R": "0C098332D9"
+    },
+    {
+      "R": "361EA9C7E3"
+    },
+    {
+      "R": "5078A5222B"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "2A6FCFC4F3"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "689CEB1C1C"
+    },
+    {
+      "R": "E0AE2A84FF"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "3009FACA85"
+    },
+    {
+      "R": "95A103CC79"
+    },
+    {
+      "R": "261FB87A3D"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "7635CA0EBC"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "D5AE72BC2A"
+    },
+    {
+      "R": "A64EA7626F"
+    },
+    {
+      "R": "F3DD5E1F16"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "3F7D212702"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "E568749D46"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "DC1B048A23"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "020C361B1A"
+    },
+    {
+      "R": "F902AADF5A"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "60B2474CDC"
+    },
+    {
+      "R": "85AC0FE908"
+    },
+    {
+      "R": "8FF917AD6B"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "48902D2E9C"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "BF656FF730"
+    },
+    {
+      "R": "26EFBCF1DC"
+    },
+    {
+      "R": "5BE9F6096D"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "7CE2058E49"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "7D3B071F00"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "790275EA02"
+    },
+    {
+      "R": "A7B245356B"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "08C3506E70"
+    },
+    {
+      "R": "1079E4D324"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "172A38B283"
+    },
+    {
+      "R": "5A755749C3"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "4BA69B6A31"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "94FDA48EA8"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "862CED9198"
+    },
+    {
+      "R": "B4AAE28EC3"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "A4FC2FC3CC"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "EE79632651"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "A1974118DA"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "F2D97A17A2"
+    },
+    {
+      "R": "AC9D4DBE75"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "99FD25D522"
+    },
+    {
+      "R": "18D236A79C"
+    },
+    {
+      "R": "4EB845C333"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "E03EFCEF32"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "3DAEAD6CFC"
+    },
+    {
+      "R": "657C984C41"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "1A6D96BB5C"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "4F95D722A6"
+    },
+    {
+      "R": "586A67BCCF"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "B31311165B"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "162A54DFAF"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "73BD03EC7E"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[4E61B8A746, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-console-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-datetime-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-debug-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-errorhandling-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-file-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-file-l1-2-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-file-l2-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-handle-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-heap-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-interlocked-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-libraryloader-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-localization-l1-2-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-memory-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-namedpipe-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-processenvironment-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-processthreads-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-processthreads-l1-1-1.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-profile-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-rtlsupport-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-string-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-synch-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-synch-l1-2-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-sysinfo-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-timezone-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-core-util-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-conio-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-convert-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-environment-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-filesystem-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-heap-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-locale-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-math-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-multibyte-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-private-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-process-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-runtime-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-stdio-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-string-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-time-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\api-ms-win-crt-utility-l1-1-0.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\blink_image_resources_200_percent.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\content_resources_200_percent.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\content_shell.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\d3dcompiler_47.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\electron.exe",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\ffmpeg.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\icudtl.dat",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\libegl.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\libglesv2.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\license",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\licenses.chromium.html",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\am.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ar.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\bg.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\bn.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ca.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\cs.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\da.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\de.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\el.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\en-gb.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\en-us.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\es-419.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\es.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\et.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\fa.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\fake-bidi.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\fi.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\fil.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\fr.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\gu.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\he.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\hi.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\hr.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\hu.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\id.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\it.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ja.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\kn.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ko.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\lt.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\lv.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ml.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\mr.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ms.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\nb.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\nl.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\pl.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\pt-br.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\pt-pt.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ro.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ru.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\sk.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\sl.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\sr.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\sv.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\sw.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\ta.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\te.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\th.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\tr.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\uk.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\vi.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\zh-cn.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\locales\\zh-tw.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\msvcp140.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\natives_blob.bin",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\node.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\pdf_viewer_resources.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\resources",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\resources\\default_app.asar",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\resources\\electron.asar",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\snapshot_blob.bin",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\ucrtbase.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\ui_resources_200_percent.pak",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\vcruntime140.dll",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\version",
+    "Path": "b:\\out\\frontend\\download\\electron.win-x64\\c\\views_resources_200_percent.pak",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-base-util-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-com-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-com-private-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-comm-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-console-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-console-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-datetime-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-datetime-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-debug-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-debug-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-delayload-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-errorhandling-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-errorhandling-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-fibers-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-fibers-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-file-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-file-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-file-l1-2-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-file-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-file-l2-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-handle-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-heap-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-heap-obsolete-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-interlocked-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-io-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-io-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-kernel32-legacy-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-kernel32-legacy-l1-1-2.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-kernel32-private-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-kernel32-private-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-kernel32-private-l1-1-2.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-libraryloader-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-libraryloader-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-localization-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-localization-l1-2-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-localization-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-localization-obsolete-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-memory-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-memory-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-memory-l1-1-2.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-memory-l1-1-3.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-namedpipe-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-namedpipe-l1-2-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-normalization-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-privateprofile-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-privateprofile-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-processenvironment-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-processenvironment-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-processsecurity-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-processthreads-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-processthreads-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-processthreads-l1-1-2.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-processtopology-obsolete-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-profile-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-psapi-ansi-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-psapi-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-psapi-obsolete-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-realtime-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-registry-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-registry-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-rtlsupport-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-shlwapi-legacy-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-shlwapi-obsolete-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-shutdown-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-shutdown-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-string-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-string-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-string-obsolete-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-string-obsolete-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-stringansi-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-stringloader-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-stringloader-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-synch-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-synch-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-sysinfo-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-sysinfo-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-sysinfo-l1-2-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-sysinfo-l1-2-2.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-sysinfo-l1-2-3.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-threadpool-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-threadpool-legacy-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-threadpool-private-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-timezone-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-url-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-util-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-version-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-winrt-error-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-winrt-error-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-winrt-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-winrt-registration-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-winrt-robuffer-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-winrt-string-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-wow64-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-xstate-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-core-xstate-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-conio-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-convert-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-environment-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-filesystem-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-heap-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-locale-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-math-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-multibyte-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-private-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-process-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-runtime-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-stdio-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-string-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-time-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-crt-utility-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-devices-config-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-devices-config-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-eventing-classicprovider-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-eventing-consumer-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-eventing-controller-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-eventing-legacy-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-eventing-provider-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-eventlog-legacy-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-ro-typeresolution-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-base-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-cpwl-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-cryptoapi-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-lsalookup-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-lsalookup-l2-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-lsapolicy-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-provider-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-security-sddl-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-service-core-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-service-core-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-service-management-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-service-management-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-service-private-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-service-private-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\api-ms-win-service-winsvc-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\apphost.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\clrcompression.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\clretwrc.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\clrjit.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\coreclr.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\cs\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\cs\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\dbgshim.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\de\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\de\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\es\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\es\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ext-ms-win-advapi32-encryptedfile-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ext-ms-win-ntuser-keyboard-l1-2-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\fr\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\fr\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\hostfxr.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\hostpolicy.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\it\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\it\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ja\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ja\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ko\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ko\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\markdig.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\mi.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.applicationinsights.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.codeanalysis.csharp.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.codeanalysis.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.csharp.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.diasymreader.native.x86.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.management.infrastructure.cimcmdlets.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.management.infrastructure.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.management.infrastructure.native.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.management.infrastructure.native.unmanaged.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.commands.diagnostics.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.commands.management.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.commands.utility.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.consolehost.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.coreclr.eventing.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.markdownrender.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.sdk.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.powershell.security.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.visualbasic.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.win32.primitives.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.win32.registry.accesscontrol.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.win32.registry.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.win32.systemevents.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.wsman.management.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\microsoft.wsman.runtime.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\miutils.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.management",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.management\\en\\microsoft.powershell.management.psd1",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.management\\en-us\\microsoft.powershell.management.psd1",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.management\\microsoft.powershell.commands.management.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.management\\microsoft.powershell.management.psd1",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.management\\psgetmoduleinfo.xml",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.utility",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.utility\\microsoft.powershell.utility.psd1",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\microsoft.powershell.utility\\microsoft.powershell.utility.psm1",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\modules.cdxml",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\modules.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\modules.ni.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\modules.psd1",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\modules.psm1",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\modules\\modules.xaml",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\mscordaccore.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\mscordaccore_x86_x86_4.6.26725.06.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\mscordbi.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\mscorlib.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\mscorrc.debug.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\mscorrc.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\netstandard.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\newtonsoft.json.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\njsonschema.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pl\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pl\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\powershell.config.json",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\powershell.core.instrumentation.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pt-br\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pt-br\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwrshplugin.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwrshplugin.pdb",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwsh.deps.json",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwsh.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwsh.runtimeconfig.dev.json",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\pwsh.runtimeconfig.json",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ru\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ru\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\sni.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\sos.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\sos.netcore.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\sos_x86_x86_4.6.26725.06.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.appcontext.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.buffers.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.codedom.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.collections.concurrent.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.collections.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.collections.immutable.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.collections.nongeneric.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.collections.specialized.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.componentmodel.annotations.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.componentmodel.composition.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.componentmodel.dataannotations.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.componentmodel.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.componentmodel.eventbasedasync.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.componentmodel.primitives.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.componentmodel.typeconverter.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.configuration.configurationmanager.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.configuration.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.console.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.core.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.data.common.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.data.datasetextensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.data.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.data.odbc.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.data.sqlclient.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.contracts.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.debug.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.diagnosticsource.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.eventlog.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.fileversioninfo.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.performancecounter.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.process.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.stacktrace.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.textwritertracelistener.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.tools.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.tracesource.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.diagnostics.tracing.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.directoryservices.accountmanagement.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.directoryservices.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.directoryservices.protocols.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.drawing.common.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.drawing.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.drawing.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.dynamic.runtime.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.globalization.calendars.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.globalization.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.globalization.extensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.compression.brotli.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.compression.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.compression.filesystem.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.compression.zipfile.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.filesystem.accesscontrol.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.filesystem.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.filesystem.driveinfo.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.filesystem.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.filesystem.watcher.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.isolatedstorage.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.memorymappedfiles.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.packaging.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.pipes.accesscontrol.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.pipes.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.ports.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.io.unmanagedmemorystream.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.linq.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.linq.expressions.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.linq.parallel.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.linq.queryable.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.management.automation.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.management.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.memory.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.http.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.http.winhttphandler.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.httplistener.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.mail.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.nameresolution.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.networkinformation.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.ping.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.primitives.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.requests.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.security.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.servicepoint.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.sockets.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.webclient.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.webheadercollection.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.webproxy.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.websockets.client.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.net.websockets.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.numerics.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.numerics.vectors.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.objectmodel.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.private.corelib.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.private.datacontractserialization.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.private.servicemodel.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.private.uri.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.private.xml.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.private.xml.linq.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.dispatchproxy.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.emit.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.emit.ilgeneration.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.emit.lightweight.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.extensions.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.metadata.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.primitives.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.reflection.typeextensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.resources.reader.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.resources.resourcemanager.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.resources.writer.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.caching.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.compilerservices.unsafe.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.compilerservices.visualc.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.extensions.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.handles.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.interopservices.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.interopservices.runtimeinformation.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.interopservices.windowsruntime.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.loader.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.numerics.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.serialization.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.serialization.formatters.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.serialization.json.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.serialization.primitives.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.runtime.serialization.xml.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.accesscontrol.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.claims.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.algorithms.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.cng.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.csp.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.encoding.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.openssl.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.pkcs.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.primitives.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.protecteddata.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.x509certificates.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.cryptography.xml.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.permissions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.principal.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.principal.windows.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.security.securestring.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.duplex.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.http.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.nettcp.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.security.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.syndication.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.servicemodel.web.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.serviceprocess.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.serviceprocess.servicecontroller.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.text.encoding.codepages.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.text.encoding.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.text.encoding.extensions.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.text.encodings.web.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.text.regularexpressions.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.accesscontrol.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.overlapped.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.tasks.dataflow.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.tasks.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.tasks.extensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.tasks.parallel.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.thread.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.threadpool.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.threading.timer.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.transactions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.transactions.local.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.valuetuple.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.web.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.web.httputility.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.windows.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.linq.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.readerwriter.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.serialization.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.xdocument.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.xmldocument.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.xmlserializer.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.xpath.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\system.xml.xpath.xdocument.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\tr\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\tr\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\ucrtbase.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\windowsbase.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\zh-hans\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\zh-hans\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\zh-hant\\microsoft.codeanalysis.csharp.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\powershell.core.6.1.0\\win-x64\\zh-hant\\microsoft.codeanalysis.resources.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\public\\sdk\\experimental\\powershell.core\\b",
+    "Path": "b:\\public\\sdk\\experimental\\powershell.core\\c",
+    "Path": "b:\\public\\sdk\\experimental\\powershell.core\\pkgs\\runtime.win-x86.microsoft.netcore.dotnethostpolicy\\2.1.3\\runtimes\\win-x86\\native\\hostpolicy.dll",
+    "Path": "%programfilesx86%\\powershell\\modules",
+    "Path": "%localappdata%",
+    "Path": "%userprofile%\\documents\\powershell\\modules",
+    "Path": "%userprofile%\\documents\\powershell\\powershell.config.json"
+  },
+  "ObservedAccessedFileNames": []
+}]

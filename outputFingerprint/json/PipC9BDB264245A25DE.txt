@@ -1,0 +1,98 @@
+[PipC9BDB264245A25DE, {
+  "WeakFingerprint": "F54064D45E1C675E41D3620098F36F29C375EEB9",
+  "StrongFingerprint": "B7EBDD7D559ADB47B64968E9C535B7BC8ECF4B27",
+  "PathSet": "042D27363F"
+}]
+[F54064D45E1C675E41D3620098F36F29C375EEB9, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "%system%\\cmd.exe": "0000000000"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\electron-branding",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\hack\\bxp.exe": "B07905F7F2"
+    },
+    {
+      "b:\\public\\src\\branding\\buildxl.ico": "858978EB20"
+    },
+    {
+      "%system%\\cmd.exe": "0000000000"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\node_modules"
+  ],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\hack\\bxp.exe": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\rcedit\\bxp.exe": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\hack",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "/D /C B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\YARN-INSTALL_1\\DEV\\NODE_MODULES\\RCEDIT\\BIN\\RCEDIT.EXE B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\HACK\\BXP.EXE --set-icon B:\\PUBLIC\\SRC\\BRANDING\\BUILDXL.ICO && copy B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\HACK\\BXP.EXE B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\RCEDIT\\BXP.EXE",
+  "EnvironmentVariables": [],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[B7EBDD7D559ADB47B64968E9C535B7BC8ECF4B27, {
+  "Namespace": "1",
+  "WeakFingerprint": "F54064D45E1C675E41D3620098F36F29C375EEB9",
+  "PathSet": "042D27363F",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "4D330390E8"
+    }
+  ]
+}]
+[042D27363F, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\electron-branding\\b",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\electron-branding\\c",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\systemresources\\bxp.exe.mun",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\node_modules\\rcedit\\bin\\rcedit.exe"
+  },
+  "ObservedAccessedFileNames": []
+}]

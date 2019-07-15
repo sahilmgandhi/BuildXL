@@ -1,0 +1,88 @@
+[Pip4B95B6DBDFA056F1, {
+  "WeakFingerprint": "89CC888C20E164D2A6A5FEBED6F15F7929696973",
+  "StrongFingerprint": "F2E27AD702D59CE7CD0AAF5D8774B5E0CC357326",
+  "PathSet": "85AF1D7DC1"
+}]
+[89CC888C20E164D2A6A5FEBED6F15F7929696973, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\bond.csharp.8.0.0\\tools\\gbc.exe": "005A5068C3"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\e\\k\\cvd6250z15o1te6e3xhmbvk048adpx\\output",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.csharp.8.0.0\\tools\\gbc.exe": "005A5068C3"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\pipcachedescriptor.bond": "F0E120E800"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\e\\k\\cvd6250z15o1te6e3xhmbvk048adpx\\output\\pipcachedescriptor_types.cs": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\e\\k\\cvd6250z15o1te6e3xhmbvk048adpx\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "c# -o B:\\OUT\\OBJECTS\\E\\K\\CVD6250Z15O1TE6E3XHMBVK048ADPX\\OUTPUT B:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\PIPCACHEDESCRIPTOR.BOND",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\E\\K\\CVD6250Z15O1TE6E3XHMBVK048ADPX\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\E\\K\\CVD6250Z15O1TE6E3XHMBVK048ADPX\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[F2E27AD702D59CE7CD0AAF5D8774B5E0CC357326, {
+  "Namespace": "1",
+  "WeakFingerprint": "89CC888C20E164D2A6A5FEBED6F15F7929696973",
+  "PathSet": "85AF1D7DC1",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "D": ""
+    }
+  ]
+}]
+[85AF1D7DC1, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.csharp.8.0.0\\systemresources\\gbc.exe.mun",
+    "Path": "b:\\out\\objects\\e\\k\\cvd6250z15o1te6e3xhmbvk048adpx\\output",
+    "Flags": "IsDirectoryPath"
+  },
+  "ObservedAccessedFileNames": []
+}]

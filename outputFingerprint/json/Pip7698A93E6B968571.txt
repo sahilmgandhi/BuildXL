@@ -1,0 +1,930 @@
+[Pip7698A93E6B968571, {
+  "WeakFingerprint": "C62EDDB4BC8CC19970FB330E782E1D57A9C103FC",
+  "StrongFingerprint": "FCBFC0D581E44518A02FA3969C099685020F4A3C",
+  "PathSet": "E3EB7BEE00"
+}]
+[C62EDDB4BC8CC19970FB330E782E1D57A9C103FC, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe": "8B8DE1B6CC"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\2\\q\\6906heolyxbr9joowtmeangzpgdr72\\loggen",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.csharp.dll": "B0FE69A8FC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.visualbasic.core.dll": "4B04A78AA7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.visualbasic.dll": "04A36E9EBB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\microsoft.win32.primitives.dll": "582FDCF634"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\mscorlib.dll": "D067672186"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\netstandard.dll": "12A00AEA7D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.appcontext.dll": "A2B9844E07"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.buffers.dll": "D9A76D2A74"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.concurrent.dll": "50CC9FFF58"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.dll": "F599E7BB22"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.immutable.dll": "7AB3C2C226"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.nongeneric.dll": "BBF9094DF4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.collections.specialized.dll": "BDAAE1EEC3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.annotations.dll": "B33731EF1D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.dataannotations.dll": "D097A5A58F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.dll": "308D331335"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.eventbasedasync.dll": "4C75F02B1F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.primitives.dll": "1EE6DEF62E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.componentmodel.typeconverter.dll": "77A9D74441"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.configuration.dll": "D1501356F7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.console.dll": "9DEAFC454E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.core.dll": "747A606637"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.data.common.dll": "A35C534221"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.data.datasetextensions.dll": "62C0962984"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.data.dll": "92FBA27F2A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.contracts.dll": "C1EE8ED826"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.debug.dll": "F865E64B88"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.diagnosticsource.dll": "1E796B41E2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.fileversioninfo.dll": "D7F83DFA39"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.process.dll": "C2CB3C4367"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.stacktrace.dll": "D4BBFAA3C6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.textwritertracelistener.dll": "E24F556734"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.tools.dll": "92F40AE1A5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.tracesource.dll": "FEFFA25B57"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.diagnostics.tracing.dll": "04F656EEAB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.dll": "FF0FE9194A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.drawing.dll": "19D4DB9066"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.drawing.primitives.dll": "DB06A50401"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.dynamic.runtime.dll": "C57BE0243D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.globalization.calendars.dll": "DB6E5E570D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.globalization.dll": "1C9DC43FA1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.globalization.extensions.dll": "9523B37F22"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.brotli.dll": "7E77B39301"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.dll": "C704371D38"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.filesystem.dll": "1DCE0DCE5E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.compression.zipfile.dll": "1223891A7B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.dll": "D0C19B623D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.dll": "B942A2441C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.driveinfo.dll": "AB010CD340"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.primitives.dll": "8942585AC4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.filesystem.watcher.dll": "742EBE584C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.isolatedstorage.dll": "F81AF051BE"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.memorymappedfiles.dll": "5F37023351"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.pipes.dll": "79FB68F6C0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.io.unmanagedmemorystream.dll": "03FD373BC2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.dll": "6A20BFD77B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.expressions.dll": "9BF74F4B34"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.parallel.dll": "48A7C96F05"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.linq.queryable.dll": "C581E01823"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.memory.dll": "6D00C96C11"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.dll": "07395F9961"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.http.dll": "15DFF2E363"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.httplistener.dll": "248181171C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.mail.dll": "C8C46D8EF2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.nameresolution.dll": "F43D69E4EE"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.networkinformation.dll": "EC87965131"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.ping.dll": "AFDC88C726"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.primitives.dll": "C43EB8D39E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.requests.dll": "57CD0EDC0D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.security.dll": "081DB325E7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.servicepoint.dll": "27D752E463"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.sockets.dll": "04EA480820"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.webclient.dll": "B41DE9CCE2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.webheadercollection.dll": "407E4C7D6F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.webproxy.dll": "5E9BEAC8FF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.websockets.client.dll": "01FE2968C6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.net.websockets.dll": "AB4F558BC4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.numerics.dll": "063A569E58"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.numerics.vectors.dll": "E0A557F5E9"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.objectmodel.dll": "032660859A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.dispatchproxy.dll": "29D944D174"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.dll": "7D3FF7521E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.emit.dll": "30188B58A3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.emit.ilgeneration.dll": "5CBC9DE1B0"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.emit.lightweight.dll": "4252797570"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.extensions.dll": "1172FD8472"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.metadata.dll": "0A28DDD1E9"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.primitives.dll": "86A386D1E1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.reflection.typeextensions.dll": "9DF0DEF17A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.resources.reader.dll": "60CAAA9599"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.resources.resourcemanager.dll": "85CFDF6FB6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.resources.writer.dll": "1C34974B1B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.compilerservices.unsafe.dll": "D3F651400A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.compilerservices.visualc.dll": "B1D0B5852F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.dll": "7F7EB22DB1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.extensions.dll": "E4FC37697B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.handles.dll": "1EB7021F4B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.interopservices.dll": "212B30D76B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.interopservices.runtimeinformation.dll": "C69ADC9BE3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.interopservices.windowsruntime.dll": "E2BAD07638"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.intrinsics.dll": "4FB998126A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.loader.dll": "EC4911F96F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.numerics.dll": "7B84190473"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.dll": "73CE678CB1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.formatters.dll": "3BB9C01300"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.json.dll": "FAF862CC78"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.primitives.dll": "0CC0E60149"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.runtime.serialization.xml.dll": "28C9230DF4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.claims.dll": "97A7091C5F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.algorithms.dll": "3B38D688E1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.csp.dll": "1EFFE8597C"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.encoding.dll": "A2B6460E5D"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.primitives.dll": "343422D297"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.cryptography.x509certificates.dll": "BE10536B4E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.dll": "C0F6BE30B3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.principal.dll": "EF4D0E95A5"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.security.securestring.dll": "75FA685CA2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.servicemodel.web.dll": "51E684CE0F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.serviceprocess.dll": "61E946C7B8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.encoding.dll": "C8EAB59684"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.encoding.extensions.dll": "698BCF7CA7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.json.dll": "D50257AFD1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.text.regularexpressions.dll": "7A3DE65CBF"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.dll": "CA1BE1C145"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.overlapped.dll": "94E8D266E6"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.dataflow.dll": "74AD900040"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.dll": "BF4C99CAD2"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.extensions.dll": "DC2FC71C0B"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.tasks.parallel.dll": "4C55FBC581"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.thread.dll": "1A15A0D4F4"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.threadpool.dll": "B9AFAF3098"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.threading.timer.dll": "EA31CA8333"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.transactions.dll": "DB0372FFB8"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.transactions.local.dll": "C89E57E705"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.valuetuple.dll": "0060E917E7"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.web.dll": "D229682C5E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.web.httputility.dll": "A2E8E950C3"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.windows.dll": "982200D883"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.dll": "239683E072"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.linq.dll": "B9CB2E3313"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.readerwriter.dll": "7B7D28D5BB"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.serialization.dll": "FE14CCFE0F"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xdocument.dll": "85790FA6EC"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xmldocument.dll": "1EA59FD394"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xmlserializer.dll": "BF77CD77DE"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xpath.dll": "2DE291612E"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\system.xml.xpath.xdocument.dll": "D5048B7797"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\microsoft.netcore.app.3.0.0-preview5-27626-15\\ref\\netcoreapp3.0\\windowsbase.dll": "030ED65B07"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\newtonsoft.json.11.0.2\\lib\\netstandard2.0\\newtonsoft.json.dll": "702E5D1ADE"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\runtimecontracts.0.1.7.1\\lib\\netstandard1.1\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\system.data.sqlite.core.1.0.109.2\\lib\\net46\\system.data.sqlite.dll": "1D0F350C9D"
+    },
+    {
+      "b:\\out\\objects\\0\\b\\0ldmpl5g4cltkyy6vwreckv3adlwp4\\buildxl.utilities.instrumentation.common.dll-csc\\ref\\buildxl.utilities.instrumentation.common.dll": "E249D31510"
+    },
+    {
+      "b:\\out\\objects\\2\\r\\dqj1qvqj2x6tjoqgmwgewdbmyryrl5\\buildxl.scheduler.dll-csc\\ref\\buildxl.scheduler.dll": "4AEDC3278A"
+    },
+    {
+      "b:\\out\\objects\\3\\h\\tevmh648m1dh45j7cy7b539mhhd7p0\\buildxl.ide.generator.dll-csc\\ref\\buildxl.ide.generator.dll": "708561F2DF"
+    },
+    {
+      "b:\\out\\objects\\3\\o\\y7ra7bdjzy2db093rytawzdqlhxota\\buildxl.processes.dll-csc\\ref\\buildxl.processes.dll": "80A34C4EF5"
+    },
+    {
+      "b:\\out\\objects\\4\\a\\z4eoyb27zto199zjyt96v5t31w1rh4\\buildxl.frontend.download.dll-csc\\ref\\buildxl.frontend.download.dll": "FA936119A2"
+    },
+    {
+      "b:\\out\\objects\\5\\e\\3bzw02z9r1e1djjwlz7b486lvdpcv2\\buildxl.cache.memoizationstoreadapter.dll-csc\\ref\\buildxl.cache.memoizationstoreadapter.dll": "FBC5B957E1"
+    },
+    {
+      "b:\\out\\objects\\5\\m\\y92ol2qvy1dvnenxy31ygb7xa18q6b\\buildxl.cache.contentstore.hashing.dll-csc\\ref\\buildxl.cache.contentstore.hashing.dll": "40E8D6E69F"
+    },
+    {
+      "b:\\out\\objects\\6\\3\\472rxejy7kwncaq4kj461b1zn9m0mz\\buildxl.cache.verticalaggregator.dll-csc\\ref\\buildxl.cache.verticalaggregator.dll": "447FFC0ED6"
+    },
+    {
+      "b:\\out\\objects\\6\\5\\rct8m1j7x1ccrmwnr09ewva22r73bn\\buildxl.cache.memoizationstore.interfaces.dll-csc\\ref\\buildxl.cache.memoizationstore.interfaces.dll": "15E57DE73E"
+    },
+    {
+      "b:\\out\\objects\\6\\g\\8g7r7znxtwtkonz1l9bn5cy52wa70w\\buildxl.frontend.sdk.dll-csc\\ref\\buildxl.frontend.sdk.dll": "1409ACC70C"
+    },
+    {
+      "b:\\out\\objects\\8\\d\\3291mmxmqvkba7r7bqg2vde9668ekr\\buildxl.frontend.script.dll-csc\\ref\\buildxl.frontend.script.dll": "F6B591B62F"
+    },
+    {
+      "b:\\out\\objects\\8\\x\\av3p44o3l2w847dy4emjlxlgxq1pex\\buildxl.cache.interfaces.dll-csc\\ref\\buildxl.cache.interfaces.dll": "1F2E86CB15"
+    },
+    {
+      "b:\\out\\objects\\9\\1\\7431x4yxn43d0vr7bm0k5rhdmattzo\\buildxl.engine.dll-csc\\ref\\buildxl.engine.dll": "DCD61DC325"
+    },
+    {
+      "b:\\out\\objects\\9\\3\\1m69r8op50lrrkdpctde05t4c2ckbx\\buildxl.engine.cache.dll-csc\\ref\\buildxl.engine.cache.dll": "02222E0E3D"
+    },
+    {
+      "b:\\out\\objects\\9\\x\\7czx4mj2p8wt2t2pm1bz8l6520g1tr\\vscode.debugprotocol.dll-csc\\ref\\vscode.debugprotocol.dll": "E9E846F60B"
+    },
+    {
+      "b:\\out\\objects\\b\\w\\wll7vpj4q6bcvc7agjv9pax5n7mlec\\buildxl.frontend.script.debugger.dll-csc\\ref\\buildxl.frontend.script.debugger.dll": "7FCCFD7A57"
+    },
+    {
+      "b:\\out\\objects\\c\\8\\3vd6jrrv5b2wrhv1dhddl0xd24t04o\\buildxl.utilities.collections.dll-csc\\ref\\buildxl.utilities.collections.dll": "6F016C430C"
+    },
+    {
+      "b:\\out\\objects\\d\\9\\4r4vxen0goxp0hxmzwylagewznm0gz\\buildxl.utilities.dll-csc\\ref\\buildxl.utilities.dll": "5AE9BAD2BD"
+    },
+    {
+      "b:\\out\\objects\\e\\m\\c8dvzrxzpk0t2hv3wt3tx74jdtp72l\\buildxl.cache.buildcacheadapter.dll-csc\\ref\\buildxl.cache.buildcacheadapter.dll": "AB701D5D5F"
+    },
+    {
+      "b:\\out\\objects\\e\\n\\wkd360v99qw54p08mbjhajm0zocnro\\buildxl.frontend.ninja.dll-csc\\ref\\buildxl.frontend.ninja.dll": "955B00818C"
+    },
+    {
+      "b:\\out\\objects\\h\\v\\xaj45wg5k0e538vq22tzx5y83jordp\\buildxl.storage.dll-csc\\ref\\buildxl.storage.dll": "11D82A42EF"
+    },
+    {
+      "b:\\out\\objects\\j\\w\\myym63e7o3gncc6o0621bjdpk63zxc\\buildxl.pips.dll-csc\\ref\\buildxl.pips.dll": "E55E3C532A"
+    },
+    {
+      "b:\\out\\objects\\k\\0\\mwnxrar7lcc2a7ql4j2d53lcjcx8pl\\buildxl.visualizationmodel.dll-csc\\ref\\buildxl.visualizationmodel.dll": "23B836444B"
+    },
+    {
+      "b:\\out\\objects\\l\\0\\txwkj90pzeocc8k4d4dr34x8wt6cvn\\buildxl.frontend.script.constants.dll-csc\\ref\\buildxl.frontend.script.constants.dll": "53EF11475A"
+    },
+    {
+      "b:\\out\\objects\\l\\l\\zq2l1rdav980e0vqrl94xy7em4xtcx\\buildxl.cache.basicfilesystem.dll-csc\\ref\\buildxl.cache.basicfilesystem.dll": "FFE68EF432"
+    },
+    {
+      "b:\\out\\objects\\l\\v\\8rkmdw43466d0at2ojt3p5044pg7a6\\buildxl.utilities.branding.dll-csc\\ref\\buildxl.utilities.branding.dll": "283B535446"
+    },
+    {
+      "b:\\out\\objects\\m\\l\\ktgd18ano4cy5qn3db3c34wmcrayra\\buildxl.native.dll-csc\\ref\\buildxl.native.dll": "BBC8D209C3"
+    },
+    {
+      "b:\\out\\objects\\p\\8\\6qrkwzj2c7dvpmgh4pgv41ymgwcoxn\\buildxl.tracing.dll-csc\\ref\\buildxl.tracing.dll": "7F774A0288"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.dll": "6295EC4403"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.pdb": "DD6FDFD65D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.interop.xml": "38A9DDE3CB"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe": "8B8DE1B6CC"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.exe.config": {
+        "PathNormalizedWriteFileContent": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<configuration>\r\n  <startup>\r\n    <supportedRuntime version=\"v4.0\" sku=\".NETFramework,Version=v4.7.2\" />\r\n  </startup>\r\n  <runtime>\r\n    <assemblyBinding xmlns=\"urn:schemas-microsoft-com:asm.v1\">\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Newtonsoft.Json\" publicKeyToken=\"30ad4fe6b2a6aeed\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-11.0.0.0\" newVersion=\"11.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.VstsContentStore\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.3.0.0\" newVersion=\"1.3.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"System.Collections.Immutable\" publicKeyToken=\"b03f5f7f11d50a3a\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-1.5.0.0\" newVersion=\"1.2.3.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.ContentStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n      <dependentAssembly>\r\n        <assemblyIdentity name=\"Microsoft.MemoizationStoreInterfaces\" publicKeyToken=\"1055fbdf2d8b69e0\" culture=\"neutral\" />\r\n        <bindingRedirect oldVersion=\"0.0.0.0-15.1280.0.0\" newVersion=\"1.0.0.0\" />\r\n      </dependentAssembly>\r\n    </assemblyBinding>\r\n  </runtime>\r\n</configuration>"
+      }
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.pdb": "CA881A5758"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.xml": "7F9D1A759A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.dll": "FF040B21E9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.pdb": "3655B8D038"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.xml": "34F4963F2E"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.dll": "758E851A5C"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.pdb": "B470090FA5"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.xml": "8C731EF71F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.dll": "BCF9DD6CB9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.pdb": "3D71F4CCB0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.xml": "A75C443232"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.dll": "5E9CC3E4ED"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.dll": "05F97CCFF6"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.pdb": "A92DFBEE3A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.xml": "7D0CD0A2FF"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.pdb": "9E69E7EB42"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.xml": "A7B7D1A9C8"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.dll": "0D8C34D5B0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.pdb": "4B730A7481"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.desktop.xml": "946C30761F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.dll": "30529BB352"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.pdb": "9C3762A454"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.applications.telemetry.xml": "8F098CD1B0"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.dll": "050FF9EE55"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.pdb": "8160D00024"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.xml": "CD48B8F00B"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.dll": "77EC19B800"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.pdb": "F0C308186D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.xml": "E4F30E1B6D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.diagnostics.tracing.eventsource.dll": "43CD1B4B9D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\newtonsoft.json.dll": "DBD0222EC5"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\newtonsoft.json.xml": "D4A784188A"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\runtimecontracts.dll": "D156BF81A1"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.dll": "273FFA5B8F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.xml": "D9B9AA68EB"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.dll": "F4051D6506"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.xml": "047C366869"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.dataflow.dll": "122A86CF32"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.dataflow.xml": "62314D47AD"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.extensions.dll": "5EE61A3208"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.threading.tasks.extensions.xml": "1EBB5473EA"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\buildxlaria.dll": "B4C15DA631"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\buildxlaria.pdb": "2647FF413F"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.dll": "413B3456A9"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.lib": "09C27C944D"
+    },
+    {
+      "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\x64\\clienttelemetry.pdb": "F639E60704"
+    },
+    {
+      "b:\\out\\objects\\q\\5\\a603vk8ncw3g6qqghp4pkypll4wp22\\buildxl.cache.contentstore.utilitiescore.dll-csc\\ref\\buildxl.cache.contentstore.utilitiescore.dll": "343613BD32"
+    },
+    {
+      "b:\\out\\objects\\q\\b\\rxaqnrkgkgt5141lblgot6lv683adw\\buildxl.frontend.msbuild.dll-csc\\ref\\buildxl.frontend.msbuild.dll": "B181A604E1"
+    },
+    {
+      "b:\\out\\objects\\r\\j\\rkxnj6c9roengcd76cmj3odcb9ke9k\\buildxl.frontend.nuget.dll-csc\\ref\\buildxl.frontend.nuget.dll": "7C8F11985B"
+    },
+    {
+      "b:\\out\\objects\\t\\1\\yjzn8mle6wm7ge5k6ld4901rp3ozmv\\buildxl.cache.contentstore.interfaces.dll-csc\\ref\\buildxl.cache.contentstore.interfaces.dll": "318BCD7482"
+    },
+    {
+      "b:\\out\\objects\\t\\b\\xnrnmlgoypo8ayhgpb6lnq0p25d2o1\\buildxl.utilities.configuration.dll-csc\\ref\\buildxl.utilities.configuration.dll": "D9E8FEFD4F"
+    },
+    {
+      "b:\\out\\objects\\v\\d\\zbno3o8mnzthaxe1klwyb0hbyog0lo\\buildxl.toolsupport.dll-csc\\ref\\buildxl.toolsupport.dll": "CC5EC5254C"
+    },
+    {
+      "b:\\out\\objects\\x\\j\\27go3ohny7lekjww5jbc0honk2ma4q\\buildxl.cache.inmemory.dll-csc\\ref\\buildxl.cache.inmemory.dll": "2DF2D09C34"
+    },
+    {
+      "b:\\out\\objects\\y\\1\\r6jh69d45ryb7a8ql6oh1jgp6q9py3\\buildxl.frontend.core.dll-csc\\ref\\buildxl.frontend.core.dll": "8EE4B3981C"
+    },
+    {
+      "b:\\out\\objects\\y\\7\\w18rkyljh63j9wlvj2yvv48nv0jcb1\\buildxl.frontend.cmake.dll-csc\\ref\\buildxl.frontend.cmake.dll": "3E3CDA6942"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\appserver.cs": "8356845FBF"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\args.cs": "6D82CC4FDA"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\buildinfo.cs": "7B446F1CF2"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\buildxlapp.cs": "5EC62B7A4D"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\buildxlappserverdata.cs": "C622F5122A"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\consoleeventlistener.cs": "D2CBF868A2"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\frontendcontrollerfactory.cs": "6D1881A08B"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\globalsuppressions.cs": "69ADAEC802"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\helptext.cs": "78D609A07B"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\lightconfig.cs": "1E8F51C39A"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\machineinfo.cs": "B3262E96B3"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\nativemethods.cs": "79F8ADD06C"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\program.cs": "8AF2EDA982"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\serverdeployment.cs": "AD5B7A8B67"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\tracing\\log.cs": "682150EA9F"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\tracing\\logeventid.cs": "D8EB55B114"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\tracing\\loggingqueue.cs": "8DCDEAF11C"
+    },
+    {
+      "b:\\public\\src\\app\\bxl\\windowserrorreporting.cs": "60AAB7FABD"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\2\\q\\6906heolyxbr9joowtmeangzpgdr72\\loggen\\log.g.cs": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [
+    "b:\\out\\objects\\2\\q\\6906heolyxbr9joowtmeangzpgdr72\\buildxl.loggen.exe.std\\args.rsp"
+  ],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\2\\q\\6906heolyxbr9joowtmeangzpgdr72\\t_1",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\netframework\\breadcrumbstore",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "@B:\\OUT\\OBJECTS\\2\\Q\\6906HEOLYXBR9JOOWTMEANGZPGDR72\\BUILDXL.LOGGEN.EXE.STD\\ARGS.RSP",
+  "ResponseFileData": "/s:B:\\PUBLIC\\SRC\\APP\\BXL\\APPSERVER.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\ARGS.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\BUILDINFO.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\BUILDXLAPP.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\BUILDXLAPPSERVERDATA.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\CONSOLEEVENTLISTENER.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\FRONTENDCONTROLLERFACTORY.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\GLOBALSUPPRESSIONS.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\HELPTEXT.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\LIGHTCONFIG.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\MACHINEINFO.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\NATIVEMETHODS.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\PROGRAM.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\SERVERDEPLOYMENT.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\WINDOWSERRORREPORTING.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\TRACING\\LOG.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\TRACING\\LOGEVENTID.CS\r\n/s:B:\\PUBLIC\\SRC\\APP\\BXL\\TRACING\\LOGGINGQUEUE.CS\r\n/r:B:\\OUT\\OBJECTS\\0\\B\\0LDMPL5G4CLTKYY6VWRECKV3ADLWP4\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL-CSC\\REF\\BUILDXL.UTILITIES.INSTRUMENTATION.COMMON.DLL\r\n/r:B:\\OUT\\OBJECTS\\P\\8\\6QRKWZJ2C7DVPMGH4PGV41YMGWCOXN\\BUILDXL.TRACING.DLL-CSC\\REF\\BUILDXL.TRACING.DLL\r\n/r:B:\\OUT\\OBJECTS\\L\\L\\ZQ2L1RDAV980E0VQRL94XY7EM4XTCX\\BUILDXL.CACHE.BASICFILESYSTEM.DLL-CSC\\REF\\BUILDXL.CACHE.BASICFILESYSTEM.DLL\r\n/r:B:\\OUT\\OBJECTS\\8\\X\\AV3P44O3L2W847DY4EMJLXLGXQ1PEX\\BUILDXL.CACHE.INTERFACES.DLL-CSC\\REF\\BUILDXL.CACHE.INTERFACES.DLL\r\n/r:B:\\OUT\\OBJECTS\\X\\J\\27GO3OHNY7LEKJWW5JBC0HONK2MA4Q\\BUILDXL.CACHE.INMEMORY.DLL-CSC\\REF\\BUILDXL.CACHE.INMEMORY.DLL\r\n/r:B:\\OUT\\OBJECTS\\5\\E\\3BZW02Z9R1E1DJJWLZ7B486LVDPCV2\\BUILDXL.CACHE.MEMOIZATIONSTOREADAPTER.DLL-CSC\\REF\\BUILDXL.CACHE.MEMOIZATIONSTOREADAPTER.DLL\r\n/r:B:\\OUT\\OBJECTS\\6\\3\\472RXEJY7KWNCAQ4KJ461B1ZN9M0MZ\\BUILDXL.CACHE.VERTICALAGGREGATOR.DLL-CSC\\REF\\BUILDXL.CACHE.VERTICALAGGREGATOR.DLL\r\n/r:B:\\OUT\\OBJECTS\\E\\M\\C8DVZRXZPK0T2HV3WT3TX74JDTP72L\\BUILDXL.CACHE.BUILDCACHEADAPTER.DLL-CSC\\REF\\BUILDXL.CACHE.BUILDCACHEADAPTER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\SYSTEM.DATA.SQLITE.CORE.1.0.109.2\\LIB\\NET46\\SYSTEM.DATA.SQLITE.DLL\r\n/r:B:\\OUT\\OBJECTS\\5\\M\\Y92OL2QVY1DVNENXY31YGB7XA18Q6B\\BUILDXL.CACHE.CONTENTSTORE.HASHING.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.HASHING.DLL\r\n/r:B:\\OUT\\OBJECTS\\Q\\5\\A603VK8NCW3G6QQGHP4PKYPLL4WP22\\BUILDXL.CACHE.CONTENTSTORE.UTILITIESCORE.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.UTILITIESCORE.DLL\r\n/r:B:\\OUT\\OBJECTS\\T\\1\\YJZN8MLE6WM7GE5K6LD4901RP3OZMV\\BUILDXL.CACHE.CONTENTSTORE.INTERFACES.DLL-CSC\\REF\\BUILDXL.CACHE.CONTENTSTORE.INTERFACES.DLL\r\n/r:B:\\OUT\\OBJECTS\\6\\5\\RCT8M1J7X1CCRMWNR09EWVA22R73BN\\BUILDXL.CACHE.MEMOIZATIONSTORE.INTERFACES.DLL-CSC\\REF\\BUILDXL.CACHE.MEMOIZATIONSTORE.INTERFACES.DLL\r\n/r:B:\\OUT\\OBJECTS\\9\\1\\7431X4YXN43D0VR7BM0K5RHDMATTZO\\BUILDXL.ENGINE.DLL-CSC\\REF\\BUILDXL.ENGINE.DLL\r\n/r:B:\\OUT\\OBJECTS\\9\\3\\1M69R8OP50LRRKDPCTDE05T4C2CKBX\\BUILDXL.ENGINE.CACHE.DLL-CSC\\REF\\BUILDXL.ENGINE.CACHE.DLL\r\n/r:B:\\OUT\\OBJECTS\\3\\O\\Y7RA7BDJZY2DB093RYTAWZDQLHXOTA\\BUILDXL.PROCESSES.DLL-CSC\\REF\\BUILDXL.PROCESSES.DLL\r\n/r:B:\\OUT\\OBJECTS\\2\\R\\DQJ1QVQJ2X6TJOQGMWGEWDBMYRYRL5\\BUILDXL.SCHEDULER.DLL-CSC\\REF\\BUILDXL.SCHEDULER.DLL\r\n/r:B:\\OUT\\OBJECTS\\K\\0\\MWNXRAR7LCC2A7QL4J2D53LCJCX8PL\\BUILDXL.VISUALIZATIONMODEL.DLL-CSC\\REF\\BUILDXL.VISUALIZATIONMODEL.DLL\r\n/r:B:\\OUT\\OBJECTS\\B\\W\\WLL7VPJ4Q6BCVC7AGJV9PAX5N7MLEC\\BUILDXL.FRONTEND.SCRIPT.DEBUGGER.DLL-CSC\\REF\\BUILDXL.FRONTEND.SCRIPT.DEBUGGER.DLL\r\n/r:B:\\OUT\\OBJECTS\\3\\H\\TEVMH648M1DH45J7CY7B539MHHD7P0\\BUILDXL.IDE.GENERATOR.DLL-CSC\\REF\\BUILDXL.IDE.GENERATOR.DLL\r\n/r:B:\\OUT\\OBJECTS\\9\\X\\7CZX4MJ2P8WT2T2PM1BZ8L6520G1TR\\VSCODE.DEBUGPROTOCOL.DLL-CSC\\REF\\VSCODE.DEBUGPROTOCOL.DLL\r\n/r:B:\\OUT\\OBJECTS\\J\\W\\MYYM63E7O3GNCC6O0621BJDPK63ZXC\\BUILDXL.PIPS.DLL-CSC\\REF\\BUILDXL.PIPS.DLL\r\n/r:B:\\OUT\\OBJECTS\\D\\9\\4R4VXEN0GOXP0HXMZWYLAGEWZNM0GZ\\BUILDXL.UTILITIES.DLL-CSC\\REF\\BUILDXL.UTILITIES.DLL\r\n/r:B:\\OUT\\OBJECTS\\L\\V\\8RKMDW43466D0AT2OJT3P5044PG7A6\\BUILDXL.UTILITIES.BRANDING.DLL-CSC\\REF\\BUILDXL.UTILITIES.BRANDING.DLL\r\n/r:B:\\OUT\\OBJECTS\\C\\8\\3VD6JRRV5B2WRHV1DHDDL0XD24T04O\\BUILDXL.UTILITIES.COLLECTIONS.DLL-CSC\\REF\\BUILDXL.UTILITIES.COLLECTIONS.DLL\r\n/r:B:\\OUT\\OBJECTS\\T\\B\\XNRNMLGOYPO8AYHGPB6LNQ0P25D2O1\\BUILDXL.UTILITIES.CONFIGURATION.DLL-CSC\\REF\\BUILDXL.UTILITIES.CONFIGURATION.DLL\r\n/r:B:\\OUT\\OBJECTS\\M\\L\\KTGD18ANO4CY5QN3DB3C34WMCRAYRA\\BUILDXL.NATIVE.DLL-CSC\\REF\\BUILDXL.NATIVE.DLL\r\n/r:B:\\OUT\\OBJECTS\\H\\V\\XAJ45WG5K0E538VQ22TZX5Y83JORDP\\BUILDXL.STORAGE.DLL-CSC\\REF\\BUILDXL.STORAGE.DLL\r\n/r:B:\\OUT\\OBJECTS\\V\\D\\ZBNO3O8MNZTHAXE1KLWYB0HBYOG0LO\\BUILDXL.TOOLSUPPORT.DLL-CSC\\REF\\BUILDXL.TOOLSUPPORT.DLL\r\n/r:B:\\OUT\\OBJECTS\\L\\0\\TXWKJ90PZEOCC8K4D4DR34X8WT6CVN\\BUILDXL.FRONTEND.SCRIPT.CONSTANTS.DLL-CSC\\REF\\BUILDXL.FRONTEND.SCRIPT.CONSTANTS.DLL\r\n/r:B:\\OUT\\OBJECTS\\Y\\1\\R6JH69D45RYB7A8QL6OH1JGP6Q9PY3\\BUILDXL.FRONTEND.CORE.DLL-CSC\\REF\\BUILDXL.FRONTEND.CORE.DLL\r\n/r:B:\\OUT\\OBJECTS\\4\\A\\Z4EOYB27ZTO199ZJYT96V5T31W1RH4\\BUILDXL.FRONTEND.DOWNLOAD.DLL-CSC\\REF\\BUILDXL.FRONTEND.DOWNLOAD.DLL\r\n/r:B:\\OUT\\OBJECTS\\8\\D\\3291MMXMQVKBA7R7BQG2VDE9668EKR\\BUILDXL.FRONTEND.SCRIPT.DLL-CSC\\REF\\BUILDXL.FRONTEND.SCRIPT.DLL\r\n/r:B:\\OUT\\OBJECTS\\R\\J\\RKXNJ6C9ROENGCD76CMJ3ODCB9KE9K\\BUILDXL.FRONTEND.NUGET.DLL-CSC\\REF\\BUILDXL.FRONTEND.NUGET.DLL\r\n/r:B:\\OUT\\OBJECTS\\Q\\B\\RXAQNRKGKGT5141LBLGOT6LV683ADW\\BUILDXL.FRONTEND.MSBUILD.DLL-CSC\\REF\\BUILDXL.FRONTEND.MSBUILD.DLL\r\n/r:B:\\OUT\\OBJECTS\\E\\N\\WKD360V99QW54P08MBJHAJM0ZOCNRO\\BUILDXL.FRONTEND.NINJA.DLL-CSC\\REF\\BUILDXL.FRONTEND.NINJA.DLL\r\n/r:B:\\OUT\\OBJECTS\\Y\\7\\W18RKYLJH63J9WLVJ2YVV48NV0JCB1\\BUILDXL.FRONTEND.CMAKE.DLL-CSC\\REF\\BUILDXL.FRONTEND.CMAKE.DLL\r\n/r:B:\\OUT\\OBJECTS\\6\\G\\8G7R7ZNXTWTKONZ1L9BN5CY52WA70W\\BUILDXL.FRONTEND.SDK.DLL-CSC\\REF\\BUILDXL.FRONTEND.SDK.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\NEWTONSOFT.JSON.11.0.2\\LIB\\NETSTANDARD2.0\\NEWTONSOFT.JSON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\RUNTIMECONTRACTS.0.1.7.1\\LIB\\NETSTANDARD1.1\\RUNTIMECONTRACTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.CSHARP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.VISUALBASIC.CORE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.VISUALBASIC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MICROSOFT.WIN32.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\MSCORLIB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\NETSTANDARD.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.APPCONTEXT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.BUFFERS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.CONCURRENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.IMMUTABLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.NONGENERIC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COLLECTIONS.SPECIALIZED.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.ANNOTATIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.DATAANNOTATIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.EVENTBASEDASYNC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.COMPONENTMODEL.TYPECONVERTER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.CONFIGURATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.CONSOLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.CORE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DATA.COMMON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DATA.DATASETEXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DATA.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.CONTRACTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.DEBUG.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.DIAGNOSTICSOURCE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.FILEVERSIONINFO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.PROCESS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.STACKTRACE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TEXTWRITERTRACELISTENER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TOOLS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TRACESOURCE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DIAGNOSTICS.TRACING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DRAWING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DRAWING.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.DYNAMIC.RUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.GLOBALIZATION.CALENDARS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.GLOBALIZATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.GLOBALIZATION.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.BROTLI.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.FILESYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.COMPRESSION.ZIPFILE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.DRIVEINFO.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.FILESYSTEM.WATCHER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.ISOLATEDSTORAGE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.MEMORYMAPPEDFILES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.PIPES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.IO.UNMANAGEDMEMORYSTREAM.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.EXPRESSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.PARALLEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.LINQ.QUERYABLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.MEMORY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.HTTP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.HTTPLISTENER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.MAIL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.NAMERESOLUTION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.NETWORKINFORMATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.PING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.REQUESTS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.SECURITY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.SERVICEPOINT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.SOCKETS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBCLIENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBHEADERCOLLECTION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBPROXY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBSOCKETS.CLIENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NET.WEBSOCKETS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NUMERICS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.NUMERICS.VECTORS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.OBJECTMODEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.DISPATCHPROXY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EMIT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EMIT.ILGENERATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EMIT.LIGHTWEIGHT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.METADATA.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.REFLECTION.TYPEEXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RESOURCES.READER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RESOURCES.RESOURCEMANAGER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RESOURCES.WRITER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.COMPILERSERVICES.VISUALC.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.HANDLES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTEROPSERVICES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTEROPSERVICES.RUNTIMEINFORMATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTEROPSERVICES.WINDOWSRUNTIME.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.INTRINSICS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.LOADER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.NUMERICS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.FORMATTERS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.JSON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.RUNTIME.SERIALIZATION.XML.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CLAIMS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.ALGORITHMS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.CSP.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.ENCODING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.PRIMITIVES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.CRYPTOGRAPHY.X509CERTIFICATES.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.PRINCIPAL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SECURITY.SECURESTRING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SERVICEMODEL.WEB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.SERVICEPROCESS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.ENCODING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.ENCODING.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.JSON.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TEXT.REGULAREXPRESSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.OVERLAPPED.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.DATAFLOW.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.EXTENSIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TASKS.PARALLEL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.THREAD.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.THREADPOOL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.THREADING.TIMER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TRANSACTIONS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.TRANSACTIONS.LOCAL.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.VALUETUPLE.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.WEB.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.WEB.HTTPUTILITY.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.WINDOWS.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.LINQ.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.READERWRITER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.SERIALIZATION.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XDOCUMENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XMLDOCUMENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XMLSERIALIZER.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XPATH.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\SYSTEM.XML.XPATH.XDOCUMENT.DLL\r\n/r:B:\\OUT\\FRONTEND\\NUGET\\PKGS\\MICROSOFT.NETCORE.APP.3.0.0-PREVIEW5-27626-15\\REF\\NETCOREAPP3.0\\WINDOWSBASE.DLL\r\n/namespace:bxl\r\n/targetFramework:netcoreapp3.0\r\n/targetRuntime:win-x64\r\n/output:B:\\OUT\\OBJECTS\\2\\Q\\6906HEOLYXBR9JOOWTMEANGZPGDR72\\LOGGEN\\LOG.G.CS\r\n/d:DEFTEMP;FEATURE_CORECLR;FEATURE_SAFE_PROCESS_HANDLE;DISABLE_FEATURE_VSEXTENSION_INSTALL_CHECK;DISABLE_FEATURE_HTMLWRITER;DISABLE_FEATURE_EXTENDED_ENCODING;DISABLE_FEATURE_BOND_RPC;FEATURE_ARIA_TELEMETRY;CONTRACTS_LIGHT_PRECONDITIONS;CONTRACTS_LIGHT_INVARIANTS;CONTRACTS_LIGHT_ASSERTS;CONTRACTS_LIGHT_QUANTIFIERS\r\n/a:ShortProductName=BuildXL\r\n/a:\"LongProductName=Microsoft (R) Build Accelerator\"\r\n/a:ShortScriptName=DScript\r\n/a:MainExecutableName=bxl.exe",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\2\\Q\\6906HEOLYXBR9JOOWTMEANGZPGDR72\\T_1"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\2\\Q\\6906HEOLYXBR9JOOWTMEANGZPGDR72\\T_1"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[FCBFC0D581E44518A02FA3969C099685020F4A3C, {
+  "Namespace": "1",
+  "WeakFingerprint": "C62EDDB4BC8CC19970FB330E782E1D57A9C103FC",
+  "PathSet": "E3EB7BEE00",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[E3EB7BEE00, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.loggen.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.toolsupport.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.codegenerationhelper.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.collections.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\buildxl.utilities.instrumentation.common.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources.dll",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\en-us\\microsoft.codeanalysis.csharp.resources.exe",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.csharp.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\microsoft.codeanalysis.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\runtimecontracts.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.collections.immutable.ini",
+    "Path": "b:\\out\\objects\\p\\g\\hybzmbewvovaptyk1wp76dn2mqqt69\\buildxl.loggen.exe-deployment\\system.reflection.metadata.ini",
+    "Path": "%appdata%"
+  },
+  "ObservedAccessedFileNames": []
+}]

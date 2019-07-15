@@ -1,0 +1,1159 @@
+[Pip08818A5DE9694932, {
+  "WeakFingerprint": "A38A090B0260933ED3ECA9D5E59C1335D3149C8C",
+  "StrongFingerprint": "23E4BF01A927BBE31A3448DFA680064F1D5EBD59",
+  "PathSet": "6667F5AE60"
+}]
+[A38A090B0260933ED3ECA9D5E59C1335D3149C8C, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphostpatcher.exe": "A951C1C198"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\l\\2\\29bgr08eb2q5oda0y3lhx4al7d3ad1\\apphostpatcher",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphostpatcher.exe": "A951C1C198"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\runtime.win-x64.microsoft.netcore.dotnetapphost.3.0.0-preview5-27626-15\\runtimes\\win-x64\\native\\apphost.exe": "F186D4F228"
+    },
+    {
+      "b:\\out\\objects\\l\\2\\29bgr08eb2q5oda0y3lhx4al7d3ad1\\sandboxedprocessexecutor.dll-csc\\sandboxedprocessexecutor.dll": "B3DEE051A6"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0"
+  ],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\l\\2\\29bgr08eb2q5oda0y3lhx4al7d3ad1\\apphostpatcher\\output\\sandboxedprocessexecutor.exe": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "B:\\OUT\\FRONTEND\\NUGET\\PKGS\\RUNTIME.WIN-X64.MICROSOFT.NETCORE.DOTNETAPPHOST.3.0.0-PREVIEW5-27626-15\\RUNTIMES\\WIN-X64\\NATIVE\\APPHOST.EXE B:\\OUT\\OBJECTS\\L\\2\\29BGR08EB2Q5ODA0Y3LHX4AL7D3AD1\\SANDBOXEDPROCESSEXECUTOR.DLL-CSC\\SANDBOXEDPROCESSEXECUTOR.DLL",
+  "EnvironmentVariables": [],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[23E4BF01A927BBE31A3448DFA680064F1D5EBD59, {
+  "Namespace": "1",
+  "WeakFingerprint": "A38A090B0260933ED3ECA9D5E59C1335D3149C8C",
+  "PathSet": "6667F5AE60",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "0722B4566D"
+    },
+    {
+      "R": "A895EB56D2"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "87E5AB970E"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "73B884FFDC"
+    },
+    {
+      "R": "1415519CE1"
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "E090754D6D"
+    },
+    {
+      "R": "D639BCC683"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "4BC5847806"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "9DD806D3D2"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "43214D0FAB"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "R": "EBA4D88C9D"
+    },
+    {
+      "R": "08AA1F7483"
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "F": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[6667F5AE60, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\systemresources\\apphostpatcher.exe.mun",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-console-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-datetime-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-debug-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-errorhandling-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-file-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-file-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-file-l2-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-handle-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-heap-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-interlocked-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-libraryloader-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-localization-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-memory-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-namedpipe-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-processenvironment-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-processthreads-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-processthreads-l1-1-1.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-profile-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-rtlsupport-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-string-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-synch-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-synch-l1-2-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-sysinfo-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-timezone-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-core-util-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-conio-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-convert-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-environment-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-filesystem-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-heap-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-locale-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-math-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-multibyte-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-private-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-process-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-runtime-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-stdio-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-string-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-time-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\api-ms-win-crt-utility-l1-1-0.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphost.exe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphostpatcher.deps.json",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphostpatcher.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphostpatcher.eventpipeconfig",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphostpatcher.runtimeconfig.dev.json",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\apphostpatcher.runtimeconfig.json",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\clrcompression.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\clretwrc.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\clrjit.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\coreclr.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\dbgshim.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\hostfxr.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\hostpolicy.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\microsoft.csharp.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\microsoft.diasymreader.native.amd64.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\microsoft.visualbasic.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\microsoft.win32.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\microsoft.win32.registry.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\mscordaccore.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\mscordaccore_amd64_amd64_4.6.27317.07.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\mscordbi.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\mscorlib.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\mscorrc.debug.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\mscorrc.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\netstandard.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\sos.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\sos.netcore.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\sos_amd64_amd64_4.6.27317.07.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.appcontext.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.buffers.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.collections.concurrent.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.collections.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.collections.immutable.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.collections.nongeneric.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.collections.specialized.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.componentmodel.annotations.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.componentmodel.dataannotations.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.componentmodel.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.componentmodel.eventbasedasync.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.componentmodel.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.componentmodel.typeconverter.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.configuration.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.console.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.core.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.data.common.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.data.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.contracts.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.debug.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.diagnosticsource.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.fileversioninfo.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.process.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.stacktrace.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.textwritertracelistener.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.tools.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.tracesource.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.diagnostics.tracing.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.drawing.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.drawing.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.dynamic.runtime.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.globalization.calendars.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.globalization.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.globalization.extensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.compression.brotli.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.compression.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.compression.filesystem.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.compression.zipfile.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.filesystem.accesscontrol.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.filesystem.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.filesystem.driveinfo.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.filesystem.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.filesystem.watcher.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.isolatedstorage.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.memorymappedfiles.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.pipes.accesscontrol.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.pipes.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.io.unmanagedmemorystream.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.linq.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.linq.expressions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.linq.parallel.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.linq.queryable.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.memory.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.http.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.httplistener.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.mail.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.nameresolution.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.networkinformation.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.ping.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.requests.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.security.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.servicepoint.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.sockets.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.webclient.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.webheadercollection.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.webproxy.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.websockets.client.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.net.websockets.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.numerics.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.numerics.vectors.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.objectmodel.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.private.corelib.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.private.datacontractserialization.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.private.uri.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.private.xml.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.private.xml.linq.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.dispatchproxy.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.emit.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.emit.ilgeneration.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.emit.lightweight.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.extensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.metadata.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.reflection.typeextensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.resources.reader.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.resources.resourcemanager.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.resources.writer.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.compilerservices.visualc.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.extensions.dll",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.handles.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.interopservices.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.interopservices.runtimeinformation.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.interopservices.windowsruntime.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.loader.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.numerics.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.serialization.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.serialization.formatters.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.serialization.json.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.serialization.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.runtime.serialization.xml.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.accesscontrol.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.claims.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.cryptography.algorithms.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.cryptography.cng.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.cryptography.csp.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.cryptography.encoding.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.cryptography.openssl.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.cryptography.primitives.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.cryptography.x509certificates.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.principal.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.principal.windows.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.security.securestring.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.servicemodel.web.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.serviceprocess.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.text.encoding.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.text.encoding.extensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.text.regularexpressions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.overlapped.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.tasks.dataflow.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.tasks.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.tasks.extensions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.tasks.parallel.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.thread.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.threadpool.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.threading.timer.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.transactions.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.transactions.local.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.valuetuple.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.web.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.web.httputility.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.windows.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.linq.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.readerwriter.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.serialization.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.xdocument.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.xmldocument.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.xmlserializer.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.xpath.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\system.xml.xpath.xdocument.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\ucrtbase.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\buildxl.tools.apphostpatcher.1.0.0\\tools\\win-x64\\windowsbase.dll",
+    "Flags": "FileProbe",
+    "Path": "b:\\out\\objects\\l\\2\\29bgr08eb2q5oda0y3lhx4al7d3ad1\\apphostpatcher\\pkgs\\runtime.win-x64.microsoft.netcore.dotnethostpolicy\\2.2.2\\runtimes\\win-x64\\native\\hostpolicy.dll"
+  },
+  "ObservedAccessedFileNames": []
+}]

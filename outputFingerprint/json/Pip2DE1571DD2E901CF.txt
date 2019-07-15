@@ -1,0 +1,91 @@
+[Pip2DE1571DD2E901CF, {
+  "WeakFingerprint": "F16A6339786D3AF26AA446F28055FA7F7AC0F43B",
+  "StrongFingerprint": "BE7771825F1286E6AA2D1F3B48B72DE4BF6A9FDE",
+  "PathSet": "64E9113131"
+}]
+[F16A6339786D3AF26AA446F28055FA7F7AC0F43B, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\bond.csharp.8.0.0\\tools\\gbc.exe": "005A5068C3"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\5\\3\\cw3xktv1h6vg8exv7gywdrkm0tvgw2\\output",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\bond.csharp.8.0.0\\tools\\gbc.exe": "005A5068C3"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\openbonddistribution.bond": "82DCE8B746"
+    },
+    {
+      "b:\\public\\src\\engine\\cache\\fingerprints\\pipcachedescriptor.bond": "F0E120E800"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\5\\3\\cw3xktv1h6vg8exv7gywdrkm0tvgw2\\output\\openbonddistribution_types.cs": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\5\\3\\cw3xktv1h6vg8exv7gywdrkm0tvgw2\\t",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "c# -o B:\\OUT\\OBJECTS\\5\\3\\CW3XKTV1H6VG8EXV7GYWDRKM0TVGW2\\OUTPUT -i B:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS B:\\PUBLIC\\SRC\\ENGINE\\CACHE\\FINGERPRINTS\\OPENBONDDISTRIBUTION.BOND",
+  "EnvironmentVariables": [
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\5\\3\\CW3XKTV1H6VG8EXV7GYWDRKM0TVGW2\\T"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\5\\3\\CW3XKTV1H6VG8EXV7GYWDRKM0TVGW2\\T"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[BE7771825F1286E6AA2D1F3B48B72DE4BF6A9FDE, {
+  "Namespace": "1",
+  "WeakFingerprint": "F16A6339786D3AF26AA446F28055FA7F7AC0F43B",
+  "PathSet": "64E9113131",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "D": ""
+    }
+  ]
+}]
+[64E9113131, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\bond.csharp.8.0.0\\systemresources\\gbc.exe.mun",
+    "Path": "b:\\out\\objects\\5\\3\\cw3xktv1h6vg8exv7gywdrkm0tvgw2\\output",
+    "Flags": "IsDirectoryPath"
+  },
+  "ObservedAccessedFileNames": []
+}]

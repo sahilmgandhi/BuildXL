@@ -1,0 +1,334 @@
+[PipC9BDB264245A25D9, {
+  "WeakFingerprint": "42631C7489113DD72927E7E6DAAC7E997B0C86AB",
+  "StrongFingerprint": "A1E02A144161D5DA17976B2849338BC052E9CC21",
+  "PathSet": "C65E7B3391"
+}]
+[42631C7489113DD72927E7E6DAAC7E997B0C86AB, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\nodejs.8.12.0-notest\\win-x64\\node-v8.12.0-win-x64\\node.exe": "3A5D6F93D5"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\nodejs.8.12.0-notest\\win-x64\\node-v8.12.0-win-x64\\node.exe": "3A5D6F93D5"
+    },
+    {
+      "b:\\public\\sdk\\experimental\\nodejs\\yarn\\yarnwithnugetcredentialprovider.js": "323B0CFB72"
+    }
+  ],
+  "DirectoryDependencies": [
+    "b:\\out\\frontend\\nuget\\pkgs\\nodejs.8.12.0-notest\\win-x64",
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev",
+    "b:\\out\\objects\\x\\g\\zzt9an8x1b0n538j6mep9zwe3t1ged\\npm-yarn\\node_modules"
+  ],
+  "Outputs": [],
+  "DirectoryOutputs": [
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\node_modules"
+  ],
+  "UntrackedPaths": [
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\.npmrc",
+    "%userprofile%\\.npmrc",
+    "%userprofile%\\.yarnrc",
+    "d:\\app\\autopilot.ini"
+  ],
+  "UntrackedScopes": [
+    "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\t_1",
+    "b:\\shared\\tools",
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\crypto",
+    "%programdata%\\microsoft\\netframework",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%localappdata%\\yarn",
+    "%locallow%\\microsoft\\cryptnetflushcache",
+    "%locallow%\\microsoft\\cryptneturlcache",
+    "%appdata%\\microsoft\\crypto\\rsa",
+    "%appdata%\\microsoft\\systemcertificates\\my\\certificates",
+    "%appdata%\\microsoft\\systemcertificates\\my\\keys",
+    "%appdata%\\microsoft\\visualstudio services\\7.0\\cache",
+    "%windows%",
+    "d:\\data\\autopilotdata",
+    "d:\\data\\logs\\authhelpers",
+    "d:\\data\\q\\authhelpers",
+    "d:\\data\\q\\qsecretsdpapi",
+    "d:\\data\\q\\regionconfig",
+    "d:\\data\\q\\telemetryconfig"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "B:\\PUBLIC\\SDK\\EXPERIMENTAL\\NODEJS\\YARN\\YARNWITHNUGETCREDENTIALPROVIDER.JS B:\\OUT\\OBJECTS\\X\\G\\ZZT9AN8X1B0N538J6MEP9ZWE3T1GED\\NPM-YARN\\NODE_MODULES\\YARN\\LIB\\CLI.JS install --frozen-lockfile --non-interactive --network-concurrency1 --ignore-scripts",
+  "EnvironmentVariables": [
+    {
+      "NUGET_CREDENTIALPROVIDERS_PATH": "B:\\SHARED\\TOOLS"
+    },
+    {
+      "TEMP": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\T_1"
+    },
+    {
+      "TMP": "B:\\OUT\\OBJECTS\\O\\0\\XQH0M0WYQ6KDPYQ2VK5EGM5QYRZZCE\\T_1"
+    },
+    {
+      "__CLOUDBUILD_AUTH_HELPER_ROOT__": "Pass-through"
+    },
+    {
+      "__CREDENTIAL_PROVIDER_LOG_DIR": "Pass-through"
+    },
+    {
+      "__Q_DPAPI_Secrets_Dir": "Pass-through"
+    }
+  ],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[A1E02A144161D5DA17976B2849338BC052E9CC21, {
+  "Namespace": "1",
+  "WeakFingerprint": "42631C7489113DD72927E7E6DAAC7E997B0C86AB",
+  "PathSet": "C65E7B3391",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "E": "FCCC80220D"
+    },
+    {
+      "R": "863D69BA35"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "C847D4C1D3"
+    },
+    {
+      "R": "D8BD58525C"
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "4783B5EC92"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "R": "35D3E36BF1"
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[C65E7B3391, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\.yarnrc",
+    "Path": "b:\\out\\.npmrc",
+    "Path": "b:\\out\\.yarnrc",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\nodejs.8.12.0-notest\\win-x64\\node-v8.12.0-win-x64\\etc\\npmrc",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\nodejs.8.12.0-notest\\win-x64\\node-v8.12.0-win-x64\\etc\\yarnrc",
+    "Path": "b:\\out\\objects\\.npmrc",
+    "Path": "b:\\out\\objects\\.yarnrc",
+    "Path": "b:\\out\\objects\\o\\.npmrc",
+    "Path": "b:\\out\\objects\\o\\.yarnrc",
+    "Path": "b:\\out\\objects\\o\\0\\.npmrc",
+    "Path": "b:\\out\\objects\\o\\0\\.yarnrc",
+    "Path": "b:\\out\\objects\\o\\0\\package.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\.npmrc",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\.yarnrc",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\package.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\.yarnrc",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev",
+    "Flags": "IsDirectoryPath, DirectoryEnumeration, DirectoryEnumerationWithAllPattern",
+    "EnumeratePatternRegex": "^.*$",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\.npmrc",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\.pnp.js",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\.yarn-metadata.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\.yarnclean",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\.yarnrc",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\b",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\c",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\icudt60l\\coll\\res_index.res",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\icudt60l\\coll\\ucadata.icu",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\icudt60l\\supplementaldata.res",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\icudt60l\\uts46.nrm",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\icudt60l\\zoneinfo64.res",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\npm-shrinkwrap.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\package-lock.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\package.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\readme.md",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\yarn.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\dev\\yarn.lock",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\package.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn-install_1\\yarn.json",
+    "Path": "b:\\out\\objects\\o\\0\\xqh0m0wyq6kdpyq2vk5egm5qyrzzce\\yarn.json",
+    "Path": "b:\\out\\objects\\o\\0\\yarn.json",
+    "Path": "b:\\out\\objects\\o\\package.json",
+    "Path": "b:\\out\\objects\\o\\yarn.json",
+    "Path": "b:\\out\\objects\\package.json",
+    "Path": "b:\\out\\objects\\x\\g\\zzt9an8x1b0n538j6mep9zwe3t1ged\\npm-yarn\\node_modules\\yarn\\lib\\cli.js",
+    "Path": "b:\\out\\objects\\yarn.json",
+    "Path": "b:\\out\\package.json",
+    "Path": "b:\\out\\yarn.json",
+    "Path": "b:\\package.json",
+    "Path": "b:\\yarn.json",
+    "Path": "%userprofile%\\.config\\yarn\\link",
+    "Path": "%localappdata%",
+    "Path": "%appdata%",
+    "Path": "%appdata%\\microsoft\\systemcertificates\\my\\crls",
+    "Path": "%appdata%\\microsoft\\systemcertificates\\my\\ctls",
+    "Path": "%appdata%\\microsoft\\visualstudio services\\settings.json",
+    "Path": "%appdata%\\microsoft\\visualstudio services\\~settings.json"
+  },
+  "ObservedAccessedFileNames": []
+}]

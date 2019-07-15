@@ -1,0 +1,91 @@
+[Pip5FD652298CAC1B7A, {
+  "WeakFingerprint": "3C51732E9B4F29AF1D1B3714A9EA32EE037D9164",
+  "StrongFingerprint": "B4050473ADA09026C82560F8EC8F170C14966874",
+  "PathSet": "29A1650C5B"
+}]
+[3C51732E9B4F29AF1D1B3714A9EA32EE037D9164, {
+  "ExecutionAndFingerprintOptionsHash": "7093C5A309665382BE2C2EA9B9AED2BC4939A6EE",
+  "ContentHashAlgorithmName": "Vso0",
+  "PipType": "Process",
+  "Executable": {
+    "b:\\out\\frontend\\nuget\\pkgs\\grpc.tools.1.18.0\\tools\\windows_x64\\protoc.exe": "8A3E3EE28E"
+  },
+  "WorkingDirectory": "b:\\out\\objects\\j\\0\\5b42h1z891mo0ozhzhk18qlhpc7pwr\\protobuf",
+  "StandardError": "??invalid",
+  "StandardOutput": "??invalid",
+  "Dependencies": [
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\grpc.tools.1.18.0\\tools\\windows_x64\\grpc_csharp_plugin.exe": "A474D3F45A"
+    },
+    {
+      "b:\\out\\frontend\\nuget\\pkgs\\grpc.tools.1.18.0\\tools\\windows_x64\\protoc.exe": "8A3E3EE28E"
+    },
+    {
+      "b:\\public\\src\\cache\\contentstore\\grpc\\contentstore.proto": "9C1C4CA027"
+    }
+  ],
+  "DirectoryDependencies": [],
+  "Outputs": [
+    {
+      "b:\\out\\objects\\j\\0\\5b42h1z891mo0ozhzhk18qlhpc7pwr\\protobuf\\contentstore.cs": {
+        "Attributes": "0"
+      }
+    },
+    {
+      "b:\\out\\objects\\j\\0\\5b42h1z891mo0ozhzhk18qlhpc7pwr\\protobuf\\contentstoregrpc.cs": {
+        "Attributes": "0"
+      }
+    }
+  ],
+  "DirectoryOutputs": [],
+  "UntrackedPaths": [],
+  "UntrackedScopes": [
+    "%programfiles%\\windows defender",
+    "%programfilesx86%\\windows defender",
+    "%programdata%\\microsoft\\windows defender",
+    "%internethistory%",
+    "%internetcache%",
+    "%windows%"
+  ],
+  "PreserveOutputWhitelist": [],
+  "HasUntrackedChildProcesses": "0",
+  "AllowUndeclaredSourceReads": "0",
+  "AbsentPathProbeUnderOpaquesMode": "0",
+  "DoubleWritePolicy": "0",
+  "NeedsToRunInContainer": "0",
+  "ContainerIsolationLevel": "7",
+  "Arguments": "--proto_path B:\\PUBLIC\\SRC\\CACHE\\CONTENTSTORE\\GRPC --csharp_out B:\\OUT\\OBJECTS\\J\\0\\5B42H1Z891MO0OZHZHK18QLHPC7PWR\\PROTOBUF B:\\PUBLIC\\SRC\\CACHE\\CONTENTSTORE\\GRPC\\CONTENTSTORE.PROTO --grpc_out B:\\OUT\\OBJECTS\\J\\0\\5B42H1Z891MO0OZHZHK18QLHPC7PWR\\PROTOBUF --plugin=protoc-gen-grpc=B:\\OUT\\FRONTEND\\NUGET\\PKGS\\GRPC.TOOLS.1.18.0\\TOOLS\\WINDOWS_X64\\GRPC_CSHARP_PLUGIN.EXE",
+  "EnvironmentVariables": [],
+  "WarningTimeout": "-1",
+  "Timeout": "-1",
+  "WarningRegex.Pattern": "^\\s*((((((\\d+>)?[a-zA-Z]?:[^:]*)|([^:]*))):)|())(()|([^:]*? ))warning( \\s*([^: ]*))?\\s*:.*$",
+  "WarningRegex.Options": "1",
+  "ErrorRegex.Pattern": ".*",
+  "ErrorRegex.Options": "1",
+  "SuccessExitCodes": []
+}]
+[B4050473ADA09026C82560F8EC8F170C14966874, {
+  "Namespace": "1",
+  "WeakFingerprint": "3C51732E9B4F29AF1D1B3714A9EA32EE037D9164",
+  "PathSet": "29A1650C5B",
+  "ObservedInputs": [
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    },
+    {
+      "P": ""
+    }
+  ]
+}]
+[29A1650C5B, {
+  "SerializedUnsafeOptions": "01-00-00-00-00-00-00-00-01-01-01-00-01-00-00-00-01-00",
+  "PathSet": {
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\grpc.tools.1.18.0\\tools\\include\\google\\protobuf\\descriptor.proto",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\grpc.tools.1.18.0\\tools\\windows_x64\\google\\protobuf\\descriptor.proto",
+    "Path": "b:\\out\\frontend\\nuget\\pkgs\\grpc.tools.1.18.0\\tools\\windows_x64\\include\\google\\protobuf\\descriptor.proto"
+  },
+  "ObservedAccessedFileNames": []
+}]

@@ -4,11 +4,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.ContractsLight;
-#if FEATURE_MICROSOFT_DIAGNOSTICS_TRACING
-using Microsoft.Diagnostics.Tracing;
-#else
 using System.Diagnostics.Tracing;
-#endif
 
 namespace BuildXL.Utilities.Configuration.Mutable
 {
@@ -246,7 +242,7 @@ namespace BuildXL.Utilities.Configuration.Mutable
         public ExecutionEnvironment Environment { get; set; }
 
         /// <inheritdoc />
-        public RemoteTelemetry RemoteTelemetry { get; set; }
+        public RemoteTelemetry? RemoteTelemetry { get; set; }
 
         /// <nodoc />
         [SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

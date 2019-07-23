@@ -5,17 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.ContractsLight;
+using System.Diagnostics.Tracing;
 using System.Globalization;
 using BuildXL.Tracing;
 using BuildXL.Utilities;
 using BuildXL.Utilities.Configuration;
 using BuildXL.Utilities.Instrumentation.Common;
 using BuildXL.Utilities.Tracing;
-#if FEATURE_MICROSOFT_DIAGNOSTICS_TRACING
-using Microsoft.Diagnostics.Tracing;
-#else
-using System.Diagnostics.Tracing;
-#endif
 using static BuildXL.Utilities.FormattableStringEx;
 
 #pragma warning disable 1591
@@ -889,6 +885,15 @@ namespace BuildXL.Engine.Tracing
             EventTask = (ushort)Tasks.Distribution,
             Message = "DDB_DEBUG: {message}")]
         internal abstract void DistributionDebugMessage(LoggingContext loggingContext, string message);
+
+        [GeneratedEvent(
+            (ushort)LogEventId.DistributionWorkerUnexpectedFailureAfterMasterExits,
+            EventGenerators = EventGenerators.LocalOnly,
+            EventLevel = Level.Verbose,
+            Keywords = (int)Keywords.UserMessage,
+            EventTask = (ushort)Tasks.Distribution,
+            Message = "After we received an exit request from the master, worker exits with an unexpected reason due to a failure in one of the master-related calls (e.g., attach, notify).")]
+        public abstract void DistributionWorkerUnexpectedFailureAfterMasterExits(LoggingContext context);
 
         #endregion
 

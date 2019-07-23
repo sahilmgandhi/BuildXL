@@ -341,7 +341,7 @@ namespace BuildXL.Cache.Host.Service.Internal
         /// <inheritdoc />
         public async Task<DeleteResult> DeleteAsync(Context context, ContentHash contentHash)
         {
-            var succeeded = false;
+            int code = (int)DeleteResult.ResultCode.ContentNotFound;
             long evictedSize = 0L;
             long pinnedSize = 0L;
 
@@ -350,7 +350,7 @@ namespace BuildXL.Cache.Host.Service.Internal
                 var deleteResult = await kvp.Value.DeleteAsync(context, contentHash);
                 if (deleteResult.Succeeded)
                 {
-                    succeeded = true;
+                    code = Math.Max(code, (int)deleteResult.Code);
                     evictedSize += deleteResult.EvictedSize;
                     pinnedSize += deleteResult.PinnedSize;
                 }
@@ -360,8 +360,16 @@ namespace BuildXL.Cache.Host.Service.Internal
                 }
             }
 
-            Contract.Assert(succeeded);
-            return new DeleteResult(contentHash, evictedSize, pinnedSize);
+            return new DeleteResult((DeleteResult.ResultCode)code, contentHash, evictedSize, pinnedSize);
+        }
+
+        /// <inheritdoc />
+        public void PostInitializationCompleted(Context context, BoolResult result)
+        {
+            foreach (var kvp in _drivesWithContentStore)
+            {
+                kvp.Value.PostInitializationCompleted(context, result);
+            }
         }
     }
 }

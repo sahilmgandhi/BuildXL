@@ -1582,9 +1582,12 @@ namespace BuildXL.Scheduler.Artifacts
 
                     if (sealDirectoryKind == SealDirectoryKind.Opaque)
                     {
-                        // Dynamic directories must be deleted before materializing files
-                        // We don't want this to happen for shared dynamic ones
-                        AddDirectoryDeletion(state, artifact.DirectoryArtifact);
+                        if (Configuration.Sandbox.UnsafeSandboxConfiguration.PreserveOutputs != PreserveOutputsMode.Enabled || !PipArtifacts.IsPreservedOutputByPip(state.PipInfo.UnderlyingPip, directory.Path, Context.PathTable))
+                        {
+                            // Dynamic directories must be deleted before materializing files
+                            // We don't want this to happen for shared dynamic ones
+                            AddDirectoryDeletion(state, artifact.DirectoryArtifact);
+                        }
 
                         // For dynamic directories we need to specify the value of
                         // allow read only since the host will not know about the
@@ -3095,7 +3098,7 @@ namespace BuildXL.Scheduler.Artifacts
                     Contract.Assert(false,
                         $"File length mismatch for file '{fileMaterializationInfo.FileName}' :: " +
                         $"arg = {{ hash: {fileMaterializationInfo.Hash.ToHex()}, length: {fileMaterializationInfo.Length} }}, " +
-                        $"stored = {{ hash: {storedFileContentInfo.Hash.ToHex()}, length: {storedFileContentInfo.Length}, rawLength: {storedFileContentInfo.RawLength}, existence: {storedFileContentInfo.Existence} }}");
+                        $"stored = {{ hash: {storedFileContentInfo.Hash.ToHex()}, length: {storedFileContentInfo.Length}, serializedLength: {storedFileContentInfo.SerializedLengthAndExistence}, existence: '{storedFileContentInfo.Existence}' }}");
                 }
             }
 

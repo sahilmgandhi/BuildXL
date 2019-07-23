@@ -2,13 +2,8 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 using System.Collections.Generic;
-#if FEATURE_MICROSOFT_DIAGNOSTICS_TRACING
-using Microsoft.Diagnostics.Tracing;
-#else
 using System.Diagnostics.Tracing;
-#endif
 using JetBrains.Annotations;
-
 
 namespace BuildXL.Utilities.Configuration
 {
@@ -202,7 +197,7 @@ namespace BuildXL.Utilities.Configuration
         /// <summary>
         /// When enabled, sends telemetry information for remote collection. Defaults to false.
         /// </summary>
-        RemoteTelemetry RemoteTelemetry { get; }
+        RemoteTelemetry? RemoteTelemetry { get; }
 
         /// <summary>
         /// Attaches tracing information to the build. May be specified multiple times. Ex: /TraceInfo:Branch=MyBranch

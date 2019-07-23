@@ -83,7 +83,7 @@ function validateArguments(args: QTestArguments): void {
 export function runQTest(args: QTestArguments): Result {
     args = Object.merge<QTestArguments>(defaultArgs, args);
     validateArguments(args);
-    let tags = Object.merge<string[]>(args.tags, defaultArgs.tags);
+
     let logDir = args.qTestLogs || Context.getNewOutputDirectory("qtestlogs");
     let consolePath = p`${logDir}/qtest.stdout`;
     let qtestRunTempDirectory = Context.getTempDirectory("qtestRunTemp");
@@ -172,7 +172,8 @@ export function runQTest(args: QTestArguments): Result {
         Cmd.option("--qTestAdditionalOptions ", args.qTestAdditionalOptions, args.qTestAdditionalOptions ? true : false),
         Cmd.option("--qTestContextInfo ", qTestContextInfoPath),
         Cmd.option("--qTestBuildType ", args.qTestBuildType || "unset"),
-        Cmd.option("--testSourceDir ", args.testSourceDir)
+        Cmd.option("--testSourceDir ", args.testSourceDir),
+        Cmd.option("--buildSystem ", "BuildXL")
     ];          
 
     let unsafeOptions = {
@@ -191,7 +192,7 @@ export function runQTest(args: QTestArguments): Result {
 
     let result = Transformer.execute({
         tool: args.qTestTool ? args.qTestTool : qTestTool,
-        tags: tags,
+        tags: args.tags,
         description: args.description,
         arguments: commandLineArgs,
         consoleOutput: consolePath,
@@ -238,7 +239,7 @@ export function runQTest(args: QTestArguments): Result {
 
         Transformer.execute({
             tool: args.qTestTool ? args.qTestTool : qTestTool,
-            tags: tags,
+            tags: args.tags,
             description: "QTest Coverage Upload",
             arguments: commandLineArgsForUploadPip,
             consoleOutput: coverageConsolePath,

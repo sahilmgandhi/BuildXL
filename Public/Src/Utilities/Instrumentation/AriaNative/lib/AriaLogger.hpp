@@ -25,7 +25,7 @@ private:
 public:
 
     AriaLogger() = delete;
-    AriaLogger(const char* token, const char *dbPath);
+    AriaLogger(const char* token, const char *dbPath, int teardownTimeoutInSeconds);
 
     ~AriaLogger();
 
@@ -39,9 +39,7 @@ struct AriaEventProperty
     int64_t piiOrLongValue;
 };
 
-int WINAPI Get42();
-
-AriaLogger* WINAPI CreateAriaLogger(const char *, const char *);
+AriaLogger* WINAPI CreateAriaLogger(const char *token, const char *dbPath, int teardownTimeoutInSeconds);
 void WINAPI DisposeAriaLogger(const AriaLogger *);
 
 void WINAPI LogEvent(const AriaLogger *logger, const char *eventName, int eventPropertiesLength, const AriaEventProperty *eventProperties);

@@ -82,9 +82,10 @@ namespace BuildXL.Execution.Analyzer
             m_storeLocation = FingerprintStoreAnalyzer.GetStoreLocation(analysisInput);
         }
 
-        protected override void ReadEvents()
+        protected override bool ReadEvents()
         {
             // Do nothing. This analyzer does not read events.
+            return true;
         }
 
         /// <summary>

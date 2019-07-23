@@ -6,6 +6,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.ContractsLight;
+using System.Diagnostics.Tracing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -56,11 +57,6 @@ using BuildXL.Interop.MacOS;
 using BuildXL.Processes.Containers;
 using static BuildXL.Scheduler.FileMonitoringViolationAnalyzer;
 using BuildXL.Utilities.VmCommandProxy;
-#if FEATURE_MICROSOFT_DIAGNOSTICS_TRACING
-using Microsoft.Diagnostics.Tracing;
-#else
-using System.Diagnostics.Tracing;
-#endif
 
 namespace BuildXL.Scheduler
 {
@@ -149,7 +145,7 @@ namespace BuildXL.Scheduler
         /// <see cref="FingerprintStore"/> directory name.
         /// </summary>
         public const string FingerprintStoreDirectory = "FingerprintStore";
-        
+
         #endregion Constants
 
         #region State
@@ -256,7 +252,7 @@ namespace BuildXL.Scheduler
         /// <summary>
         /// Cleans temp directories in background
         /// </summary>
-        private readonly TempCleaner m_tempCleaner;
+        public TempCleaner TempCleaner { get; }
 
         /// <summary>
         /// The pip graph
@@ -1099,7 +1095,7 @@ namespace BuildXL.Scheduler
             // is complete. GetDummyProvenance may be called during execution (after the schedule phase)
             GetDummyProvenance();
 
-            m_tempCleaner = tempCleaner;
+            TempCleaner = tempCleaner;
 
             // Ensure that when the cancellationToken is signaled, we respond with the
             // internal cancellation process.
@@ -2061,7 +2057,7 @@ namespace BuildXL.Scheduler
                     m_pipQueue.AdjustIOParallelDegree(m_perfInfo);
                 }
 
-                if (m_scheduleConfiguration.EarlyWorkerRelease && IsDistributedMaster)
+                if (m_configuration.Distribution.EarlyWorkerRelease && IsDistributedMaster)
                 {
                     PerformEarlyReleaseWorker(numProcessPipsPending, numProcessPipsAllocatedSlots);
                 }
@@ -2085,7 +2081,7 @@ namespace BuildXL.Scheduler
 
             // If the available remote workers perform at that multiplier capacity in future, how many process pips we can concurrently execute:
             int totalProcessSlots = LocalWorker.TotalProcessSlots +
-               (int)Math.Ceiling(m_scheduleConfiguration.EarlyWorkerReleaseMultiplier * Workers.Where(a => a.IsRemote && a.IsAvailable).Sum(a => a.TotalProcessSlots));
+               (int)Math.Ceiling(m_configuration.Distribution.EarlyWorkerReleaseMultiplier * Workers.Where(a => a.IsRemote && a.IsAvailable).Sum(a => a.TotalProcessSlots));
 
             // Release worker if numProcessPipsWaiting can be satisfied by remaining workers
             if (numProcessPipsWaiting > 0 && (numProcessPipsWaiting < totalProcessSlots - workerToReleaseCandidate.TotalProcessSlots))
@@ -2625,7 +2621,7 @@ namespace BuildXL.Scheduler
             Contract.Requires(runnablePip.PipType == PipType.Process);
             Contract.Requires(runnablePip.Result.HasValue);
             // Only allow this to be null in testing
-            if (m_tempCleaner == null)
+            if (TempCleaner == null)
             {
                 Contract.Assert(m_testHooks != null);
                 return;
@@ -2646,7 +2642,7 @@ namespace BuildXL.Scheduler
             // temp directories are not considered as outputs.
             if (process.TempDirectory.IsValid)
             {
-                m_tempCleaner.RegisterDirectoryToDelete(process.TempDirectory.ToString(Context.PathTable), deleteRootDirectory: true);
+                TempCleaner.RegisterDirectoryToDelete(process.TempDirectory.ToString(Context.PathTable), deleteRootDirectory: true);
             }
 
             foreach (var additionalTempDirectory in process.AdditionalTempDirectories)
@@ -2654,7 +2650,7 @@ namespace BuildXL.Scheduler
                 // Unlike process.TempDirectory, which is invalid for pips without temp directories,
                 // AdditionalTempDirectories should not have invalid paths added
                 Contract.Requires(additionalTempDirectory.IsValid);
-                m_tempCleaner.RegisterDirectoryToDelete(additionalTempDirectory.ToString(Context.PathTable), deleteRootDirectory: true);
+                TempCleaner.RegisterDirectoryToDelete(additionalTempDirectory.ToString(Context.PathTable), deleteRootDirectory: true);
             }
 
             // Only for successful run scheduling temporary outputs for deletion
@@ -2665,7 +2661,7 @@ namespace BuildXL.Scheduler
                 // CanBeReferencedOrCached() is false for e.g. 'intermediate' outputs, and deleting them proactively can be a nice space saving
                 if (!output.CanBeReferencedOrCached())
                 {
-                    m_tempCleaner.RegisterFileToDelete(output.Path.ToString(Context.PathTable));
+                    TempCleaner.RegisterFileToDelete(output.Path.ToString(Context.PathTable));
                 }
             }
         }
@@ -4808,7 +4804,8 @@ namespace BuildXL.Scheduler
                     m_fileContentTable,
                     m_fileChangeTracker,
                     DirectoryTranslator,
-                    fileChangeTrackingSelector);
+                    fileChangeTrackingSelector,
+                    vfsCasRoot: m_configuration.Cache.VfsCasRoot);
 
                 m_pipOutputMaterializationTracker = new PipOutputMaterializationTracker(this, IncrementalSchedulingState);
 
@@ -4848,7 +4845,7 @@ namespace BuildXL.Scheduler
                 incrementalSchedulingStateFactory = new IncrementalSchedulingStateFactory(
                     loggingContext,
                     analysisMode: false,
-                    tempDirectoryCleaner: m_tempCleaner);
+                    tempDirectoryCleaner: TempCleaner);
             }
 
             if (m_fileChangeTracker.IsBuildingInitialChangeTrackingSet)
@@ -5471,7 +5468,7 @@ namespace BuildXL.Scheduler
             {
                 if (existence != PathExistence.Nonexistent && trackedFileContentInfo.Hash.IsSpecialValue())
                 {
-                    Contract.Assert(false, I($"Hash={trackedFileContentInfo.Hash}, Length={trackedFileContentInfo.FileContentInfo.RawLength}, Existence={existence}, Path={artifact.Path.ToString(Context.PathTable)}, Origin={origin}"));
+                    Contract.Assert(false, I($"Hash={trackedFileContentInfo.Hash}, Length={trackedFileContentInfo.FileContentInfo.SerializedLengthAndExistence}, Existence={existence}, Path={artifact.Path.ToString(Context.PathTable)}, Origin={origin}"));
                 }
 
                 // Since it's an output file, force the existence as ExistsAsFile.

@@ -3,13 +3,39 @@
 
 syntax = "proto3";
 
-import "tools/google/protobuf/timestamp.proto";
-import "tools/google/protobuf/duration.proto";
 import "HelperStructsAndEnums.proto";
 
 package BuildXL.Execution.Analyzer;
 
 option csharp_namespace = "BuildXL.Execution.Analyzer.Xldb";
+
+//
+//  Generic Static Graph Info (key, etc)
+//
+
+// CachedGraphQuery is the key for the top level data structures stored in the cached graph
+message CachedGraphQuery{
+    bool DirectedGraph = 1;
+
+    bool PipTable = 2;
+
+    bool MountPathExpander = 3;
+
+    bool PipGraph = 4;  
+}
+
+// PipQuery is the key for pips stored in RocksDB
+message PipQuery{
+    // Primary key, unique except for the pips that have a SemiStableHash = 0
+    int64 SemiStableHash = 1;
+
+    // We include the PipType in the key to know which type of pip is stored in the value
+    // and how to appropriately parse it (since Protobuf has no inheritance)
+    PipType PipType = 2;
+
+    // Always unique within a build (makes the key unique)
+    uint32 PipId = 3;
+}
 
 //
 //  Map Messages -> Protobuf does not allow for float, double, bytes, or message types to be 
@@ -70,6 +96,12 @@ message NodeValuesMap{
     uint32 Value = 2;
 }
 
+message PipDeserializationContext{
+    PipQueryContext Key = 1;
+
+    int32 Value = 2;
+}
+
 //
 //  Graph Data
 //
@@ -90,6 +122,30 @@ message DirectedGraph{
 
 message PipTable{
     bool IsDisposed = 1;
+
+    int64 Reads = 2;
+
+    int32 Writes = 3;
+
+    repeated PipDeserializationContext DeserializationContexts = 4;
+
+    int32 Count = 5;
+
+    repeated uint32 StableKeys = 6;
+
+    repeated uint32 Keys = 7;
+
+    int32 PageStreamsCount = 8;
+
+    int64 Size = 9;
+
+    int64 WritesMilliseconds = 10;
+
+    int64 ReadsMilliseconds = 11;
+
+    int64 Used = 12;
+
+    int32 Alive = 13;
 }
 
 message MountPathExpander{
@@ -116,6 +172,9 @@ message PipGraph{
     int32 FileCount = 9;
 
     int32 ContentCount = 10;
+
+    int32 ArtifactContentCount = 11;
+    // Technically we could have one 
 }
 
 message SerializedPipGraph{

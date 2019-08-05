@@ -88,11 +88,15 @@ namespace BuildXL.Execution.Analyzer
         private DominoInvocationEventData m_invocationData;
         private readonly bool m_useOriginalPaths;
 
+        private readonly System.Diagnostics.Stopwatch m_stopWatch;
+
         public DumpPipAnalyzer(AnalysisInput input, string outputFilePath, long semiStableHash, bool useOriginalPaths, bool logProgress = false)
             : base(input)
         {
             m_outputFilePath = outputFilePath;
             m_useOriginalPaths = useOriginalPaths;
+            m_stopWatch = new System.Diagnostics.Stopwatch();
+            m_stopWatch.Start();
 
             if (logProgress)
             {
@@ -214,6 +218,7 @@ namespace BuildXL.Execution.Analyzer
             }
 
             doc.Save(m_outputFilePath);
+            Console.WriteLine("Total time for writing {0} seconds", m_stopWatch.ElapsedMilliseconds / 1000.0);
             return 0;
         }
 

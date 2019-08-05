@@ -20,10 +20,22 @@ message EventCount{
     uint32 Value = 1;
 }
 
+message EventCountByTypeKey{
+    ExecutionEventId EventTypeID = 1;
+}
+
+message EventCountByTypeValue{
+    map<uint32, int32> WorkerToCountMap = 1;
+
+    map<uint32, int32> WorkerToPayloadMap = 2;
+}
+
 // Event query should be of this format. It also serves as the key to the DB
 message EventTypeQuery{
     // ID of the Event - required
     ExecutionEventId EventTypeID = 1; 
+
+    uint32 PipId = 2;
     
     // Other ideas to keep in EventTypeQuery were as follows:
     // string (or int64) Path (or hash of path) = 2;

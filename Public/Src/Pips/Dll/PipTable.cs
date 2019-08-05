@@ -570,7 +570,7 @@ namespace BuildXL.Pips
         /// Re-creates a pip that was added earlier.
         /// </summary>
         /// <remarks>
-        /// Calling is function is potentially quite expensive, and should be avoided when possible.
+        /// Calling this function is potentially quite expensive, and should be avoided when possible.
         /// This obviously returns a strong reference to a Pip. As long as someone holds on to that strong reference, the Pip will
         /// stay in memory.
         /// As soon as the last reference gets released, the Pip may get garbage collected, which is a good thing (and the Pip

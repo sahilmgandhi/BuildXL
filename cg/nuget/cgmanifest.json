@@ -14,42 +14,6 @@
       "Component": {
         "Type": "NuGet",
         "NuGet": {
-          "Name": "Aria.Cpp.SDK.osx-x64",
-          "Version": "8.5.6"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Aria.Cpp.SDK.win-x64",
-          "Version": "8.5.6"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "ArtifactServices.App.Shared",
-          "Version": "18.163.29708-buildid11260482"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "ArtifactServices.App.Shared.Cache",
-          "Version": "18.163.29708-buildid11260482"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
           "Name": "AsyncFixer",
           "Version": "1.1.5"
         }
@@ -95,15 +59,6 @@
       "Component": {
         "Type": "NuGet",
         "NuGet": {
-          "Name": "BuildXL.DeviceMap",
-          "Version": "0.0.1"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
           "Name": "BuildXL.Tools.AppHostPatcher",
           "Version": "1.0.0"
         }
@@ -115,24 +70,6 @@
         "NuGet": {
           "Name": "BuildXL.Tools.Ninjson",
           "Version": "0.0.6"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "BuildXL.Tracing.AriaTenantToken",
-          "Version": "1.0.0"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "CB.QTest",
-          "Version": "19.11.27.124129"
         }
       }
     },
@@ -169,33 +106,6 @@
         "NuGet": {
           "Name": "DotNet.Glob",
           "Version": "2.0.3"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Dotnet-Runtime",
-          "Version": "5.0.3"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Drop.App.Core",
-          "Version": "18.163.29708-buildid11260482"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Drop.Client",
-          "Version": "18.163.29708-buildid11260482"
         }
       }
     },
@@ -376,15 +286,6 @@
         "NuGet": {
           "Name": "ILRepack",
           "Version": "2.0.16"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "ItemStore.Shared",
-          "Version": "18.163.29708-buildid11260482"
         }
       }
     },
@@ -2165,44 +2066,8 @@
       "Component": {
         "Type": "NuGet",
         "NuGet": {
-          "Name": "Microsoft.VisualStudio.Services.ArtifactServices.Shared",
-          "Version": "18.163.29708-buildid11260482"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Microsoft.VisualStudio.Services.BlobStore.Client",
-          "Version": "18.163.29708-buildid11260482"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Microsoft.VisualStudio.Services.BlobStore.Client.Cache",
-          "Version": "18.163.29708-buildid11260482"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
           "Name": "Microsoft.VisualStudio.Services.Client",
-          "Version": "16.163.0-internal202001081"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Microsoft.VisualStudio.Services.InteractiveClient",
-          "Version": "16.163.0-internal202001081"
+          "Version": "16.148.0-preview"
         }
       }
     },
@@ -2480,15 +2345,6 @@
       "Component": {
         "Type": "NuGet",
         "NuGet": {
-          "Name": "Microsoft.Windows.Debuggers.SymstoreInterop",
-          "Version": "1.0.1"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
           "Name": "Microsoft.Windows.ProjFS",
           "Version": "1.0.19079.1"
         }
@@ -2570,15 +2426,6 @@
       "Component": {
         "Type": "NuGet",
         "NuGet": {
-          "Name": "NodeJs",
-          "Version": "13.3.0-noTest"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
           "Name": "NuGet.Commandline",
           "Version": "4.7.1"
         }
@@ -2608,15 +2455,6 @@
         "NuGet": {
           "Name": "Pipelines.Sockets.Unofficial",
           "Version": "2.0.22"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "PowerShell.Core",
-          "Version": "6.1.0"
         }
       }
     },
@@ -2698,24 +2536,6 @@
         "NuGet": {
           "Name": "StyleCop.Analyzers",
           "Version": "1.1.0-beta004"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Symbol.App.Core",
-          "Version": "18.163.29708-buildid11260482"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "Symbol.Client",
-          "Version": "18.163.29708-buildid11260482"
         }
       }
     },
@@ -4235,15 +4055,6 @@
       "Component": {
         "Type": "NuGet",
         "NuGet": {
-          "Name": "WindowsSdk.Corext",
-          "Version": "10.0.16299.1"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
           "Name": "microsoft.dotnet.xunitconsolerunner",
           "Version": "2.5.1-beta.19270.4"
         }
@@ -4354,15 +4165,6 @@
         "NuGet": {
           "Name": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
           "Version": "4.3.0"
-        }
-      }
-    },
-    {
-      "Component": {
-        "Type": "NuGet",
-        "NuGet": {
-          "Name": "runtime.osx-x64.BuildXL",
-          "Version": "3.2.99"
         }
       }
     },

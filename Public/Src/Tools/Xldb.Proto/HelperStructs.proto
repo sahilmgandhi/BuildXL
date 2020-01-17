@@ -38,6 +38,12 @@ message AbsolutePath{
     string Value = 1;
 }
 
+// String from a string table
+message StringTableString{
+    // The fully expanded String
+    string Value = 1;
+}
+
 // ContentHash message
 message ContentHash{
     // Byte array that represents the ContentHash

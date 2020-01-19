@@ -202,7 +202,7 @@ namespace BuildXL.Execution.Analyzer
         private int m_eventSequenceNumber;
         private int m_eventCount;
         private ConcurrentDictionary<DBStoredTypes, DBStorageStatsValue> m_dBStorageStats = new ConcurrentDictionary<DBStoredTypes, DBStorageStatsValue>();
-        private string[] m_additionalColumns = { XldbDataStore.EventColumnFamilyName, XldbDataStore.PipColumnFamilyName, XldbDataStore.StaticGraphColumnFamilyName, XldbDataStore.PathTableFamilyName, XldbDataStore.StringTableFamilyName };
+        private string[] m_additionalColumns = { XldbDataStore.EventColumnFamilyName, XldbDataStore.PipColumnFamilyName, XldbDataStore.StaticGraphColumnFamilyName, XldbDataStore.PathTableFamilyName, XldbDataStore.StringTableFamilyName, XldbDataStore.InversePathTableFamilyName, XldbDataStore.InverseStringTableFamilyName };
 
         private ConcurrentBigMap<Utilities.FileArtifact, HashSet<uint>> m_fileConsumerMap = new ConcurrentBigMap<Utilities.FileArtifact, HashSet<uint>>();
         private ConcurrentBigMap<Utilities.FileArtifact, uint> m_dynamicFileProducerMap = new ConcurrentBigMap<Utilities.FileArtifact, uint>();
@@ -878,7 +878,7 @@ namespace BuildXL.Execution.Analyzer
             {
                 var pathTableKey = new PathTableKey()
                 {
-                    IntVal = kvp.Value
+                    Id = kvp.Value
                 };
 
                 var pathTableValue = new Xldb.Proto.AbsolutePath()
@@ -889,13 +889,14 @@ namespace BuildXL.Execution.Analyzer
                 var key = pathTableKey.ToByteArray();
                 var value = pathTableValue.ToByteArray();
                 WriteToDb(key, value, XldbDataStore.PathTableFamilyName);
+                WriteToDb(value, key, XldbDataStore.InversePathTableFamilyName);
             });
 
             Parallel.ForEach(m_stringTableMap, parallelOptions, kvp =>
             {
                 var stringTableKey = new StringTableKey()
                 {
-                    IntVal = kvp.Value
+                    Id = kvp.Value
                 };
 
                 var stringTableValue = new FullString()
@@ -906,6 +907,7 @@ namespace BuildXL.Execution.Analyzer
                 var key = stringTableKey.ToByteArray();
                 var value = stringTableValue.ToByteArray();
                 WriteToDb(key, value, XldbDataStore.StringTableFamilyName);
+                WriteToDb(value, key, XldbDataStore.InverseStringTableFamilyName);
             });
         }
 

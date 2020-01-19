@@ -47,13 +47,13 @@ message FullString{
 // The PathTable key
 message PathTableKey{
     // The Path's integer value
-    int32 IntVal = 1;
+    int32 Id = 1;
 }
 
 // The StringTable key
 message StringTableKey{
     // The string's integer value
-    int32 IntVal = 1;
+    int32 Id = 1;
 }
 
 // ContentHash message

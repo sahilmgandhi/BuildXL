@@ -28,7 +28,9 @@ namespace BuildXL.Xldb
         public const string PipColumnFamilyName = "Pip";
         public const string StaticGraphColumnFamilyName = "StaticGraph";
         public const string PathTableFamilyName = "PathTable";
+        public const string InversePathTableFamilyName = "InversePathTable";
         public const string StringTableFamilyName = "StringTable";
+        public const string InverseStringTableFamilyName = "InverseStringTable";
 
         /// <summary>
         /// Version file name. Contains a single integer that represents the XldbVersion (see below)
@@ -69,7 +71,7 @@ namespace BuildXL.Xldb
 
             var accessor = KeyValueStoreAccessor.Open(storeDirectory,
                defaultColumnKeyTracked,
-               new string[] { EventColumnFamilyName, PipColumnFamilyName, StaticGraphColumnFamilyName, PathTableFamilyName, StringTableFamilyName },
+               new string[] { EventColumnFamilyName, PipColumnFamilyName, StaticGraphColumnFamilyName, PathTableFamilyName, StringTableFamilyName, InversePathTableFamilyName, InverseStringTableFamilyName },
                additionalKeyTrackedColumns,
                failureHandler: null,
                openReadOnly,
@@ -692,6 +694,124 @@ namespace BuildXL.Xldb
             }
 
             return directoryProducerOrConsumers;
+        }
+
+        /// <summary>
+        /// Gets the string value from a StringTable id
+        /// </summary>
+        public string GetStringFromId(int id)
+        {
+            Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
+
+            var stringTableKey = new StringTableKey()
+            {
+                Id = id
+            };
+
+            var maybeFound = m_accessor.Use(database =>
+            {
+                if (database.TryGetValue(stringTableKey.ToByteArray(), out var stringValue, StringTableFamilyName))
+                {
+                    return FullString.Parser.ParseFrom(stringValue).Value;
+                }
+
+                return null;
+            });
+
+            if (!maybeFound.Succeeded)
+            {
+                return "";
+            }
+
+            return maybeFound.Result;
+        }
+
+        /// <summary>
+        /// Gets the AbsolutePath string value from a PathTable id
+        /// </summary>
+        public string GetPathFromId(int id)
+        {
+            var pathTableKey = new PathTableKey()
+            {
+                Id = id
+            };
+
+            var maybeFound = m_accessor.Use(database =>
+            {
+                if (database.TryGetValue(pathTableKey.ToByteArray(), out var pathValue, PathTableFamilyName))
+                {
+                    return AbsolutePath.Parser.ParseFrom(pathValue).Value;
+                }
+
+                return null;
+            });
+
+            if (!maybeFound.Succeeded)
+            {
+                return "";
+            }
+
+            return maybeFound.Result;
+        }
+
+        ///<summary>
+        /// Gets a list of ids for a prefix match for a string
+        ///</summary>
+        public IEnumerable<int> GetIdsForString(string stringTableString)
+        {
+            Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
+
+            var stringIdList = new List<int>();
+
+            var key = new FullString()
+            {
+                Value = stringTableString
+            };
+
+            var maybeFound = m_accessor.Use(database =>
+            {
+                foreach (var kvp in database.PrefixSearch(key.ToByteArray(), InverseStringTableFamilyName))
+                {
+                    stringIdList.Add(StringTableKey.Parser.ParseFrom(kvp.Value).Id);
+                }
+            });
+
+            if (!maybeFound.Succeeded)
+            {
+                maybeFound.Failure.Throw();
+            }
+
+            return stringIdList;
+        }
+        
+        ///<summary>
+        /// Gets a list of ids for a prefix match for a path
+        /// </summary>
+        public IEnumerable<int> GetIdsForPaths(string path)
+        {
+            Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
+
+            var pathIdList = new List<int>();
+
+            var key = new AbsolutePath()
+            {
+                Value = path
+            };
+
+            var maybeFound = m_accessor.Use(database =>
+            {
+                foreach (var kvp in database.PrefixSearch(key.ToByteArray(), InversePathTableFamilyName))
+                {
+                    pathIdList.Add(PathTableKey.Parser.ParseFrom(kvp.Value).Id);
+                }
+            });
+
+            if (!maybeFound.Succeeded)
+            {
+                maybeFound.Failure.Throw();
+            }
+
+            return pathIdList;
         }
 
         /// <summary>

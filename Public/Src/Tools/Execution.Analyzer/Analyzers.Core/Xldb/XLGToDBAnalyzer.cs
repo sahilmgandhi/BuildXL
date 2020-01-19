@@ -331,7 +331,7 @@ namespace BuildXL.Execution.Analyzer
         /// </summary>
         public override void FileArtifactContentDecided(FileArtifactContentDecidedEventData data)
         {
-            var value = data.ToFileArtifactContentDecidedEvent(WorkerID.Value, PathTable, m_nameExpander);
+            var value = data.ToFileArtifactContentDecidedEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap);
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.FileArtifactContentDecided,
@@ -423,7 +423,7 @@ namespace BuildXL.Execution.Analyzer
         /// </summary>
         public override void ProcessFingerprintComputed(ProcessFingerprintComputationEventData data)
         {
-            var value = data.ToProcessFingerprintComputationEvent(WorkerID.Value, PathTable, m_nameExpander);
+            var value = data.ToProcessFingerprintComputationEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap);
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.ProcessFingerprintComputation,
@@ -566,7 +566,7 @@ namespace BuildXL.Execution.Analyzer
                 };
 
                 value.FileArtifactArray.AddRange(fileArtifactArray.Select(
-                        file => file.ToFileArtifact(PathTable, m_nameExpander)));
+                        file => file.ToFileArtifact(PathTable, m_nameExpander, m_pathTableMap)));
 
                 var key = new EventKey
                 {
@@ -699,14 +699,14 @@ namespace BuildXL.Execution.Analyzer
                         else if (pipType == PipType.CopyFile)
                         {
                             var copyFilePip = (Pips.Operations.CopyFile)hydratedPip;
-                            xldbSpecificPip = copyFilePip.ToCopyFile(PathTable, xldbPip, m_nameExpander);
+                            xldbSpecificPip = copyFilePip.ToCopyFile(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
                             AddToFileConsumerMap(copyFilePip.Source, pipId);
                             AddToDbStorageDictionary(DBStoredTypes.CopyFilePip, pipIdKeyArr.Length + xldbSpecificPip.ToByteArray().Length);
                         }
                         else if (pipType == PipType.WriteFile)
                         {
                             var writeFilePip = (Pips.Operations.WriteFile)hydratedPip;
-                            xldbSpecificPip = writeFilePip.ToWriteFile(PathTable, xldbPip, m_nameExpander);
+                            xldbSpecificPip = writeFilePip.ToWriteFile(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
                             AddToDbStorageDictionary(DBStoredTypes.WriteFilePip, pipIdKeyArr.Length + xldbSpecificPip.ToByteArray().Length);
                         }
                         else if (pipType == PipType.Process)

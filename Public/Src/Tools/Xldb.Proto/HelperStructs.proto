@@ -68,7 +68,7 @@ message ContentHash{
 // File Artifact message
 message FileArtifact{
     // Path to the file
-    AbsolutePath path = 1;
+    int32 path = 1;
     
     // Rewrite count of the file
     int32 RewriteCount = 2;
@@ -321,7 +321,7 @@ message StrongContentFingerprint{
 // ObservedPathEntry message. Represents a path in an ObservedPathSet and associated data.
 message ObservedPathEntry{
     // The path itself
-    AbsolutePath Path = 1;
+    int32 Path = 1;
 
     // The regex pattern toenumerate
     string EnumeratePatternRegex = 2;
@@ -440,7 +440,7 @@ message ObservedInput{
     ObservedPathEntry PathEntry = 3;
 
     // Path to the input
-    AbsolutePath Path = 4;
+    int32 Path = 4;
 
     // If it is a search path
     bool IsSearchPath = 5;
@@ -512,7 +512,7 @@ message DirectoryFingerprint{
 // DirectoryArtifact message. 
 // Represents an opaque directory. Pips that depend on this directory can enumerate it and read its contents.
 message DirectoryArtifact{
-    // The AbsolutePath associated with this artifact.
+    // The path associated with this artifact.
     int32 Path = 1;
 
     // The unique id for partially sealed directories
@@ -597,7 +597,7 @@ message ProcessPip{
     string ToolDescription = 9;
 
     // The working directory of the process.
-    AbsolutePath WorkingDirectory = 10;
+    int32 WorkingDirectoryPath = 10;
 
     // The Arguments to the process.
     string Arguments = 11;
@@ -612,10 +612,10 @@ message ProcessPip{
     repeated DirectoryArtifact DirectoryDependencies = 14;
 
     // External file dependencies
-    repeated AbsolutePath UntrackedPaths = 15;
+    repeated int32 UntrackedPaths = 15;
 
     // External file dependencies
-    repeated AbsolutePath UntrackedScopes = 16;
+    repeated int32 UntrackedScopesPaths = 16;
 
     // File outputs. Each member of the array is distinct.
     repeated FileArtifactWithAttributes FileOutputs = 17;
@@ -624,16 +624,16 @@ message ProcessPip{
     repeated DirectoryArtifact DirectoryOutputs = 18;
 
     // The temp directory, if access is allowed.
-    AbsolutePath TempDirectory = 19;
+    int32 TempDirectoryPath = 19;
 
     // Additional temp directories, but none of them are set to TEMP or TMP.
-    repeated AbsolutePath AdditionalTempDirectories = 20;
+    repeated int32 AdditionalTempDirectoriesPaths = 20;
 
     // Indicates whether this is a shutdown process for a service.
     ServiceInfo ServiceInfo = 21;
 
     // File/directory output paths that are preserved if AllowPreserveOutputs is enabled. 
-    repeated AbsolutePath PreserveOutputWhitelist = 22;
+    repeated int32 PreserveOutputWhitelistPaths = 22;
 
     // Tags of the pip
     repeated string Tags = 23;
@@ -788,7 +788,7 @@ message EnvironmentVariable{
 message FileArtifactWithAttributes{
 
     // Path of the file
-    AbsolutePath Path = 1;
+    int32 Path = 1;
 
     // Rewrite count of the file. 0 means source, 1 means output. > 1 = rewritten file
     int32 RewriteCount = 2;
@@ -813,18 +813,6 @@ message ServiceInfo{
 
     // If this service was used to start or shutdown
     bool IsStartOrShutdownKind = 5;
-}
-
-// LocationData message. The token class tracks the location information during parsing.
-message LocationData{
-    // Line number of the token
-    int32 Line = 1;
-
-    // Path of the token
-    AbsolutePath Path = 2;
-
-    // Column number of the token
-    int32 Position = 3;
 }
 
 // IpcClientInfo message. Information necessary for creating an IPC client

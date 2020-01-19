@@ -47,7 +47,7 @@ message FileProducerConsumerKey{
     ProducerConsumerType Type = 1;
 
     // The fully rooted file path
-    string FilePath = 2;
+    int32 FilePath = 2;
 
     // The rewrite count of this path (if known)
     int32 RewriteCount = 3;
@@ -71,7 +71,7 @@ message DirectoryProducerConsumerKey{
     ProducerConsumerType Type = 1;
 
     // The fully rooted directory path
-    string DirectoryPath = 2;
+    int32 DirectoryPath = 2;
 }
 
 // Value for the producer of a directory
@@ -149,16 +149,16 @@ message PipGraph{
 // MountPathExpander data message
 message MountPathExpander{
     // List of all writeable roots
-    repeated AbsolutePath WriteableRoots = 1;
+    repeated int32 WriteableRootsPaths = 1;
 
     // List of all paths where directories were allowed to be created
-    repeated AbsolutePath PathsWithAllowedCreateDirectory = 2;
+    repeated int32 PathsWithAllowedCreateDirectory = 2;
 
     // List of roots that are scrubbable
-    repeated AbsolutePath ScrubbableRoots = 3;
+    repeated int32 ScrubbableRootsPaths = 3;
 
-    // List of all rots 
-    repeated AbsolutePath AllRoots = 4;
+    // List of all roots 
+    repeated int32 AllRootsPaths = 4;
 
     // Map of all mount names to their SemanticPathInfo object
     map<string, SemanticPathInfo> MountsByName = 5;
@@ -167,7 +167,7 @@ message MountPathExpander{
 // SemanticPathInfo message
 message SemanticPathInfo{
     // The semantic root path
-    AbsolutePath Root = 1;
+    int32 RootPath = 1;
 
     // The semantic root name
     string RootName = 2;

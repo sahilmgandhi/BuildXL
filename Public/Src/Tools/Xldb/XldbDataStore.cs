@@ -608,11 +608,21 @@ namespace BuildXL.Xldb
         public IEnumerable<uint> GetProducersOfFile(string path)
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
+            
+            var pathId = 0;
+            if (path != "")
+            {
+                var possibleIds = GetIdsForPaths(path);
+                if (possibleIds.Any())
+                {
+                    pathId = possibleIds.First();
+                }
+            }
 
             var fileProducerKey = new FileProducerConsumerKey()
             {
                 Type = ProducerConsumerType.Producer,
-                FilePath = path
+                FilePath = pathId
             };
 
             return GetProducerConsumerOfFileByKey(fileProducerKey);
@@ -623,10 +633,20 @@ namespace BuildXL.Xldb
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
 
+            var pathId = 0;
+            if (path != "")
+            {
+                var possibleIds = GetIdsForPaths(path);
+                if (possibleIds.Any())
+                {
+                    pathId = possibleIds.First();
+                }
+            }
+
             var fileConsumerKey = new FileProducerConsumerKey()
             {
                 Type = ProducerConsumerType.Consumer,
-                FilePath = path
+                FilePath = pathId
             };
 
             return GetProducerConsumerOfFileByKey(fileConsumerKey);
@@ -670,10 +690,20 @@ namespace BuildXL.Xldb
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
 
+            var pathId = 0;
+            if (path != "")
+            {
+                var possibleIds = GetIdsForPaths(path);
+                if (possibleIds.Any())
+                {
+                    pathId = possibleIds.First();
+                }
+            }
+
             var directoryProducerKey = new DirectoryProducerConsumerKey()
             {
                 Type = ProducerConsumerType.Producer,
-                DirectoryPath = path
+                DirectoryPath = pathId
             };
 
             return GetProducerConsumerOfDirectoryByKey(directoryProducerKey);
@@ -684,10 +714,20 @@ namespace BuildXL.Xldb
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
 
+            var pathId = 0;
+            if (path != "")
+            {
+                var possibleIds = GetIdsForPaths(path);
+                if (possibleIds.Any())
+                {
+                    pathId = possibleIds.First();
+                }
+            }
+
             var directoryConsumerKey = new DirectoryProducerConsumerKey()
             {
                 Type = ProducerConsumerType.Consumer,
-                DirectoryPath = path
+                DirectoryPath = pathId
             };
 
             return GetProducerConsumerOfDirectoryByKey(directoryConsumerKey);

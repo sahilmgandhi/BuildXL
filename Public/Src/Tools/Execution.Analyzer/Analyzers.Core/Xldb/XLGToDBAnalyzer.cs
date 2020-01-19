@@ -235,7 +235,7 @@ namespace BuildXL.Execution.Analyzer
         /// <inheritdoc/>
         public override void Prepare()
         {
-            var accessor = KeyValueStoreAccessor.Open(storeDirectory: OutputDirPath, additionalColumns: m_additionalColumns, openBulkLoad: false);
+            var accessor = KeyValueStoreAccessor.Open(storeDirectory: OutputDirPath, additionalColumns: m_additionalColumns, openBulkLoad: true);
 
             if (accessor.Succeeded)
             {
@@ -275,7 +275,7 @@ namespace BuildXL.Execution.Analyzer
             WriteToDb(keyArr, valueArr, XldbDataStore.StaticGraphColumnFamilyName);
             AddToDbStorageDictionary(DBStoredTypes.GraphMetaData, keyArr.Length + valueArr.Length);
 
-            var xldbMounts = CachedGraph.MountPathExpander.ToMountPathExpander(PathTable, m_nameExpander);
+            var xldbMounts = CachedGraph.MountPathExpander.ToMountPathExpander(PathTable, m_nameExpander, m_pathTableMap);
             cachedGraphKey.Type = GraphMetaData.MountPathExpander;
             keyArr = cachedGraphKey.ToByteArray();
             valueArr = xldbMounts.ToByteArray();
@@ -774,7 +774,7 @@ namespace BuildXL.Execution.Analyzer
                 var fileConsumerKey = new FileProducerConsumerKey()
                 {
                     Type = ProducerConsumerType.Consumer,
-                    FilePath = AbsolutePathToXldbString(kvp.Key.Path),
+                    FilePath = kvp.Key.Path.RawValue,
                     RewriteCount = kvp.Key.RewriteCount
                 };
 
@@ -793,7 +793,7 @@ namespace BuildXL.Execution.Analyzer
                 var directoryConsumerKey = new DirectoryProducerConsumerKey()
                 {
                     Type = ProducerConsumerType.Consumer,
-                    DirectoryPath = AbsolutePathToXldbString(kvp.Key.Path)
+                    DirectoryPath = kvp.Key.Path.RawValue
                 };
 
                 var directoryConsumerValue = new DirectoryConsumerValue();
@@ -811,7 +811,7 @@ namespace BuildXL.Execution.Analyzer
                 var fileProducerKey = new FileProducerConsumerKey()
                 {
                     Type = ProducerConsumerType.Producer,
-                    FilePath = AbsolutePathToXldbString(kvp.Key.Path),
+                    FilePath = kvp.Key.Path.RawValue,
                     RewriteCount = kvp.Key.RewriteCount
                 };
 
@@ -832,7 +832,7 @@ namespace BuildXL.Execution.Analyzer
                 var directoryProducerKey = new DirectoryProducerConsumerKey()
                 {
                     Type = ProducerConsumerType.Producer,
-                    DirectoryPath = AbsolutePathToXldbString(kvp.Key.Path)
+                    DirectoryPath = kvp.Key.Path.RawValue
                 };
 
                 var directoryProducerValue = new DirectoryProducerValue()
@@ -852,7 +852,7 @@ namespace BuildXL.Execution.Analyzer
                 var fileProducerKey = new FileProducerConsumerKey()
                 {
                     Type = ProducerConsumerType.Producer,
-                    FilePath = AbsolutePathToXldbString(kvp.Key.Path),
+                    FilePath = kvp.Key.Path.RawValue,
                     RewriteCount = kvp.Key.RewriteCount
                 };
 
@@ -950,14 +950,6 @@ namespace BuildXL.Execution.Analyzer
                 Console.WriteLine("Failed to insert event data into RocksDb. Exiting analyzer now ...");
                 maybeInserted.Failure.Throw();
             }
-        }
-
-        /// <summary>
-        /// Convert an absolute path to a string specifically and only with windows path format (to keep it consistent amongst all databases)
-        /// </summary>
-        private string AbsolutePathToXldbString(Utilities.AbsolutePath path)
-        {
-            return path.ToString(PathTable, PathFormat.Windows, m_nameExpander);
         }
 
         /// <summary>

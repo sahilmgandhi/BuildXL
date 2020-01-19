@@ -849,29 +849,50 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static Xldb.Proto.MountPathExpander ToMountPathExpander(this MountPathExpander mount, PathTable pathTable, NameExpander nameExpander)
+        public static Xldb.Proto.MountPathExpander ToMountPathExpander(this MountPathExpander mount, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
             var xldbMountPathExpander = new Xldb.Proto.MountPathExpander();
 
-            xldbMountPathExpander.WriteableRoots.AddRange(mount.GetWritableRoots().Select(path => path.ToAbsolutePath(pathTable, nameExpander)));
-            xldbMountPathExpander.PathsWithAllowedCreateDirectory.AddRange(mount.GetPathsWithAllowedCreateDirectory().Select(path => path.ToAbsolutePath(pathTable, nameExpander)));
-            xldbMountPathExpander.ScrubbableRoots.AddRange(mount.GetScrubbableRoots().Select(path => path.ToAbsolutePath(pathTable, nameExpander)));
-            xldbMountPathExpander.AllRoots.AddRange(mount.GetAllRoots().Select(path => path.ToAbsolutePath(pathTable, nameExpander)));
+            foreach(var path in mount.GetWritableRoots())
+            {
+                pathTableMap.TryAdd(path.ToString(pathTable, PathFormat.Windows, nameExpander), path.RawValue);
+                xldbMountPathExpander.WriteableRootsPaths.Add(path.RawValue);
+            }
+
+            foreach(var path in mount.GetPathsWithAllowedCreateDirectory())
+            {
+                pathTableMap.TryAdd(path.ToString(pathTable, PathFormat.Windows, nameExpander), path.RawValue);
+                xldbMountPathExpander.PathsWithAllowedCreateDirectory.Add(path.RawValue);
+            }
+
+            foreach (var path in mount.GetScrubbableRoots())
+            {
+                pathTableMap.TryAdd(path.ToString(pathTable, PathFormat.Windows, nameExpander), path.RawValue);
+                xldbMountPathExpander.ScrubbableRootsPaths.Add(path.RawValue);
+            }
+
+            foreach (var path in mount.GetAllRoots())
+            {
+                pathTableMap.TryAdd(path.ToString(pathTable, PathFormat.Windows, nameExpander), path.RawValue);
+                xldbMountPathExpander.AllRootsPaths.Add(path.RawValue);
+            }
 
             foreach(var kvp in mount.GetAllMountsByName())
             {
-                xldbMountPathExpander.MountsByName.Add(kvp.Key, kvp.Value.ToSemanticPathInfo(pathTable, nameExpander));
+                xldbMountPathExpander.MountsByName.Add(kvp.Key, kvp.Value.ToSemanticPathInfo(pathTable, nameExpander, pathTableMap));
             }
 
             return xldbMountPathExpander;
         }
 
         /// <nodoc />
-        public static Xldb.Proto.SemanticPathInfo ToSemanticPathInfo(this SemanticPathInfo pathInfo, PathTable pathTable, NameExpander nameExpander)
+        public static Xldb.Proto.SemanticPathInfo ToSemanticPathInfo(this SemanticPathInfo pathInfo, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
+            pathTableMap.TryAdd(pathInfo.Root.ToString(pathTable, PathFormat.Windows, nameExpander), pathInfo.Root.RawValue);
+
             var xldbSemanticPathInfo = new Xldb.Proto.SemanticPathInfo()
             {
-                Root = pathInfo.Root.ToAbsolutePath(pathTable, nameExpander),
+                RootPath = pathInfo.Root.RawValue,
                 RootName = pathInfo.RootName.ToString(pathTable.StringTable),
                 IsValid = pathInfo.IsValid,
                 AllowHashing = pathInfo.AllowHashing,

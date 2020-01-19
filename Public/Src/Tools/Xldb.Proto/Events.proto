@@ -412,10 +412,10 @@ message BxlInvocationEvent{
     uint32 WorkerID = 1;
 
     // Original root that is being substituted
-    AbsolutePath SubstSource = 2;
+    int32 SubstSource = 2;
     
     // Root that SubstSource has been substituted to.
-    AbsolutePath SubstTarget = 3;
+    int32 SubstTarget = 3;
 
     // If the SubstSource is valid 
     bool IsSubstSourceValid = 4;

@@ -175,7 +175,7 @@ namespace BuildXL.Execution.Analyzer
         private const double s_innerConcurrencyMultiplier = 1.25;
 
         /// <summary>
-        /// A larger size for the name expander for paths than the defauly size of 7013. This value was selected by 
+        /// A larger size for the name expander for paths than the default size of 7013. This value was selected by 
         /// testing various larger prime numbers from HashCodeHelper.cs until one was found that resulted in good speedup without
         /// using an excessive amount of RAM.
         /// </summary>
@@ -202,11 +202,14 @@ namespace BuildXL.Execution.Analyzer
         private int m_eventSequenceNumber;
         private int m_eventCount;
         private ConcurrentDictionary<DBStoredTypes, DBStorageStatsValue> m_dBStorageStats = new ConcurrentDictionary<DBStoredTypes, DBStorageStatsValue>();
-        private string[] m_additionalColumns = { XldbDataStore.EventColumnFamilyName, XldbDataStore.PipColumnFamilyName, XldbDataStore.StaticGraphColumnFamilyName };
+        private string[] m_additionalColumns = { XldbDataStore.EventColumnFamilyName, XldbDataStore.PipColumnFamilyName, XldbDataStore.StaticGraphColumnFamilyName, XldbDataStore.PathTableFamilyName, XldbDataStore.StringTableFamilyName };
 
         private ConcurrentBigMap<Utilities.FileArtifact, HashSet<uint>> m_fileConsumerMap = new ConcurrentBigMap<Utilities.FileArtifact, HashSet<uint>>();
         private ConcurrentBigMap<Utilities.FileArtifact, uint> m_dynamicFileProducerMap = new ConcurrentBigMap<Utilities.FileArtifact, uint>();
         private ConcurrentBigMap<Utilities.DirectoryArtifact, HashSet<uint>> m_directoryConsumerMap = new ConcurrentBigMap<Utilities.DirectoryArtifact, HashSet<uint>>();
+
+        private ConcurrentBigMap<string, int> m_stringTableMap = new ConcurrentBigMap<string, int>();
+        private ConcurrentBigMap<string, int> m_pathTableMap = new ConcurrentBigMap<string, int>();
 
         private readonly NameExpander m_nameExpander = new NameExpander(s_nameExpanderSize);
 
@@ -283,9 +286,12 @@ namespace BuildXL.Execution.Analyzer
             Console.WriteLine($"\nPipGraph metadata ingested ... total time is: {m_stopWatch.ElapsedMilliseconds / 1000.0} seconds");
 
             Console.WriteLine("\nStarting to ingest file and directory consumer/producer information.");
-
             IngestProducerConsumerInformation();
             Console.WriteLine($"\nConsumer/producer information ingested ... total time is: {m_stopWatch.ElapsedMilliseconds / 1000.0} seconds");
+
+            Console.WriteLine("\nStarting to ingest PathTable and StringTable information.");
+            IngestPathAndStringTable();
+            Console.WriteLine($"\nPathTable and StringTable information ingested .... total time is: {m_stopWatch.ElapsedMilliseconds / 1000.0} seconds");
 
             foreach (var kvp in m_dBStorageStats)
             {
@@ -305,7 +311,7 @@ namespace BuildXL.Execution.Analyzer
         /// <inheritdoc/>
         public override void Dispose()
         {
-            Console.Write("Done writing all data ... compacting DB now.");
+            Console.Write("\nDone writing all data ... compacting DB now.");
             m_accessor.Dispose();
             Console.WriteLine($"\nDone compacting and exiting analyzer ... total time is: {m_stopWatch.ElapsedMilliseconds / 1000.0} seconds");
         }
@@ -528,7 +534,7 @@ namespace BuildXL.Execution.Analyzer
         /// </summary>
         public override void BxlInvocation(BxlInvocationEventData data)
         {
-            var value = data.ToBxlInvocationEvent(WorkerID.Value, PathTable, m_nameExpander);
+            var value = data.ToBxlInvocationEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap);
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.BxlInvocation,
@@ -860,6 +866,46 @@ namespace BuildXL.Execution.Analyzer
                 WriteToDb(key, value, XldbDataStore.StaticGraphColumnFamilyName);
 
                 AddToDbStorageDictionary(DBStoredTypes.FileProducer, key.Length + value.Length);
+            });
+        }
+
+        private void IngestPathAndStringTable()
+        {
+            var parallelOptions = new ParallelOptions();
+            parallelOptions.MaxDegreeOfParallelism = (int)(Environment.ProcessorCount * s_innerConcurrencyMultiplier);
+
+            Parallel.ForEach(m_pathTableMap, parallelOptions, kvp =>
+            {
+                var pathTableKey = new PathTableKey()
+                {
+                    IntVal = kvp.Value
+                };
+
+                var pathTableValue = new Xldb.Proto.AbsolutePath()
+                {
+                    Value = kvp.Key
+                };
+
+                var key = pathTableKey.ToByteArray();
+                var value = pathTableValue.ToByteArray();
+                WriteToDb(key, value, XldbDataStore.PathTableFamilyName);
+            });
+
+            Parallel.ForEach(m_stringTableMap, parallelOptions, kvp =>
+            {
+                var stringTableKey = new StringTableKey()
+                {
+                    IntVal = kvp.Value
+                };
+
+                var stringTableValue = new FullString()
+                {
+                    Value = kvp.Key
+                };
+
+                var key = stringTableKey.ToByteArray();
+                var value = stringTableValue.ToByteArray();
+                WriteToDb(key, value, XldbDataStore.StringTableFamilyName);
             });
         }
 

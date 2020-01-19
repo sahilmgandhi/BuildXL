@@ -39,9 +39,21 @@ message AbsolutePath{
 }
 
 // String from a string table
-message StringTableString{
+message FullString{
     // The fully expanded String
     string Value = 1;
+}
+
+// The PathTable key
+message PathTableKey{
+    // The Path's integer value
+    int32 IntVal = 1;
+}
+
+// The StringTable key
+message StringTableKey{
+    // The string's integer value
+    int32 IntVal = 1;
 }
 
 // ContentHash message

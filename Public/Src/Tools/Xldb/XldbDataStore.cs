@@ -27,6 +27,8 @@ namespace BuildXL.Xldb
         public const string EventColumnFamilyName = "Event";
         public const string PipColumnFamilyName = "Pip";
         public const string StaticGraphColumnFamilyName = "StaticGraph";
+        public const string PathTableFamilyName = "PathTable";
+        public const string StringTableFamilyName = "StringTable";
 
         /// <summary>
         /// Version file name. Contains a single integer that represents the XldbVersion (see below)
@@ -38,7 +40,7 @@ namespace BuildXL.Xldb
         /// Only bump this version when there are major changes to the underlying db instance
         /// (i.e. ProtoBuf objects being changed, indexes being created/changed, etc).
         /// </summary>
-        public const int XldbVersion = 1;
+        public const int XldbVersion = 2;
 
         /// <summary>
         /// Open the datastore and populate the KeyValueStoreAccessor for the XLG++ DB
@@ -67,7 +69,7 @@ namespace BuildXL.Xldb
 
             var accessor = KeyValueStoreAccessor.Open(storeDirectory,
                defaultColumnKeyTracked,
-               new string[] { EventColumnFamilyName, PipColumnFamilyName, StaticGraphColumnFamilyName },
+               new string[] { EventColumnFamilyName, PipColumnFamilyName, StaticGraphColumnFamilyName, PathTableFamilyName, StringTableFamilyName },
                additionalKeyTrackedColumns,
                failureHandler: null,
                openReadOnly,

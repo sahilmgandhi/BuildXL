@@ -8,6 +8,7 @@ using BuildXL.Pips.Graph;
 using BuildXL.Pips.Operations;
 using BuildXL.Scheduler.Tracing;
 using BuildXL.Utilities;
+using BuildXL.Utilities.Collections;
 using BuildXL.Xldb.Proto;
 using static BuildXL.Utilities.HierarchicalNameTable;
 using AbsolutePath = BuildXL.Utilities.AbsolutePath;
@@ -368,15 +369,18 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static BxlInvocationEvent ToBxlInvocationEvent(this BxlInvocationEventData data, uint workerID, PathTable pathTable, NameExpander nameExpander)
+        public static BxlInvocationEvent ToBxlInvocationEvent(this BxlInvocationEventData data, uint workerID, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
             var loggingConfig = data.Configuration.Logging;
+
+            pathTableMap.TryAdd(loggingConfig.SubstSource.ToString(pathTable, PathFormat.Windows, nameExpander), loggingConfig.SubstSource.RawValue);
+            pathTableMap.TryAdd(loggingConfig.SubstTarget.ToString(pathTable, PathFormat.Windows, nameExpander), loggingConfig.SubstTarget.RawValue);
 
             var bxlInvEvent = new BxlInvocationEvent
             {
                 WorkerID = workerID,
-                SubstSource = loggingConfig.SubstSource.ToAbsolutePath(pathTable, nameExpander),
-                SubstTarget = loggingConfig.SubstTarget.ToAbsolutePath(pathTable, nameExpander),
+                SubstSource = loggingConfig.SubstSource.RawValue,
+                SubstTarget = loggingConfig.SubstTarget.RawValue,
                 IsSubstSourceValid = loggingConfig.SubstSource.IsValid,
                 IsSubstTargetValid = loggingConfig.SubstTarget.IsValid
             };

@@ -571,11 +571,18 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static Xldb.Proto.DirectoryArtifact ToDirectoryArtifact(this DirectoryArtifact artifact, PathTable pathTable, NameExpander nameExpander)
+        public static Xldb.Proto.DirectoryArtifact ToDirectoryArtifact(this DirectoryArtifact artifact, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
-            return !artifact.IsValid ? null : new Xldb.Proto.DirectoryArtifact()
+            if (!artifact.IsValid)
             {
-                Path = artifact.Path.ToAbsolutePath(pathTable, nameExpander),
+                return null;
+            }
+
+            pathTableMap.TryAdd(artifact.Path.ToString(pathTable, PathFormat.Windows, nameExpander), artifact.Path.RawValue);
+
+            return new Xldb.Proto.DirectoryArtifact()
+            {
+                Path = artifact.Path.RawValue,
                 PartialSealID = artifact.PartialSealId,
                 IsSharedOpaque = artifact.IsSharedOpaque
             };
@@ -594,7 +601,7 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static Xldb.Proto.FileOrDirectoryArtifact ToFileOrDirectoryArtifact(this FileOrDirectoryArtifact artifact, PathTable pathTable, NameExpander nameExpander)
+        public static Xldb.Proto.FileOrDirectoryArtifact ToFileOrDirectoryArtifact(this FileOrDirectoryArtifact artifact, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
             if (!artifact.IsValid)
             {
@@ -605,7 +612,7 @@ namespace BuildXL.Execution.Analyzer
             if (artifact.IsDirectory)
             {
                 xldbFileOrDirectoryArtifact.IsDirectory = true;
-                xldbFileOrDirectoryArtifact.DirectoryArtifact = artifact.DirectoryArtifact.ToDirectoryArtifact(pathTable, nameExpander);
+                xldbFileOrDirectoryArtifact.DirectoryArtifact = artifact.DirectoryArtifact.ToDirectoryArtifact(pathTable, nameExpander, pathTableMap);
             }
             else
             {
@@ -649,7 +656,7 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static Xldb.Proto.SealDirectory ToSealDirectory(this SealDirectory pip, PathTable pathTable, Xldb.Proto.Pip parentPip, NameExpander nameExpander)
+        public static Xldb.Proto.SealDirectory ToSealDirectory(this SealDirectory pip, PathTable pathTable, Xldb.Proto.Pip parentPip, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
             var xldbSealDirectory = new Xldb.Proto.SealDirectory
             {
@@ -657,14 +664,14 @@ namespace BuildXL.Execution.Analyzer
                 Kind = (SealDirectoryKind)(pip.Kind + 1),
                 IsComposite = pip.IsComposite,
                 Scrub = pip.Scrub,
-                Directory = pip.Directory.ToDirectoryArtifact(pathTable, nameExpander),
+                Directory = pip.Directory.ToDirectoryArtifact(pathTable, nameExpander, pathTableMap),
                 IsSealSourceDirectory = pip.IsSealSourceDirectory,
                 Provenance = pip.Provenance.ToPipProvenance(pathTable),
             };
 
             xldbSealDirectory.Patterns.AddRange(pip.Patterns.Select(key => key.ToString(pathTable)));
             xldbSealDirectory.Contents.AddRange(pip.Contents.Select(file => file.ToFileArtifact(pathTable, nameExpander)));
-            xldbSealDirectory.ComposedDirectories.AddRange(pip.ComposedDirectories.Select(dir => dir.ToDirectoryArtifact(pathTable, nameExpander)));
+            xldbSealDirectory.ComposedDirectories.AddRange(pip.ComposedDirectories.Select(dir => dir.ToDirectoryArtifact(pathTable, nameExpander, pathTableMap)));
 
             if (pip.Tags.IsValid)
             {
@@ -715,7 +722,7 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static ProcessPip ToProcessPip(this Process pip, PathTable pathTable, Xldb.Proto.Pip parentPip, NameExpander nameExpander)
+        public static ProcessPip ToProcessPip(this Process pip, PathTable pathTable, Xldb.Proto.Pip parentPip, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
             var xldbProcessPip = new ProcessPip
             {
@@ -762,7 +769,7 @@ namespace BuildXL.Execution.Analyzer
                     IsPassThrough = envVar.IsPassThrough
                 }));
             xldbProcessPip.Dependencies.AddRange(pip.Dependencies.Select(file => file.ToFileArtifact(pathTable, nameExpander)));
-            xldbProcessPip.DirectoryDependencies.AddRange(pip.DirectoryDependencies.Select(dir => dir.ToDirectoryArtifact(pathTable, nameExpander)));
+            xldbProcessPip.DirectoryDependencies.AddRange(pip.DirectoryDependencies.Select(dir => dir.ToDirectoryArtifact(pathTable, nameExpander, pathTableMap)));
             xldbProcessPip.UntrackedPaths.AddRange(pip.UntrackedPaths.Select(path => path.ToAbsolutePath(pathTable, nameExpander)));
             xldbProcessPip.UntrackedScopes.AddRange(pip.UntrackedScopes.Select(path => path.ToAbsolutePath(pathTable, nameExpander)));
             xldbProcessPip.FileOutputs.AddRange(pip.FileOutputs.Select(output => !output.IsValid ? null : new Xldb.Proto.FileArtifactWithAttributes()
@@ -771,7 +778,7 @@ namespace BuildXL.Execution.Analyzer
                 RewriteCount = output.RewriteCount,
                 FileExistence = (Xldb.Proto.FileExistence)(output.FileExistence + 1)
             }));
-            xldbProcessPip.DirectoryOutputs.AddRange(pip.DirectoryOutputs.Select(dir => dir.ToDirectoryArtifact(pathTable, nameExpander)));
+            xldbProcessPip.DirectoryOutputs.AddRange(pip.DirectoryOutputs.Select(dir => dir.ToDirectoryArtifact(pathTable, nameExpander, pathTableMap)));
             xldbProcessPip.AdditionalTempDirectories.AddRange(pip.AdditionalTempDirectories.Select(dir => dir.ToAbsolutePath(pathTable, nameExpander)));
             xldbProcessPip.PreserveOutputWhitelist.AddRange(pip.PreserveOutputWhitelist.Select(path => path.ToAbsolutePath(pathTable, nameExpander)));
 
@@ -784,7 +791,7 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static Xldb.Proto.IpcPip ToIpcPip(this IpcPip pip, PathTable pathTable, Xldb.Proto.Pip parentPip, NameExpander nameExpander)
+        public static Xldb.Proto.IpcPip ToIpcPip(this IpcPip pip, PathTable pathTable, Xldb.Proto.Pip parentPip, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
             var xldbIpcPip = new Xldb.Proto.IpcPip()
             {
@@ -805,14 +812,14 @@ namespace BuildXL.Execution.Analyzer
 
             xldbIpcPip.ServicePipDependencies.AddRange(pip.ServicePipDependencies.Select(pipId => pipId.Value));
             xldbIpcPip.FileDependencies.AddRange(pip.FileDependencies.Select(file => file.ToFileArtifact(pathTable, nameExpander)));
-            xldbIpcPip.DirectoryDependencies.AddRange(pip.DirectoryDependencies.Select(directory => directory.ToDirectoryArtifact(pathTable, nameExpander)));
-            xldbIpcPip.LazilyMaterializedDependencies.AddRange(pip.LazilyMaterializedDependencies.Select(dep => dep.ToFileOrDirectoryArtifact(pathTable, nameExpander)));
+            xldbIpcPip.DirectoryDependencies.AddRange(pip.DirectoryDependencies.Select(directory => directory.ToDirectoryArtifact(pathTable, nameExpander, pathTableMap)));
+            xldbIpcPip.LazilyMaterializedDependencies.AddRange(pip.LazilyMaterializedDependencies.Select(dep => dep.ToFileOrDirectoryArtifact(pathTable, nameExpander, pathTableMap)));
 
             return xldbIpcPip;
         }
 
         /// <nodoc />
-        public static Xldb.Proto.PipGraph ToPipGraph(this PipGraph pipGraph, PathTable pathTable, PipTable pipTable, NameExpander nameExpander)
+        public static Xldb.Proto.PipGraph ToPipGraph(this PipGraph pipGraph, PathTable pathTable, PipTable pipTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
             var xldbPipGraph = new Xldb.Proto.PipGraph()
             {
@@ -828,7 +835,7 @@ namespace BuildXL.Execution.Analyzer
 
             xldbPipGraph.AllSealDirectoriesAndProducers.AddRange(pipGraph.AllSealDirectoriesAndProducers.Select(kvp => new DirectoryArtifactMap()
             {
-                Artifact = kvp.Key.ToDirectoryArtifact(pathTable, nameExpander),
+                Artifact = kvp.Key.ToDirectoryArtifact(pathTable, nameExpander, pathTableMap),
                 PipId = kvp.Value.Value
             }));
             xldbPipGraph.StableKeys.AddRange(pipTable.StableKeys.Select(stableKey => stableKey.Value));

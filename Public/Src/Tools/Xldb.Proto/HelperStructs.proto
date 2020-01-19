@@ -513,7 +513,7 @@ message DirectoryFingerprint{
 // Represents an opaque directory. Pips that depend on this directory can enumerate it and read its contents.
 message DirectoryArtifact{
     // The AbsolutePath associated with this artifact.
-    AbsolutePath Path = 1;
+    int32 Path = 1;
 
     // The unique id for partially sealed directories
     uint32 PartialSealID = 2;

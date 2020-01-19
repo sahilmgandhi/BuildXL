@@ -263,7 +263,7 @@ namespace BuildXL.Execution.Analyzer
             Console.WriteLine($"\nAll pips ingested ... total time is: {m_stopWatch.ElapsedMilliseconds / 1000.0} seconds");
 
             Console.WriteLine("\nStarting to ingest PipGraph metadata");
-            var xldbPipGraph = CachedGraph.PipGraph.ToPipGraph(PathTable, CachedGraph.PipTable, m_nameExpander);
+            var xldbPipGraph = CachedGraph.PipGraph.ToPipGraph(PathTable, CachedGraph.PipTable, m_nameExpander, m_pathTableMap);
 
             var cachedGraphKey = new GraphMetadataKey
             {
@@ -562,7 +562,7 @@ namespace BuildXL.Execution.Analyzer
                 {
                     WorkerID = WorkerID.Value,
                     PipID = data.PipId.Value,
-                    DirectoryArtifact = directoryArtifact.ToDirectoryArtifact(PathTable, m_nameExpander),
+                    DirectoryArtifact = directoryArtifact.ToDirectoryArtifact(PathTable, m_nameExpander, m_pathTableMap),
                 };
 
                 value.FileArtifactArray.AddRange(fileArtifactArray.Select(
@@ -639,7 +639,7 @@ namespace BuildXL.Execution.Analyzer
                         if (pipType == PipType.Ipc)
                         {
                             var ipcPip = (Pips.Operations.IpcPip)hydratedPip;
-                            xldbSpecificPip = ipcPip.ToIpcPip(PathTable, xldbPip, m_nameExpander);
+                            xldbSpecificPip = ipcPip.ToIpcPip(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
 
                             foreach (var fileArtifact in ipcPip.FileDependencies)
                             {
@@ -656,7 +656,7 @@ namespace BuildXL.Execution.Analyzer
                         else if (pipType == PipType.SealDirectory)
                         {
                             var sealDirectoryPip = (Pips.Operations.SealDirectory)hydratedPip;
-                            xldbSpecificPip = sealDirectoryPip.ToSealDirectory(PathTable, xldbPip, m_nameExpander);
+                            xldbSpecificPip = sealDirectoryPip.ToSealDirectory(PathTable, xldbPip, m_nameExpander,m_pathTableMap);
 
                             // If it is a shared opaque, then flatten the list of composted directories
                             if (sealDirectoryPip.Kind == Pips.Operations.SealDirectoryKind.SharedOpaque)
@@ -712,7 +712,7 @@ namespace BuildXL.Execution.Analyzer
                         else if (pipType == PipType.Process)
                         {
                             var processPip = (Pips.Operations.Process)hydratedPip;
-                            xldbSpecificPip = processPip.ToProcessPip(PathTable, xldbPip, m_nameExpander);
+                            xldbSpecificPip = processPip.ToProcessPip(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
 
                             AddToFileConsumerMap(processPip.StandardInputFile, pipId);
                             AddToFileConsumerMap(processPip.Executable, pipId);

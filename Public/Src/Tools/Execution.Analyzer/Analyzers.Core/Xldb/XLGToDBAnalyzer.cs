@@ -335,7 +335,7 @@ namespace BuildXL.Execution.Analyzer
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.FileArtifactContentDecided,
-                FileArtifactContentDecidedKey = AbsolutePathToXldbString(data.FileArtifact.Path),
+                FileArtifactContentDecidedKey = data.FileArtifact.Path.RawValue,
                 FileRewriteCount = data.FileArtifact.RewriteCount
             };
 
@@ -385,12 +385,12 @@ namespace BuildXL.Execution.Analyzer
         /// </summary>
         public override void DirectoryMembershipHashed(DirectoryMembershipHashedEventData data)
         {
-            var value = data.ToDirectoryMembershipHashedEvent(WorkerID.Value, PathTable, m_nameExpander);
+            var value = data.ToDirectoryMembershipHashedEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap);
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.DirectoryMembershipHashed,
                 PipId = data.PipId.Value,
-                DirectoryMembershipHashedKey = AbsolutePathToXldbString(data.Directory),
+                DirectoryMembershipHashedKey = data.Directory.RawValue,
                 EventSequenceNumber = Interlocked.Increment(ref m_eventSequenceNumber)
             };
 
@@ -460,7 +460,7 @@ namespace BuildXL.Execution.Analyzer
         /// </summary>
         public override void DependencyViolationReported(DependencyViolationEventData data)
         {
-            var value = data.ToDependencyViolationReportedEvent(WorkerID.Value, PathTable, m_nameExpander);
+            var value = data.ToDependencyViolationReportedEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap);
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.DependencyViolationReported,
@@ -572,7 +572,7 @@ namespace BuildXL.Execution.Analyzer
                 {
                     EventTypeID = Xldb.Proto.ExecutionEventId.PipExecutionDirectoryOutputs,
                     PipId = data.PipId.Value,
-                    PipExecutionDirectoryOutputKey = AbsolutePathToXldbString(directoryArtifact.Path)
+                    PipExecutionDirectoryOutputKey = directoryArtifact.Path.RawValue
                 };
 
                 var keyArr = key.ToByteArray();

@@ -142,8 +142,10 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static DirectoryMembershipHashedEvent ToDirectoryMembershipHashedEvent(this DirectoryMembershipHashedEventData data, uint workerID, PathTable pathTable, NameExpander nameExpander)
+        public static DirectoryMembershipHashedEvent ToDirectoryMembershipHashedEvent(this DirectoryMembershipHashedEventData data, uint workerID, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
+            pathTableMap.TryAdd(data.Directory.ToString(pathTable, PathFormat.Windows, nameExpander), data.Directory.RawValue);
+            
             var directoryMembershipEvent = new DirectoryMembershipHashedEvent()
             {
                 WorkerID = workerID,
@@ -151,15 +153,19 @@ namespace BuildXL.Execution.Analyzer
                 {
                     Hash = data.DirectoryFingerprint.Hash.ToContentHash()
                 },
-                Directory = data.Directory.ToAbsolutePath(pathTable, nameExpander),
+                DirectoryPath = data.Directory.RawValue,
                 IsStatic = data.IsSearchPath,
                 IsSearchPath = data.IsSearchPath,
                 PipID = data.PipId.Value,
                 EnumeratePatternRegex = data.EnumeratePatternRegex ?? ""
             };
-
-            directoryMembershipEvent.Members.AddRange(data.Members.Select(member => member.ToAbsolutePath(pathTable, nameExpander)));
-
+            
+            foreach(var member in data.Members)
+            {
+                directoryMembershipEvent.MemberPaths.Add(member.RawValue);
+                pathTableMap.TryAdd(member.ToString(pathTable, PathFormat.Windows, nameExpander), member.RawValue);
+            }
+            
             return directoryMembershipEvent;
         }
 
@@ -292,8 +298,10 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static DependencyViolationReportedEvent ToDependencyViolationReportedEvent(this DependencyViolationEventData data, uint workerID, PathTable pathTable, NameExpander nameExpander)
+        public static DependencyViolationReportedEvent ToDependencyViolationReportedEvent(this DependencyViolationEventData data, uint workerID, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
         {
+            pathTableMap.TryAdd(data.Path.ToString(pathTable, PathFormat.Windows, nameExpander), data.Path.RawValue);
+
             return new DependencyViolationReportedEvent()
             {
                 WorkerID = workerID,
@@ -301,7 +309,7 @@ namespace BuildXL.Execution.Analyzer
                 RelatedPipID = data.RelatedPipId.Value,
                 ViolationType = (FileMonitoringViolationAnalyzer_DependencyViolationType)(data.ViolationType + 1),
                 AccessLevel = (FileMonitoringViolationAnalyzer_AccessLevel)(data.AccessLevel + 1),
-                Path = data.Path.ToAbsolutePath(pathTable, nameExpander)
+                Path = data.Path.RawValue
             };
         }
 
@@ -379,8 +387,8 @@ namespace BuildXL.Execution.Analyzer
             var bxlInvEvent = new BxlInvocationEvent
             {
                 WorkerID = workerID,
-                SubstSource = loggingConfig.SubstSource.RawValue,
-                SubstTarget = loggingConfig.SubstTarget.RawValue,
+                SubstSourcePath = loggingConfig.SubstSource.RawValue,
+                SubstTargetPath = loggingConfig.SubstTarget.RawValue,
                 IsSubstSourceValid = loggingConfig.SubstSource.IsValid,
                 IsSubstTargetValid = loggingConfig.SubstTarget.IsValid
             };

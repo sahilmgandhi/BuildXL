@@ -59,14 +59,14 @@ message EventKey{
     // ProcessFingerprintComputationKey, FingerprintComputationKind
     FingerprintComputationKind ProcessFingerprintComputationKey = 5;
 
-    // DirectoryMembershipHashedKey, string representing Directory path
-    string DirectoryMembershipHashedKey = 6;
+    // DirectoryMembershipHashedKey, string id representing Directory path
+    int32 DirectoryMembershipHashedKey = 6;
 
-    // PipExecutionDirectoryOutputKey, string representing Directory path
-    string PipExecutionDirectoryOutputKey = 7;
+    // PipExecutionDirectoryOutputKey, string id representing Directory path
+    int32 PipExecutionDirectoryOutputKey = 7;
 
-    // FileArtifactContentDecidedKey, string representing file path
-    string FileArtifactContentDecidedKey = 8;
+    // FileArtifactContentDecidedKey, string id representing file path
+    int32 FileArtifactContentDecidedKey = 8;
 
     // File rewrite count for FileArtifactContentDecidedEvent key
     int32 FileRewriteCount = 9;
@@ -133,7 +133,7 @@ message DirectoryMembershipHashedEvent{
     DirectoryFingerprint DirectoryFingerprint = 3;
 
     // The directory whose membership is hashed
-    AbsolutePath Directory = 4;
+    int32 DirectoryPath = 4;
 
     // If true the membership is calculated from the static graph information
     // otherwise the file system is used as a source.
@@ -144,7 +144,7 @@ message DirectoryMembershipHashedEvent{
     bool IsSearchPath = 6;
 
     // Files in the directory
-    repeated AbsolutePath Members = 7;
+    repeated int32 MemberPaths = 7;
 
     // The enumerate pattern in regex format if any used
     string EnumeratePatternRegex = 8;
@@ -257,7 +257,7 @@ message DependencyViolationReportedEvent{
     FileMonitoringViolationAnalyzer_AccessLevel AccessLevel = 5;
 
     // The path causing the violation
-    AbsolutePath Path = 6;
+    int32 Path = 6;
 }
 
 // The PipExecutionStepPerformanceReported Event message
@@ -412,10 +412,10 @@ message BxlInvocationEvent{
     uint32 WorkerID = 1;
 
     // Original root that is being substituted
-    int32 SubstSource = 2;
+    int32 SubstSourcePath = 2;
     
     // Root that SubstSource has been substituted to.
-    int32 SubstTarget = 3;
+    int32 SubstTargetPath = 3;
 
     // If the SubstSource is valid 
     bool IsSubstSourceValid = 4;

@@ -254,13 +254,23 @@ namespace BuildXL.Xldb
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
 
+            var directoryId = 0;
+            if (directoryPath != "")
+            {
+                var possibleIds = GetIdsForPaths(directoryPath);
+                if (possibleIds.Any())
+                {
+                    directoryId = possibleIds.First();
+                }
+            }
+
             var eventKey = new EventKey
             {
                 EventTypeID = ExecutionEventId.DirectoryMembershipHashed,
                 WorkerID = workerID ?? s_workerIDDefaultValue,
                 FileRewriteCount = s_fileRewriteCountDefaultValue,
                 PipId = pipID,
-                DirectoryMembershipHashedKey = directoryPath
+                DirectoryMembershipHashedKey = directoryId
             };
 
             return GetEventsByKey(eventKey).Cast<DirectoryMembershipHashedEvent>();
@@ -271,13 +281,23 @@ namespace BuildXL.Xldb
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
 
+            var directoryId = 0;
+            if (directoryPath != "")
+            {
+                var possibleIds = GetIdsForPaths(directoryPath);
+                if (possibleIds.Any())
+                {
+                    directoryId = possibleIds.First();
+                }
+            }
+
             var eventKey = new EventKey
             {
                 EventTypeID = ExecutionEventId.PipExecutionDirectoryOutputs,
                 WorkerID = workerID ?? s_workerIDDefaultValue,
                 FileRewriteCount = s_fileRewriteCountDefaultValue,
                 PipId = pipID,
-                PipExecutionDirectoryOutputKey = directoryPath
+                PipExecutionDirectoryOutputKey = directoryId
             };
 
             return GetEventsByKey(eventKey).Cast<PipExecutionDirectoryOutputsEvent>();
@@ -288,11 +308,21 @@ namespace BuildXL.Xldb
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
 
+            var directoryId = 0;
+            if (directoryPath != "")
+            {
+                var possibleIds = GetIdsForPaths(directoryPath);
+                if (possibleIds.Any())
+                {
+                    directoryId = possibleIds.First();
+                }
+            }
+
             var eventKey = new EventKey
             {
                 EventTypeID = ExecutionEventId.FileArtifactContentDecided,
                 WorkerID = workerID ?? s_workerIDDefaultValue,
-                FileArtifactContentDecidedKey = directoryPath,
+                FileArtifactContentDecidedKey = directoryId,
                 FileRewriteCount = fileRewriteCount ?? s_fileRewriteCountDefaultValue
             };
 

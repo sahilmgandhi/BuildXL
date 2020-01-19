@@ -853,8 +853,10 @@ namespace BuildXL.Execution.Analyzer
         }
 
         /// <nodoc />
-        public static Xldb.Proto.PipGraph ToPipGraph(this PipGraph pipGraph, PathTable pathTable, PipTable pipTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
+        public static Xldb.Proto.PipGraph ToPipGraph(this PipGraph pipGraph, PathTable pathTable, PipTable pipTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap, ConcurrentBigMap<string, int> stringTableMap)
         {
+            stringTableMap.TryAdd(pipGraph.ApiServerMoniker.ToString(pathTable.StringTable), pipGraph.ApiServerMoniker.Value);
+
             var xldbPipGraph = new Xldb.Proto.PipGraph()
             {
                 GraphId = pipGraph.GraphId.ToString(),
@@ -864,7 +866,7 @@ namespace BuildXL.Execution.Analyzer
                 FileCount = pipGraph.FileCount,
                 ContentCount = pipGraph.ContentCount,
                 ArtifactContentCount = pipGraph.ArtifactContentCount,
-                ApiServerMoniker = pipGraph.ApiServerMoniker.ToString(pathTable)
+                ApiServerMoniker = pipGraph.ApiServerMoniker.Value
             };
 
             xldbPipGraph.AllSealDirectoriesAndProducers.AddRange(pipGraph.AllSealDirectoriesAndProducers.Select(kvp => new DirectoryArtifactMap()
@@ -876,14 +878,15 @@ namespace BuildXL.Execution.Analyzer
 
             foreach (var kvp in pipGraph.Modules)
             {
-                xldbPipGraph.Modules.Add(kvp.Key.Value.ToString(pathTable), kvp.Value.Value);
+                stringTableMap.TryAdd(kvp.Key.Value.ToString(pathTable.StringTable), kvp.Key.Value.Value);
+                xldbPipGraph.Modules.Add(kvp.Key.Value.Value, kvp.Value.Value);
             }
 
             return xldbPipGraph;
         }
 
         /// <nodoc />
-        public static Xldb.Proto.MountPathExpander ToMountPathExpander(this MountPathExpander mount, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
+        public static Xldb.Proto.MountPathExpander ToMountPathExpander(this MountPathExpander mount, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap, ConcurrentBigMap<string, int> stringTableMap)
         {
             var xldbMountPathExpander = new Xldb.Proto.MountPathExpander();
 
@@ -913,21 +916,22 @@ namespace BuildXL.Execution.Analyzer
 
             foreach(var kvp in mount.GetAllMountsByName())
             {
-                xldbMountPathExpander.MountsByName.Add(kvp.Key, kvp.Value.ToSemanticPathInfo(pathTable, nameExpander, pathTableMap));
+                xldbMountPathExpander.MountsByName.Add(kvp.Key, kvp.Value.ToSemanticPathInfo(pathTable, nameExpander, pathTableMap, stringTableMap));
             }
 
             return xldbMountPathExpander;
         }
 
         /// <nodoc />
-        public static Xldb.Proto.SemanticPathInfo ToSemanticPathInfo(this SemanticPathInfo pathInfo, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap)
+        public static Xldb.Proto.SemanticPathInfo ToSemanticPathInfo(this SemanticPathInfo pathInfo, PathTable pathTable, NameExpander nameExpander, ConcurrentBigMap<string, int> pathTableMap, ConcurrentBigMap<string, int> stringTableMap)
         {
             pathTableMap.TryAdd(pathInfo.Root.ToString(pathTable, PathFormat.Windows, nameExpander), pathInfo.Root.RawValue);
+            stringTableMap.TryAdd(pathInfo.RootName.ToString(pathTable.StringTable), pathInfo.RootName.StringId.Value);
 
             var xldbSemanticPathInfo = new Xldb.Proto.SemanticPathInfo()
             {
                 RootPath = pathInfo.Root.RawValue,
-                RootName = pathInfo.RootName.ToString(pathTable.StringTable),
+                RootName = pathInfo.RootName.StringId.Value,
                 IsValid = pathInfo.IsValid,
                 AllowHashing = pathInfo.AllowHashing,
                 IsReadable = pathInfo.IsReadable,

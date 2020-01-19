@@ -263,7 +263,7 @@ namespace BuildXL.Execution.Analyzer
             Console.WriteLine($"\nAll pips ingested ... total time is: {m_stopWatch.ElapsedMilliseconds / 1000.0} seconds");
 
             Console.WriteLine("\nStarting to ingest PipGraph metadata");
-            var xldbPipGraph = CachedGraph.PipGraph.ToPipGraph(PathTable, CachedGraph.PipTable, m_nameExpander, m_pathTableMap);
+            var xldbPipGraph = CachedGraph.PipGraph.ToPipGraph(PathTable, CachedGraph.PipTable, m_nameExpander, m_pathTableMap, m_stringTableMap);
 
             var cachedGraphKey = new GraphMetadataKey
             {
@@ -275,7 +275,7 @@ namespace BuildXL.Execution.Analyzer
             WriteToDb(keyArr, valueArr, XldbDataStore.StaticGraphColumnFamilyName);
             AddToDbStorageDictionary(DBStoredTypes.GraphMetaData, keyArr.Length + valueArr.Length);
 
-            var xldbMounts = CachedGraph.MountPathExpander.ToMountPathExpander(PathTable, m_nameExpander, m_pathTableMap);
+            var xldbMounts = CachedGraph.MountPathExpander.ToMountPathExpander(PathTable, m_nameExpander, m_pathTableMap, m_stringTableMap);
             cachedGraphKey.Type = GraphMetaData.MountPathExpander;
             keyArr = cachedGraphKey.ToByteArray();
             valueArr = xldbMounts.ToByteArray();

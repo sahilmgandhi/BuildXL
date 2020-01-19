@@ -136,11 +136,11 @@ message PipGraph{
     int32 ArtifactContentCount = 8;
 
     // Mapping from module id to module nodes.
-    map<string, uint32> Modules = 9;
+    map<int32, uint32> Modules = 9;
 
     // String id corresponding to the BuildXL.Ipc.Interfaces.IIpcMoniker.Id property of the moniker used by the
     // BuildXL API server. Empty string indicates that no BuildXL API operation has been requested.
-    string ApiServerMoniker = 10;
+    int32 ApiServerMoniker = 10;
 
     // All PipId values issued so far.
     repeated uint32 StableKeys = 11;
@@ -169,8 +169,8 @@ message SemanticPathInfo{
     // The semantic root path
     int32 RootPath = 1;
 
-    // The semantic root name
-    string RootName = 2;
+    // The semantic root name id
+    int32 RootName = 2;
 
     // Gets whether the semantic path info is valid.
     bool IsValid = 3;

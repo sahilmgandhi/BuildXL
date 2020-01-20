@@ -405,7 +405,7 @@ namespace BuildXL.Execution.Analyzer
         /// </summary>
         public override void ProcessExecutionMonitoringReported(ProcessExecutionMonitoringReportedEventData data)
         {
-            var value = data.ToProcessExecutionMonitoringReportedEvent(WorkerID.Value, PathTable, m_nameExpander);
+            var value = data.ToProcessExecutionMonitoringReportedEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap);
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.ProcessExecutionMonitoringReported,
@@ -423,7 +423,7 @@ namespace BuildXL.Execution.Analyzer
         /// </summary>
         public override void ProcessFingerprintComputed(ProcessFingerprintComputationEventData data)
         {
-            var value = data.ToProcessFingerprintComputationEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap);
+            var value = data.ToProcessFingerprintComputationEvent(WorkerID.Value, PathTable, m_nameExpander, m_pathTableMap, m_stringTableMap);
             var key = new EventKey
             {
                 EventTypeID = Xldb.Proto.ExecutionEventId.ProcessFingerprintComputation,
@@ -639,7 +639,7 @@ namespace BuildXL.Execution.Analyzer
                         if (pipType == PipType.Ipc)
                         {
                             var ipcPip = (Pips.Operations.IpcPip)hydratedPip;
-                            xldbSpecificPip = ipcPip.ToIpcPip(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
+                            xldbSpecificPip = ipcPip.ToIpcPip(PathTable, xldbPip, m_nameExpander, m_pathTableMap, m_stringTableMap);
 
                             foreach (var fileArtifact in ipcPip.FileDependencies)
                             {
@@ -656,7 +656,7 @@ namespace BuildXL.Execution.Analyzer
                         else if (pipType == PipType.SealDirectory)
                         {
                             var sealDirectoryPip = (Pips.Operations.SealDirectory)hydratedPip;
-                            xldbSpecificPip = sealDirectoryPip.ToSealDirectory(PathTable, xldbPip, m_nameExpander,m_pathTableMap);
+                            xldbSpecificPip = sealDirectoryPip.ToSealDirectory(PathTable, xldbPip, m_nameExpander, m_pathTableMap, m_stringTableMap);
 
                             // If it is a shared opaque, then flatten the list of composted directories
                             if (sealDirectoryPip.Kind == Pips.Operations.SealDirectoryKind.SharedOpaque)
@@ -699,20 +699,20 @@ namespace BuildXL.Execution.Analyzer
                         else if (pipType == PipType.CopyFile)
                         {
                             var copyFilePip = (Pips.Operations.CopyFile)hydratedPip;
-                            xldbSpecificPip = copyFilePip.ToCopyFile(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
+                            xldbSpecificPip = copyFilePip.ToCopyFile(PathTable, xldbPip, m_nameExpander, m_pathTableMap, m_stringTableMap);
                             AddToFileConsumerMap(copyFilePip.Source, pipId);
                             AddToDbStorageDictionary(DBStoredTypes.CopyFilePip, pipIdKeyArr.Length + xldbSpecificPip.ToByteArray().Length);
                         }
                         else if (pipType == PipType.WriteFile)
                         {
                             var writeFilePip = (Pips.Operations.WriteFile)hydratedPip;
-                            xldbSpecificPip = writeFilePip.ToWriteFile(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
+                            xldbSpecificPip = writeFilePip.ToWriteFile(PathTable, xldbPip, m_nameExpander, m_pathTableMap, m_stringTableMap);
                             AddToDbStorageDictionary(DBStoredTypes.WriteFilePip, pipIdKeyArr.Length + xldbSpecificPip.ToByteArray().Length);
                         }
                         else if (pipType == PipType.Process)
                         {
                             var processPip = (Pips.Operations.Process)hydratedPip;
-                            xldbSpecificPip = processPip.ToProcessPip(PathTable, xldbPip, m_nameExpander, m_pathTableMap);
+                            xldbSpecificPip = processPip.ToProcessPip(PathTable, xldbPip, m_nameExpander, m_pathTableMap, m_stringTableMap);
 
                             AddToFileConsumerMap(processPip.StandardInputFile, pipId);
                             AddToFileConsumerMap(processPip.Executable, pipId);

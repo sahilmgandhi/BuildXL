@@ -3,34 +3,32 @@
 
 syntax = "proto3";
 
-import "tools/google/protobuf/timestamp.proto";
-import "tools/google/protobuf/duration.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/duration.proto";
 
 // Import Enums
-import "Enums/CreationDisposition.proto";
-import "Enums/DesiredAccess.proto";
-import "Enums/DoubleWritePolicy.proto";
-import "Enums/DynamicWriteOnAbsentProbePolicy.proto";
-import "Enums/FileAccessStatus.proto";
-import "Enums/FlagsAndAttributes.proto";
-import "Enums/FileAccessStatusMethod.proto";
-import "Enums/FileExistence.proto";
-import "Enums/HashType.proto";
-import "Enums/ObservedInputType.proto";
-import "Enums/Options.proto";
-import "Enums/PathExistence.proto";
-import "Enums/PreserveOutputsMode.proto";
-import "Enums/ReportedFileOperation.proto";
-import "Enums/RequestedAccess.proto";
-import "Enums/SandboxKind.proto";
-import "Enums/SealDirectoryKind.proto";
-import "Enums/ServicePipKind.proto";
-import "Enums/ShareMode.proto";
-import "Enums/WriteFileEncoding.proto";
+import "CreationDisposition.proto";
+import "DesiredAccess.proto";
+import "DoubleWritePolicy.proto";
+import "DynamicWriteOnAbsentProbePolicy.proto";
+import "FileAccessStatus.proto";
+import "FlagsAndAttributes.proto";
+import "FileAccessStatusMethod.proto";
+import "FileExistence.proto";
+import "HashType.proto";
+import "ObservedInputType.proto";
+import "Options.proto";
+import "PathExistence.proto";
+import "PreserveOutputsMode.proto";
+import "ReportedFileOperation.proto";
+import "RequestedAccess.proto";
+import "SandboxKind.proto";
+import "SealDirectoryKind.proto";
+import "ServicePipKind.proto";
+import "ShareMode.proto";
+import "WriteFileEncoding.proto";
 
 package BuildXL.Xldb.Proto;
-
-option csharp_namespace = "BuildXL.Xldb.Proto";
 
 // Absolute path message
 message AbsolutePath{

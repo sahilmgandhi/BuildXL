@@ -19,7 +19,7 @@ from . import FingerprintComputationKind_pb2
 from . import FlagsAndAttributes_pb2
 from . import GraphMetaData_pb2
 from . import HashType_pb2
-# from . import HelperStructs_pb2
+from . import HelperStructs_pb2
 from . import ObservedInputType_pb2
 from . import Options_pb2
 from . import PathExistence_pb2

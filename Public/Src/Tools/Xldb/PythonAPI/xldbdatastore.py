@@ -146,7 +146,7 @@ class XldbDataStore:
     '''
     Get events that only use the PipID as the key
     '''
-    def get_events_by_pip_id_only(self, event_type_id, pip_id, worker_id=None):
+    def __get_events_by_pip_id_only(self, event_type_id, pip_id, worker_id=None):
         
         event_key = EventKey()
         event_key.EventTypeId = event_type_id
@@ -296,7 +296,59 @@ class XldbDataStore:
 
         return __get_events_by_key(event_key)
 
+    '''
+    Get PipExecutionPerformanceEvent by key
+    '''
+    def get_pip_execution_performance_event_by_key(self, pip_id, worker_id=None):
+        return __get_events_by_pip_id_only(ExecutionEventId__pb2.ExecutionEventId_PipExecutionPerformance, pip_id, worker_id)
+
+    '''
+    Get ProcessExecutionMonitoringReportedEvent by key
+    '''
+    def get_process_execution_monitoring_reported_event_by_key(self, pip_id, worker_id=None):
+        return __get_events_by_pip_id_only(ExecutionEventId__pb2.ProcessExecutionMonitoringReported, pip_id, worker_id)
+
+    '''
+    Get PipCacheMissEvent by key
+    '''
+    def get_pip_cache_miss_event_by_key(self, pip_id, worker_id=None):
+        return __get_events_by_pip_id_only(ExecutionEventId__pb2.PipCacheMiss, pip_id, worker_id)
+
+    def get_file_artifact_content_decided_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.FileArtifactContentDecided)
     
+    def get_worker_list_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.WorkerList)
+    
+    def get_pip_execution_performance_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.ExecutionEventId_PipExecutionPerformance)
+    
+    def get_directory_membership_hashed_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.DirectoryMembershipHashed)
+
+    def get_process_execution_monitoring_reported_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.ProcessExecutionMonitoringReported)
+    
+    def get_process_fingerprint_computation_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.ProcessFingerprintComputation)
+    
+    def get_build_session_configuration_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.ExecutionEventId_BuildSessionConfiguration)
+    
+    def get_dependency_violated_events(self):
+        return __get_events_by_type(ExecutionEventId_pb2.DependencyViolationReported)
+    
+    def get_pip_execution_step_performance_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.PipExecutionStepPerformanceReported)
+
+    def get_pip_cache_miss_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.PipCacheMiss)
+    
+    def get_bxl_invocation_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.BxlInvocation)
+    
+    def get_pip_execution_step_performance_events(self):
+        return __get_events_by_type(ExecutionEventId__pb2.PipExecutionDirectoryOutputs)
 
     '''
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

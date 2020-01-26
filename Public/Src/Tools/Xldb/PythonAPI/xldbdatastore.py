@@ -355,6 +355,267 @@ class XldbDataStore:
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                            Static Graph APIs
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    '''
+
+    '''
+    Get the pip by the semistable hash
+    '''
+    def get_pip_by_semistable_hash(self, semistable_hash):
+        pip_semistable_hash = PipSemistableHashKey()
+        pip_semistable_hash.SemistableHash = semistable_hash
+
+        string_val = self.db.get(self.db.get_column_family(string_table_family_name), string_table_key.SerializeToString())
+
+        pip = self.db.get(pip_semistable_hash.SerializeToString())
+        if pip is not None:
+            return get_pip_by_pip_id(PipIdKey().ParseFromString(pip).PipId)
+        return None
+
+    '''
+    Get Pip by the pip id
+    '''
+    def get_pip_by_pip_id(self, pip_id):
+        pip_id_key = PipIdKey()
+        pip_id_key.PipId = pip_id
+
+        prefix = pip_id_key.SerializeToString()
+        
+        it = self.db.get_column_family(pip_column_family_name).iteritems()
+        it.seek(prefix)
+
+        item = next(it, None)
+        while item is not None:
+            if (item[0].startsWith(prefix)):
+                kvp_key = PipIdKey().ParseFromString(item[0])
+                return self.pip_parser_dict[kvp_key.PipType].ParseFromString(item[1])
+            else:
+                break
+
+        return None
+    
+    '''
+    Get all pips of a certain type
+    '''
+    def get_all_pips_by_type(self, pip_type):
+        
+        stored_pips = []
+        parser = self.pip_parser_dict[pip_type]
+
+        empty_pip_id_key = PipIdKey()
+        prefix = empty_pip_id_key.SerializeToString()
+
+        it = self.db.get_column_family(pip_column_family_name).iteritems()
+        it.seek(prefix)
+
+        item = next(it, None)
+        while item is not None:
+            if (item[0].startsWith(prefix)):
+                kvp_key = PipIdKey().ParseFromString(item[0])
+                if kvp_key.PipType == pip_type:
+                    stored_pips.append(parser.ParseFromString(item[1]))
+            else:
+                break
+
+        return stored_pips
+
+    def get_all_process_pips(self):
+        return get_all_pips_by_type(PipType__pb2.PipType_Process)
+    
+    def get_all_write_file_pips(self):
+        return get_all_pips_by_type(PipType__pb2.PipType_WriteFile)
+    
+    def get_all_copy_file_pips(self):
+        return get_all_pips_by_type(PipType__pb2.PipType_CopyFile)
+    
+    def get_all_ipc_pips(self):
+        return get_all_pips_by_type(PipType__pb2.PipType_Ipc)
+    
+    def get_all_sealdirectory_pips(self):
+        return get_all_pips_by_type(PipType__pb2.PipType_SealDirectory)
+    
+    '''
+    Get the pip graph metadata
+    '''
+    def get_pip_graph_metadata(self):
+
+        graph_metadata = GraphMetadataKey()
+        graph_metadata.Type = GraphMetaData__pb2.GraphMetaData_PipGraph
+
+        metadata = self.db.get(self.db.get_column_family(static_graph_column_family_name), graph_metadata.SerializeToString())
+
+        return PipGraph().ParseFromString(metadata)
+
+    '''
+    Get the mount path expander
+    '''
+    def get_mount_path_expander(self):
+        graph_metadata = GraphMetadataKey()
+        graph_metadata.Type = GraphMetaData__pb2.GraphMetaData_MountPathExpander
+
+        metadata = self.db.get(self.db.get_column_family(static_graph_column_family_name), graph_metadata.SerializeToString())
+
+        return MountPathExpander().ParseFromString(metadata)
+
+    '''
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                            Private Producer Consumer APIs
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    '''
+
+    '''
+    Get producers or consumers of a file based on the key passed in
+    '''
+    def __get_producer_consumer_of_file_by_key(self, key):
+        
+        producers_or_consumers = []
+
+        prefix = key.SerializeToString()
+
+        it = self.db.get_column_family(static_graph_column_family_name).iteritems()
+        it.seek(prefix)
+
+        item = next(it, None)
+        while item is not None:
+            if (item[0].startsWith(prefix)):
+                if key.Type == ProducerConsumerType__pb2.ProducerConsumerType_Producer:
+                    producers_or_consumers.append(FileProducerValue().ParseFromString(item[1]).PipId)
+                elif key.Type == ProducerConsumerType__pb2.ProducerConsumerType_Consumer:
+                    for i in FileConsumerValue().parseFromString(item[1]).PipIds:
+                        producers_or_consumers.append(i)
+            else:
+                break
+
+        return producers_or_consumers
+    
+    '''
+    Get producers or consumers of a directory based on the key passed in
+    '''
+    def __get_producer_consumer_of_directory_by_key(self, key):
+        
+        producers_or_consumers = []
+
+        prefix = key.SerializeToString()
+
+        it = self.db.get_column_family(static_graph_column_family_name).iteritems()
+        it.seek(prefix)
+
+        item = next(it, None)
+        while item is not None:
+            if (item[0].startsWith(prefix)):
+                if key.Type == ProducerConsumerType__pb2.ProducerConsumerType_Producer:
+                    producers_or_consumers.append(DirectoryProducerValue().ParseFromString(item[1]).PipId)
+                elif key.Type == ProducerConsumerType__pb2.ProducerConsumerType_Consumer:
+                    for i in DirectoryConsumerValue().parseFromString(item[1]).PipIds:
+                        producers_or_consumers.append(i)
+            else:
+                break
+
+        return producers_or_consumers
+
+    '''
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                            Public Producer Consumer APIs
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    '''
+
+    '''
+    Get producers of a file
+    '''
+    def get_producers_of_file(self, path=""):
+
+        path_id = 0
+        if path != "":
+            possible_ids = get_ids_for_path(path)
+            if len(possible_ids) != 0:
+                path_id = possible_ids[0]
+        
+        file_producer_key = FileProducerConsumerKey()
+        file_producer_key.Type = ProducerConsumerType_pb2.ProducerConsumerType_Producer
+        file_producer_key.FilePath = path_id
+
+        return __get_producer_consumer_of_file_by_key(file_producer_key)
+    
+    '''
+    Get consumers of a file
+    '''
+    def get_consumers_of_file(self, path=""):
+        path_id = 0
+        if path != "":
+            possible_ids = get_ids_for_path(path)
+            if len(possible_ids) != 0:
+                path_id = possible_ids[0]
+        
+        file_consumer_key = FileProducerConsumerKey()
+        file_consumer_key.Type = ProducerConsumerType_pb2.ProducerConsumerType_Consumer
+        file_consumer_key.FilePath = path_id
+
+        return __get_producer_consumer_of_file_by_key(file_consumer_key)
+    
+    '''
+    Get producers of a directory
+    '''
+    def get_producers_of_directory(self, path=""):
+
+        path_id = 0
+        if path != "":
+            possible_ids = get_ids_for_path(path)
+            if len(possible_ids) != 0:
+                path_id = possible_ids[0]
+        
+        directory_producer_key = DirectoryProducerConsumerKey()
+        directory_producer_key.Type = ProducerConsumerType_pb2.ProducerConsumerType_Producer
+        directory_producer_key.DirectoryPath = path_id
+
+        return __get_producer_consumer_of_file_by_key(directory_producer_key)
+    
+    '''
+    Get consumers of a directory
+    '''
+    def get_consumers_of_directory(self, path=""):
+        path_id = 0
+        if path != "":
+            possible_ids = get_ids_for_path(path)
+            if len(possible_ids) != 0:
+                path_id = possible_ids[0]
+        
+        directory_consumer_key = DirectoryProducerConsumerKey()
+        directory_consumer_key.Type = ProducerConsumerType_pb2.ProducerConsumerType_Consumer
+        directory_consumer_key.DirectoryPath = path_id
+
+        return __get_producer_consumer_of_file_by_key(directory_consumer_key)
+
+    '''
+    Get Producers AND consumers of a path
+    '''
+    def get_producers_and_consumers_of_path(self, path="", is_dir=False):
+        if is_dir:
+            return (get_producers_of_directory(path), get_consumers_of_directory(path))
+        else:
+            return (get_producers_of_file(path), get_consumers_of_file(path))
+    
+
+    '''
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                                                             String and Path Table APIs
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -369,7 +630,6 @@ class XldbDataStore:
 
         string_table_key = StringTableKey()
         string_table_key.id = id
-        print()
 
         string_val = self.db.get(self.db.get_column_family(string_table_family_name), string_table_key.SerializeToString())
 
@@ -382,7 +642,6 @@ class XldbDataStore:
 
         path_table_key = PathTableKey()
         path_table_key.id = id
-        print()
 
         string_val = self.db.get(self.db.get_column_family(path_table_family_name), path_table_key.SerializeToString())
 
@@ -432,4 +691,26 @@ class XldbDataStore:
 
         return path_id_list
 
+    '''
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                           Misc APIs
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    '''
 
+    '''
+    Get DB Stats by Storage Type
+    '''
+    def get_db_stats_info_by_storage_type(self, storage_type):
+        
+        storage_stats_key = DBStorageStatsKey()
+        storage_stats_key.StorageType = storage_type
+
+        stat = self.db.get(storage_stats_key.SerializeToString())
+
+        return DBStorageStatsValue().ParseFromString(stat)

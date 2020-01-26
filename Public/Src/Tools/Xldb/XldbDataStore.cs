@@ -748,12 +748,12 @@ namespace BuildXL.Xldb
                 {
                     if (key.Type == ProducerConsumerType.Producer)
                     {
-                        var pipId = FileProducerValue.Parser.ParseFrom(kvp.Value).PipId;
+                        var pipId = DirectoryProducerValue.Parser.ParseFrom(kvp.Value).PipId;
                         directoryProducerOrConsumers.Add(pipId);
                     }
                     else if (key.Type == ProducerConsumerType.Consumer)
                     {
-                        directoryProducerOrConsumers.AddRange(FileConsumerValue.Parser.ParseFrom(kvp.Value).PipIds);
+                        directoryProducerOrConsumers.AddRange(DirectoryConsumerValue.Parser.ParseFrom(kvp.Value).PipIds);
                     }
                 }
             });

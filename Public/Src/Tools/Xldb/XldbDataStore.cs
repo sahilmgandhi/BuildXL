@@ -857,7 +857,7 @@ namespace BuildXL.Xldb
         ///<summary>
         /// Gets a list of ids for a prefix match for a path
         /// </summary>
-        public IEnumerable<int> GetIdsForPaths(string path)
+        public IEnumerable<int> GetIdsForPath(string path)
         {
             Contract.Requires(m_accessor != null, "XldbDataStore is not initialized");
 

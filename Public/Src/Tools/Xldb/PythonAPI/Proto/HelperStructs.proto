@@ -30,6 +30,8 @@ import "WriteFileEncoding.proto";
 
 package BuildXL.Xldb.Proto;
 
+option csharp_namespace = "BuildXL.Xldb.Proto";
+
 // Absolute path message
 message AbsolutePath{
     // The fully rooted and expanded Absolute Path

@@ -19,7 +19,10 @@ import "PipExecutionStep.proto";
 import "PipOutputOrigin.proto";
 import "WorkDispatcher_DispatcherKind.proto";
 
+
 package BuildXL.Xldb.Proto;
+
+option csharp_namespace = "BuildXL.Xldb.Proto";
 
 //
 //  Generic Event Info (key, count, etc)

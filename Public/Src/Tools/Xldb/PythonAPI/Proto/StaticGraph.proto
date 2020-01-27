@@ -13,6 +13,8 @@ import "SemanticPathFlags.proto";
 
 package BuildXL.Xldb.Proto;
 
+option csharp_namespace = "BuildXL.Xldb.Proto";
+
 //
 //  Generic Static Graph Info (key, etc)
 //

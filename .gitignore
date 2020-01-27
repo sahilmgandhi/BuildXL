@@ -174,3 +174,5 @@ log.txt
 /.vscode/launch.json
 /.vscode/settings.json
 *.csproj.DotSettings
+
+Public/Src/Tools/Xldb/PythonAPI/Generated/__pycache__/

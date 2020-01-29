@@ -50,6 +50,7 @@ namespace Main {
             importFrom("BuildXL.Ide").Generator.dll,
             importFrom("BuildXL.Ide").VSCode.DebugProtocol.dll,
             importFrom("BuildXL.Pips").dll,
+            importFrom("BuildXL.Tools").Execution.Analyzer.exe,
             importFrom("BuildXL.Utilities").dll,
             importFrom("BuildXL.Utilities").Branding.dll,
             importFrom("BuildXL.Utilities").Collections.dll,
@@ -61,6 +62,7 @@ namespace Main {
             importFrom("BuildXL.Utilities").Script.Constants.dll,
             importFrom("BuildXL.FrontEnd").Factory.dll,
             importFrom("BuildXL.FrontEnd").Sdk.dll,
+            importFrom("BuildXL.Tools").Xldb.dll,
             importFrom("Newtonsoft.Json").pkg,
         ],
         internalsVisibleTo: [

@@ -31,6 +31,7 @@ using BuildXL.Utilities;
 using BuildXL.Utilities.Configuration;
 using BuildXL.Utilities.Instrumentation.Common;
 using BuildXL.Utilities.Tracing;
+using BuildXL.Execution.Analyzer;
 using BuildXL.ViewModel;
 using Logger = BuildXL.App.Tracing.Logger;
 using SchedulerEventId = BuildXL.Scheduler.Tracing.LogEventId;
@@ -486,6 +487,32 @@ namespace BuildXL
 
                         ProcessNativeMethods.TeardownProcessDumps();
 
+                        if (m_configuration.Logging.ConvertXldb)
+                        {
+                            Console.WriteLine("\n\nConvertXldb flag was passed in. Beginning to convert Xldb now ...");
+
+                            var xlgPath = m_configuration.Logging.ExecutionLog.ToString(m_pathTable);
+                            var executionLogDir = xlgPath.Substring(0, xlgPath.Length - 12);
+
+                            var analysisInput = new AnalysisInput
+                            {
+                                ExecutionLogPath = xlgPath
+                            };
+
+                            analysisInput.LoadCacheGraph(executionLogDir + "\\BuildXL");
+
+                            var xlgAnalyzer = new XLGToDBAnalyzer(analysisInput)
+                            {
+                                OutputDirPath = executionLogDir + "-Xldb",
+                                IncludeProcessFingerprintComputationEvent = false   
+                            };
+
+                            xlgAnalyzer.Prepare();
+                            xlgAnalyzer.ReadExecutionLog();
+                            xlgAnalyzer.Analyze();
+                            xlgAnalyzer.Dispose();
+                        }
+                        
                         return result;
                     });
             }

@@ -45,6 +45,7 @@ namespace BuildXL.Utilities.Configuration.Mutable
             CacheMissAnalysisOption = CacheMissAnalysisOption.Disabled();
             CacheMissDiffFormat = CacheMissDiffFormat.CustomJsonDiff;
             RedirectedLogsDirectory = AbsolutePath.Invalid;
+            ConvertXldb = false;
         }
 
         /// <nodoc />
@@ -130,6 +131,7 @@ namespace BuildXL.Utilities.Configuration.Mutable
             InvocationExpandedCommandLineArguments = template.InvocationExpandedCommandLineArguments;
             OptimizeProgressUpdatingForAzureDevOps = template.OptimizeProgressUpdatingForAzureDevOps;
             OptimizeVsoAnnotationsForAzureDevOps = template.OptimizeVsoAnnotationsForAzureDevOps;
+            ConvertXldb = template.ConvertXldb;
         }
 
         /// <inheritdoc />
@@ -333,5 +335,8 @@ namespace BuildXL.Utilities.Configuration.Mutable
 
         /// <inheritdoc />
         public bool OptimizeWarningOrErrorAnnotationsForAzureDevOps { get; set; }
+
+        /// <inheritdoc />
+        public bool ConvertXldb { get; set; }
     }
 }

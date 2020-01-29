@@ -298,6 +298,9 @@ namespace BuildXL
                         OptionHandlerFactory.CreateBoolOption(
                             "converge",
                             sign => engineConfiguration.Converge = sign),
+                        OptionHandlerFactory.CreateBoolOption(
+                            "convertXldb",
+                            sign => loggingConfiguration.ConvertXldb = sign),
                         OptionHandlerFactory.CreateOption(
                             "customLog",
                             opt => ParseCustomLogOption(opt, pathTable, loggingConfiguration.CustomLog)),

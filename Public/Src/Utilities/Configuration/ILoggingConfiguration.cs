@@ -333,5 +333,10 @@ namespace BuildXL.Utilities.Configuration
         /// Whether Vso annotations should be optimized for Azure DevOps output.
         /// </summary>
         bool OptimizeVsoAnnotationsForAzureDevOps { get; }
+
+        /// <summary>
+        /// Whether the logs should automatically be converted to the xldb format.
+        /// </summary>
+        public bool ConvertXldb { get;}
     }
 }

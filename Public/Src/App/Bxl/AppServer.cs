@@ -873,7 +873,7 @@ namespace BuildXL
                 ServerModeStatusAndPerf serverModeStatusAndPerf)
             {
                 Contract.Requires(rawArgs != null);
-
+                
                 return ExceptionUtilities.HandleRecoverableIOException(
                     () =>
                     {

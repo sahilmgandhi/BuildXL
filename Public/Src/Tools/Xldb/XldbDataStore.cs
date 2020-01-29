@@ -257,7 +257,7 @@ namespace BuildXL.Xldb
             var directoryId = 0;
             if (directoryPath != "")
             {
-                var possibleIds = GetIdsForPaths(directoryPath);
+                var possibleIds = GetIdsForPath(directoryPath);
                 if (possibleIds.Any())
                 {
                     directoryId = possibleIds.First();
@@ -284,7 +284,7 @@ namespace BuildXL.Xldb
             var directoryId = 0;
             if (directoryPath != "")
             {
-                var possibleIds = GetIdsForPaths(directoryPath);
+                var possibleIds = GetIdsForPath(directoryPath);
                 if (possibleIds.Any())
                 {
                     directoryId = possibleIds.First();
@@ -311,7 +311,7 @@ namespace BuildXL.Xldb
             var directoryId = 0;
             if (directoryPath != "")
             {
-                var possibleIds = GetIdsForPaths(directoryPath);
+                var possibleIds = GetIdsForPath(directoryPath);
                 if (possibleIds.Any())
                 {
                     directoryId = possibleIds.First();
@@ -612,7 +612,7 @@ namespace BuildXL.Xldb
             var pathId = 0;
             if (path != "")
             {
-                var possibleIds = GetIdsForPaths(path);
+                var possibleIds = GetIdsForPath(path);
                 if (possibleIds.Any())
                 {
                     pathId = possibleIds.First();
@@ -636,7 +636,7 @@ namespace BuildXL.Xldb
             var pathId = 0;
             if (path != "")
             {
-                var possibleIds = GetIdsForPaths(path);
+                var possibleIds = GetIdsForPath(path);
                 if (possibleIds.Any())
                 {
                     pathId = possibleIds.First();
@@ -693,7 +693,7 @@ namespace BuildXL.Xldb
             var pathId = 0;
             if (path != "")
             {
-                var possibleIds = GetIdsForPaths(path);
+                var possibleIds = GetIdsForPath(path);
                 if (possibleIds.Any())
                 {
                     pathId = possibleIds.First();
@@ -717,7 +717,7 @@ namespace BuildXL.Xldb
             var pathId = 0;
             if (path != "")
             {
-                var possibleIds = GetIdsForPaths(path);
+                var possibleIds = GetIdsForPath(path);
                 if (possibleIds.Any())
                 {
                     pathId = possibleIds.First();

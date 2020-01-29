@@ -103,7 +103,7 @@ namespace BuildXL.Execution.Analyzer
     /// <summary>
     /// Analyzer that dumps xlg and graph data into RocksDB
     /// </summary>
-    internal sealed class XLGToDBAnalyzer : Analyzer
+    public sealed class XLGToDBAnalyzer : Analyzer
     {
         private const double s_concurrencyMultiplier = 0.75;
 
